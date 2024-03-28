@@ -1,57 +1,43 @@
-from flask import Flask, render_template, jsonify
+from flask import Flask, jsonify, render_template
 import csv
 import glob
 import time
 import threading
-from collections import deque
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+latest_data = []  # Create a global variable to store the latest data
 
-# 创建一个全局变量来存储最新数据
-latest_data = []
-
-# 从CSV文件中读取数据的函数
-def read_csv_data(file_path):
-    with open(file_path, 'r') as file:
-        reader = csv.DictReader(file)
-        data = list(reader)
-
-        return data
-
-# 定义一个函数用于周期性地更新数据
-def update_data_periodically():
+# Function to parse CSV data and update the latest_data variable
+def update_data_from_csv():
     global latest_data
     while True:
-        file_paths = glob.glob('/Users/yangcong/PycharmProjects/Perf/R/_192.168.10.77:9999/results/com.yangcong345.android.phone/*/cpuinfo.csv')
+        file_paths = glob.glob('/Users/yangcong/PycharmProjects/Perf/R/_192.168.10.77:9999/results/com.yangcong345.android.phone/*/cpuinfo.csv')  # Replace with the actual path to your CSV files
         if file_paths:
             selected_file_path = file_paths[0]
-            latest_data = read_csv_data(selected_file_path)
-        time.sleep(5)  # 每隔5秒更新一次数据
+            with open(selected_file_path, 'r') as file:
+                reader = csv.DictReader(file)
+                latest_data = list(reader)
+        time.sleep(5)  # Update the data every 5 seconds
 
+
+# Endpoint to retrieve the parsed data
+@app.route('/get_all_data')  # Ensure that the route accepts GET requests
+def get_all_data():
+    global latest_data
+    return jsonify(latest_data)
+
+# 用于呈现 index.html 页面的路由
 @app.route('/')
 def index():
-    # 返回index.html模板，并传入latest_data作为模板参数
-    return render_template('index.html', data=latest_data)
-
-@app.route('/get_all_data')
-def get_new_data():
-    global latest_data
-    all_data = jsonify(latest_data)
-    latest_data = []  # Clear the latest_data after returning it
-    return all_data
-
-# @app.route('/get_all_data')
-# def get_all_data():
-#     global latest_data
-#     all_data = jsonify(latest_data)
-#     latest_data = []  # Clear the latest_data after returning it
-#     return all_data
+    return render_template('index.html')
 
 if __name__ == "__main__":
-    # 启动一个线程周期性地更新数据
-    data_update_thread = threading.Thread(target=update_data_periodically)
+    # Start a thread to update data from CSV files periodically
+    data_update_thread = threading.Thread(target=update_data_from_csv)
     data_update_thread.daemon = True
     data_update_thread.start()
 
     app.debug = True
-    app.run(host='127.0.0.1', port=9990)
+    app.run(host='127.0.0.1', port=9900)
