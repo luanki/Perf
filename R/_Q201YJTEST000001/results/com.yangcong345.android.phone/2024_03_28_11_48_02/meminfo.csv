@@ -1,0 +1,2 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2024-03-28 11-48-02,5864.63,2677.15,com.yangcong345.android.phone,11928,365.88

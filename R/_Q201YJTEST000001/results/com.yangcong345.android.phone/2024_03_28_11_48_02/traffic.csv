@@ -1,0 +1,6 @@
+datetime,device_total(KB),device_receive(KB),device_transport(KB),package,pid,pid_rx(KB),pid_tx(KB),pid_total(KB)
+2024-03-28 11-48-03,0.0,0.0,0.0,com.yangcong345.android.phone,11928,0.0,0.0,0.0
+2024-03-28 11-48-08,57.41,45.64,11.77,com.yangcong345.android.phone,11928,45.64,11.77,57.41
+2024-03-28 11-48-13,685.81,634.56,51.25,com.yangcong345.android.phone,11928,634.56,51.25,685.81
+2024-03-28 11-48-18,689.2,635.63,53.58,com.yangcong345.android.phone,11928,635.63,53.58,689.2
+2024-03-28 11-48-23,691.85,636.38,55.46,com.yangcong345.android.phone,11928,636.43,55.46,691.89

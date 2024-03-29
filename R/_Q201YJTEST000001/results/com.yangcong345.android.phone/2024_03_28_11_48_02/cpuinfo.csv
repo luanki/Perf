@@ -1,0 +1,6 @@
+datetime,device_cpu_rate%,user%,system%,idle%,package,pid,pid_cpu%
+2024-03-28 11-48-02,448,200,248,314,com.yangcong345.android.phone,,
+2024-03-28 11-48-07,486,276,210,310,com.yangcong345.android.phone,11928,182
+2024-03-28 11-48-12,148,55,93,652,com.yangcong345.android.phone,11928,3.4
+2024-03-28 11-48-17,181,100,81,619,com.yangcong345.android.phone,11928,3.1
+2024-03-28 11-48-22,197,84,113,556,com.yangcong345.android.phone,11928,9.3
