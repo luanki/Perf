@@ -2,11 +2,29 @@ import subprocess
 import shutil
 import os
 import threading
-
+import time
+import psutil
 def run_command_in_directory(command, directory):
     subprocess.run(f"cd {directory} && {command}", shell=True)
 
-# 其他部分保持不变...
+# def monitor_run_sh(device_id):
+#     time.sleep(3)  # 每3秒检查一次
+#     while True:
+#         # 获取当前运行的进程列表
+#         running_processes = [proc.name() for proc in psutil.process_iter(['pid', 'name', 'exe'])]
+#
+#         # 检查 run.sh 进程是否在列表中
+#         run_sh_processes = [proc for proc in running_processes if 'run.sh' in proc]
+#         if run_sh_processes:
+#             print(f"run.sh 进程正在运行，设备ID: {device_id}")
+#         else:
+#             print(f"run.sh 进程停止运行，执行其他操作，设备ID: {device_id}")
+#             # 在这里执行您想要的操作，比如执行另一个Python文件
+#             subprocess.run(['python', 'Ear.py', device_id])
+#             break
+#         time.sleep(1)  # 每3秒检查一次
+
+
 
 # 创建一个线程列表用于存储每个 sh 文件的执行线程
 threads = []
@@ -59,6 +77,20 @@ for device_line in device_lines:
         thread.start()
             #file.write(f"\nDevice ID: {device_id}\n")  # 在配置文件末尾添加设备ID信息
 
+        # 执行 fps_run.py 文件，并将设备ID作为参数传递
+        py_file = f"/Users/yangcong/PycharmProjects/Perf/mobileperf-master/mobileperf/android/fps_run.py"
+        # 创建并启动一个新的线程来执行命令
+        thread_py = threading.Thread(target=run_command_in_directory,
+                                     args=(f"python {py_file} {device_id}", sh_directory))
+        threads.append(thread_py)
+        thread_py.start()
+
+        # 创建并启动一个线程来执行打开应用程序的命令
+        open_app_thread = threading.Thread(target=run_command_in_directory,
+                                           args=(f"adb shell am start -n com.debug.loggerui/.MainActivity", ""))
+        threads.append(open_app_thread)
+        open_app_thread.start()
+        subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
 
 # 等待所有线程执行完毕
 for thread in threads:
