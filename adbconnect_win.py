@@ -4,6 +4,13 @@ import os
 import threading
 import time
 import psutil
+
+import re
+
+def sanitize_device_id(device_id):
+    # Replace invalid characters with underscores
+    sanitized_id = re.sub(r'[^\w\-_]', '_', device_id)
+    return sanitized_id
 def run_command_in_directory(command, directory):
     subprocess.run(f"cd {directory} && {command}", shell=True)
 
@@ -44,7 +51,9 @@ for device_line in device_lines:
         device_id = device_line.split('\t')[0]
         print(f"已连接设备 ID: {device_id}")
 
-
+        # In the loop where you handle device IDs:
+        device_id = device_line.split('\t')[0]
+        sanitized_id = sanitize_device_id(device_id)
         target_mobileperf_folder = rf"C:\Users\yangcong\PycharmProjects\Perf\R\_{device_id}"  # 根据设备ID创建目标MobilePerf文件夹路径
         shutil.rmtree(target_mobileperf_folder, ignore_errors=True)  # 删除已存在的目标MobilePerf文件夹（如果存在的话）
         shutil.copytree(source_mobileperf_folder, target_mobileperf_folder)  # 复制源MobilePerf文件夹到目标MobilePerf文件夹
