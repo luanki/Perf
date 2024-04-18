@@ -18,7 +18,8 @@ class FpsListenserImpl(IFpsListener):
         print(fps_info.jankys_ary)
         print("当前窗口卡顿数(>166.7ms)是：" + str(fps_info.jankys_more_than_166))
         print('\n')
-        file_path = f"/Users/yangcong/PycharmProjects/Perf/R/_{devices}/results/com.yangcong345.android.phone/fps_data.csv"
+        target_device_id = devices.replace(':', '_').replace('.', '_')
+        file_path = f"/Users/yangcong/PycharmProjects/Perf/R/_{target_device_id}/results/com.yangcong345.android.phone/fps_data.csv"
         # 检查文件是否存在，如果不存在则写入标题
 
         # Check if file exists and is empty

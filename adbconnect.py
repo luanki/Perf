@@ -3,7 +3,7 @@ import shutil
 import os
 import threading
 import time
-import psutil
+
 def run_command_in_directory(command, directory):
     subprocess.run(f"cd {directory} && {command}", shell=True)
 
@@ -44,8 +44,8 @@ for device_line in device_lines:
         device_id = device_line.split('\t')[0]
         print(f"已连接设备 ID: {device_id}")
 
-
-        target_mobileperf_folder = f"/Users/yangcong/PycharmProjects/Perf/R/_{device_id}"  # 根据设备ID创建目标MobilePerf文件夹路径
+        target_device_id = device_id.replace(':', '_').replace('.', '_')
+        target_mobileperf_folder = f"/Users/yangcong/PycharmProjects/Perf/R/_{target_device_id}"  # 根据设备ID创建目标MobilePerf文件夹路径
         shutil.rmtree(target_mobileperf_folder, ignore_errors=True)  # 删除已存在的目标MobilePerf文件夹（如果存在的话）
         shutil.copytree(source_mobileperf_folder, target_mobileperf_folder)  # 复制源MobilePerf文件夹到目标MobilePerf文件夹
         print(f"MobilePerf文件夹 {source_mobileperf_folder} 已成功复制为 {target_mobileperf_folder}")  # 打印复制文件夹的信息

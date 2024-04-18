@@ -1,0 +1,15 @@
+datetime,activity window,fps,jank
+2024-04-18 11-10-49,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,11,3
+2024-04-18 11-10-55,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,45,0
+2024-04-18 11-11-01,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,17,2
+2024-04-18 11-11-03,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,18,1
+2024-04-18 11-11-07,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,22,0
+2024-04-18 11-11-09,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,41,0
+2024-04-18 11-11-13,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,30,0
+2024-04-18 11-11-15,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,60,0
+2024-04-18 11-11-17,com.yangcong345.cloud.launcher/com.yangcong345.cloud.launcher/com.yangcong345.padmodule.home.main.PadHomeActivity,60,0
+2024-04-18 11-11-21,com.yangcong345.android.phone/com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity,16,4
+2024-04-18 11-11-23,com.yangcong345.android.phone/com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity,58,0
+2024-04-18 11-11-25,com.yangcong345.android.phone/com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity,42,0
+2024-04-18 11-11-27,com.yangcong345.android.phone/com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity,39,0
+2024-04-18 11-11-29,com.yangcong345.android.phone/com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity,57,0

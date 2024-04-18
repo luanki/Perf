@@ -175,25 +175,23 @@ def generate_html(csv_file, meminfo_file, fps_file, output_directory):
 #                 output_directory = os.path.dirname(csv_file)
 #                 generate_html(csv_file, meminfo_file, fps_file, output_directory)
 def visualize_csv_files():
-    directory = "C:\\Users\\yangcong\\PycharmProjects\\Perf\\R\\"
-    folders = [f.path for f in os.scandir(directory) if f.is_dir()]
-    #print(folders)
+    dir = r"C:\Users\yangcong\PycharmProjects\Perf\R"
+    folders = [f.path for f in os.scandir(dir) if f.is_dir()]
     for folder in folders:
         pattern = rf"{folder}\results\com.yangcong345.android.phone\*\cpuinfo.csv"
         meminfo_pattern = rf"{folder}\results\com.yangcong345.android.phone\*\meminfo.csv"
         fps_pattern = rf"{folder}\results\com.yangcong345.android.phone\fps_data.csv"
 
-        #print(pattern)
         csv_files = glob.glob(pattern)
         meminfo_files = glob.glob(meminfo_pattern)
         fps_files = glob.glob(fps_pattern)
-        # print(f"Folder: {folder}")
-        # print(f"csv_files: {csv_files}")
-        # print(f"meminfo_files: {meminfo_files}")
-        # print(f"fps_files: {fps_files}")
-        if csv_files:  # Check if csv_files is not empty
+        #print(meminfo_files)
+        if csv_files:
+            #print("当前文件夹路径:", folder)  # 添加这行来打印当前文件夹的路径
             for csv_file, meminfo_file, fps_file in zip(csv_files, meminfo_files, fps_files):
+                #print("CSV 文件路径:", csv_file)  # 添加这行来打印 CSV 文件的路径
                 output_directory = os.path.dirname(csv_file)
+                print(output_directory)
                 generate_html(csv_file, meminfo_file, fps_file, output_directory)
 
 

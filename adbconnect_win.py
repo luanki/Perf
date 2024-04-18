@@ -52,9 +52,8 @@ for device_line in device_lines:
         print(f"已连接设备 ID: {device_id}")
 
         # In the loop where you handle device IDs:
-        device_id = device_line.split('\t')[0]
-        sanitized_id = sanitize_device_id(device_id)
-        target_mobileperf_folder = rf"C:\Users\yangcong\PycharmProjects\Perf\R\_{device_id}"  # 根据设备ID创建目标MobilePerf文件夹路径
+        target_device_id = device_id.replace(':', '_').replace('.', '_')
+        target_mobileperf_folder = rf"C:\Users\yangcong\PycharmProjects\Perf\R\_{target_device_id}"  # 根据设备ID创建目标MobilePerf文件夹路径
         shutil.rmtree(target_mobileperf_folder, ignore_errors=True)  # 删除已存在的目标MobilePerf文件夹（如果存在的话）
         shutil.copytree(source_mobileperf_folder, target_mobileperf_folder)  # 复制源MobilePerf文件夹到目标MobilePerf文件夹
         print(f"MobilePerf文件夹 {source_mobileperf_folder} 已成功复制为 {target_mobileperf_folder}")  # 打印复制文件夹的信息
@@ -87,7 +86,7 @@ for device_line in device_lines:
             #file.write(f"\nDevice ID: {device_id}\n")  # 在配置文件末尾添加设备ID信息
 
         # 执行 fps_run.py 文件，并将设备ID作为参数传递
-        py_file = f"C:\Users\yangcong\PycharmProjects\Perf\mobileperf-master\mobileperf\android\fps_run_win.py"
+        py_file = r"C:\Users\yangcong\PycharmProjects\Perf\mobileperf-master\mobileperf\android\fps_run.py"
         # 创建并启动一个新的线程来执行命令
         thread_py = threading.Thread(target=run_command_in_directory,
                                      args=(f"python {py_file} {device_id}", sh_directory))

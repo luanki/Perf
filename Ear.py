@@ -147,9 +147,10 @@ def generate_html(csv_file, meminfo_file, fps_file, output_directory):
     page.add(line_meminfo)
     page.add(line_fps)
     page.add(line_jank)
-
+    # print(output_directory)
     # Save as HTML file
     output_file = os.path.join(output_directory, "report.html")
+    print(output_file)
     page.render(output_file)
 
 

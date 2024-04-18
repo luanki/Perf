@@ -1,0 +1,202 @@
+bash arg: -p
+bash arg: com.yangcong345.android.phone
+bash arg: -v
+bash arg: -v
+bash arg: -v
+bash arg: -s
+bash arg: 1000
+bash arg: --ignore-crashes
+bash arg: --ignore-timeouts
+bash arg: --ignore-security-exceptions
+bash arg: --kill-process-after-error
+bash arg: --pct-appswitch
+bash arg: 20
+bash arg: --pct-touch
+bash arg: 40
+bash arg: --pct-motion
+bash arg: 10
+bash arg: --pct-trackball
+bash arg: 0
+bash arg: --pct-anyevent
+bash arg: 10
+bash arg: --pct-flip
+bash arg: 0
+bash arg: --pct-pinchzoom
+bash arg: 0
+bash arg: --throttle
+bash arg: 1000
+bash arg: 1200000000
+:Monkey: seed=1000 count=1200000000
+:AllowPackage: com.yangcong345.android.phone
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.mediatek.camera.CameraLauncher (from package com.mediatek.camera)
+//   - NOT USING main activity com.yangcong345.cloud.control.PadLauncherActivity (from package com.yangcong345.cloud.launcher)
+//   - NOT USING main activity com.yangcong345.cloud.toolbox.home.MainHomeActivity (from package com.yangcong345.cloud.toolbox)
+//   - NOT USING main activity com.yangcong345.pad.systemsetting.SystemSettingActivity (from package com.yangcong345.pad.systemsetting)
+//   - NOT USING main activity com.yangcong345.eye.protection.LauncherActivity (from package com.yangcong345.eye.protection)
+//   - NOT USING main activity com.adups.fota.GoogleOtaClient (from package com.adups.fota)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.sprd.soundrecorder.RecorderActivity (from package com.android.soundrecorder)
+//   - NOT USING main activity com.alibaba.android.rimet.biz.LaunchHomeActivity (from package com.alibaba.android.rimet)
+//   - NOT USING main activity com.ihuman.ff.ui.LaunchActivity (from package com.ihuman.ff)
+//   + Using main activity com.yangcong345.main.phone.splash.SplashActivity (from package com.yangcong345.android.phone)
+//   - NOT USING main activity com.yangcong345.pad.market.page.HomeActivity (from package com.yangcong345.pad.market)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.launcher3.uioverrides.QuickstepLauncher (from package com.android.launcher3)
+// Seeded: 1000
+// Event percentages:
+//   0: 40.0%
+//   1: 10.0%
+//   2: -0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 11.904762%
+//   7: 7.142857%
+//   8: 0.95238096%
+//   9: 20.0%
+//   10: -0.0%
+//   11: 10.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.launcher
+:Sending Touch (ACTION_DOWN): 0:(1116.0,724.0)
+:Sending Touch (ACTION_UP): 0:(1116.8796,703.9431)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,1179.0)
+:Sending Touch (ACTION_MOVE): 0:(677.43774,1181.5883)
+:Sending Touch (ACTION_MOVE): 0:(662.41766,1181.6316)
+:Sending Touch (ACTION_MOVE): 0:(640.1749,1183.4142)
+:Sending Touch (ACTION_UP): 0:(625.79346,1187.2007)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.launcher
+:Sending Touch (ACTION_DOWN): 0:(182.0,49.0)
+:Sending Touch (ACTION_UP): 0:(169.05525,54.201355)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1032.0,695.0)
+:Sending Touch (ACTION_UP): 0:(1051.3759,697.5787)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1842.0,591.0)
+:Sending Touch (ACTION_UP): 0:(1840.9099,581.67175)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.yangcong345.cloud.toolbox cmp=com.yangcong345.cloud.toolbox/.home.MainHomeActivity } in package com.yangcong345.cloud.toolbox
+:Sending Touch (ACTION_DOWN): 0:(1058.0,387.0)
+:Sending Touch (ACTION_UP): 0:(1060.5566,390.03946)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.mediatek.camera cmp=com.mediatek.camera/.CameraLauncher } in package com.mediatek.camera
+:Sending Touch (ACTION_DOWN): 0:(1240.0,839.0)
+:Sending Touch (ACTION_UP): 0:(1234.1241,846.88184)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1274.0,851.0)
+:Sending Touch (ACTION_UP): 0:(1271.3107,860.7578)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1715.0,541.0)
+:Sending Touch (ACTION_UP): 0:(1706.7522,539.0342)
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] pkg=com.yangcong345.cloud.toolbox cmp=com.yangcong345.cloud.toolbox/.home.MainHomeActivity } in package com.yangcong345.cloud.toolbox
+:Sending Touch (ACTION_DOWN): 0:(1241.0,33.0)
+:Sending Touch (ACTION_UP): 0:(1259.8517,41.650173)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1284.0,129.0)
+:Sending Touch (ACTION_UP): 0:(1283.971,129.39507)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1179.0,1115.0)
+:Sending Touch (ACTION_UP): 0:(1180.5485,1106.6091)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1357.0,897.0)
+:Sending Touch (ACTION_UP): 0:(1355.7937,885.64685)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(845.0,1018.0)
+:Sending Touch (ACTION_UP): 0:(855.71545,1017.2614)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.launcher
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1816.0,935.0)
+:Sending Touch (ACTION_UP): 0:(1822.1869,945.45874)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.launcher
+:Sending Touch (ACTION_DOWN): 0:(1056.0,1145.0)
+:Sending Touch (ACTION_UP): 0:(1049.0952,1163.1744)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(609.0,824.0)
+:Sending Touch (ACTION_UP): 0:(611.96857,826.8418)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.launcher
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(768.0,1040.0)
+:Sending Touch (ACTION_MOVE): 0:(769.8569,1029.1785)
+:Sending Touch (ACTION_MOVE): 0:(772.2131,1028.9285)
+:Sending Touch (ACTION_MOVE): 0:(774.7812,1016.26294)
+:Sending Touch (ACTION_MOVE): 0:(776.14233,1007.3139)
+:Sending Touch (ACTION_MOVE): 0:(777.0447,1000.3032)
+:Sending Touch (ACTION_MOVE): 0:(778.99316,997.121)
+:Sending Touch (ACTION_MOVE): 0:(780.8774,984.1754)
+:Sending Touch (ACTION_UP): 0:(782.7439,979.9071)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1539.0,992.0)
+:Sending Touch (ACTION_UP): 0:(1541.2198,998.0179)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1314.0,841.0)
+:Sending Touch (ACTION_MOVE): 0:(1326.4132,860.19543)
+:Sending Touch (ACTION_UP): 0:(1329.7832,866.00037)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 127    // KEYCODE_MEDIA_PAUSE
+:Sending Key (ACTION_UP): 127    // KEYCODE_MEDIA_PAUSE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1151.0,619.0)
+:Sending Touch (ACTION_UP): 0:(1142.4802,610.65015)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { act=android.intent.action.VIEW dat=ycmath://padsupport.com/padSystemCoursePlayerJson?from=chapterListPage&json={"position":{"chapterId":"32502e23-e69a-4243-b91b-2fe729ed2e84","publishId":2,"sectionId":"208ba8e0-2e75-4abd-8a5e-8fd66397c839","semesterId":13,"stageId":2,"subjectId":6,"subsectionId":"d1127afe-1a5f-4fe0-b3f1-95cb8986065a","topicId":"a164436a-93ff-4add-9827-66cc58035176","topicName":"生物多样性","updateTime":0},"topicDetail":{"continuityPlay":false,"coverImage":"","description":"","highLightsTags":[{"highLight":false,"name":"课前预习"}],"id":"a164436a-93ff-4add-9827-66cc58035176","isFreeTime":false,"isShowValueGuide":false,"keyPoint":false,"name":"生物多样性","_id":"a164436a-93ff-4add-9827-66cc58035176","pay":true,"practiceAmount":0.0,"themeId":"666b08bb-4128-4eca-99ab-f7fe176d0617","type":"A","typeTags":[{"highLight":false,"name":"进阶理解"}],"video":{"addresses":[],"cover":"https://course.yangcong345.com/screenImages/ba508508-525b-4a34-b4d1-3f65c90417ff/26.jpg","description":"","difficulty":3,"duration":220.985,"finishTime":220.985,"goals":["北师1.1 生物多样性"],"head":{"addresses":[{"clarity":"high","format":"hls","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/high/high_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"middle","format":"hls","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/mobileM/mobileM_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"low","format":"hls","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/mobileL/mobileL_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"high","format":"mp4","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/high/high_a973d79d-ad6b-4fd0-8111-2c702d1672d5.mp4"},{"clarity":"middle","format":"mp4","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/mobileM/mobileM_a973d79d-ad6b-4fd0-8111-2c702d1672d5.mp4"},{"clarity":"high","format":"hls","id":"","md5":"","platform":"mobile","url":"https://video-demo.yangcong345.com/high/high_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"middle","format":"hls","id":"","md5":"","platform":"mobile","url":"https://video-demo.yangcong345.com/mobileM/mobileM_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"low","format":"hls","id":"","md5":"","platform":"mobile","url":"https://video-demo.yangcong345.com/mobileL/mobileL_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"high","format":"mp4","id":"","md5":"","platform":"mobile","url":"https://video-demo.yangcong345.com/high/high_a973d79d-ad6b-4fd0-8111-2c702d1672d5.mp4"},{"clarity":"middle","format":"mp4","id":"","md5":"a1b86faa51a863b4e57ded245cf94c5b","platform":"mobile","url":"https://video-demo.yangcong345.com/mobileM/mobileM_a973d79d-ad6b-4fd0-8111-2c702d1672d5.mp4"},{"clarity":"fullHigh","format":"hls","id":"","md5":"","platform":"pc","url":"https://video-demo.yangcong345.com/fullHigh/fullHigh_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"},{"clarity":"fullHigh","format":"hls","id":"","md5":"","platform":"mobile","url":"https://video-demo.yangcong345.com/fullHigh/fullHigh_a973d79d-ad6b-4fd0-8111-2c702d1672d5.m3u8"}],"duration":2120},"id":"5728e702-ed1f-11ec-b7a4-b3a4f57228f5","image":[],"interactions":[],"keyPoints":[],"name":"生物多样性","oldTitleTime":0.0,"redirect":false,"screenshots":[],"startPosition":0.0,"subtitleId":"641bec97ccf4d4d8adba27db","subtitleUrl":"https://caption-res.yangcong345.com/641bec97ccf4d4d8adba27db.zip","thumbnail":"","thumbnails":"https://video-thumbnail.yangcong345.com/image/ba508508-525b-4a34-b4d1-3f65c90417ff/images.zip","thumbnailsInterval":3,"timePoint":0.0,"titleTime":0.0,"type":"course","v":"2"},"weeklyFree":false},"userCourseNotes":{"code":0.0,"data":{"abTest":true,"abTestLab":"a","excellentVideoAddress":[],"excellentVideoId":"","excellentVideoUrl":"","notesList":[],"targetList":[],"topicVideoId":"5728e702-ed1f-11ec-b7a4-b3a4f57228f5","unReadNotesNum":0.0},"msg":""},"userTopicLearnStatus":{"finished":false,"practice":{"doneLevel":0,"finished":false},"topicId":"a164436a-93ff-4add-9827-66cc58035176","video":{"duration":0.0,"finished":false,"timepoint":0.0}}}&controlVersion=1.34.0&controlSN=Q200PQkRa0500706 cmp=com.yangcong345.android.phone/com.yangcong345.pad.launcher.SupportSchemeActivity } in package com.yangcong345.android.phone
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(642.0,213.0)
+:Sending Touch (ACTION_UP): 0:(644.3137,223.142)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+// activityResuming(com.yangcong345.android.phone)
+// activityResuming(com.yangcong345.android.phone)
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
