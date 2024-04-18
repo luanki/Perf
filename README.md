@@ -6,8 +6,7 @@ Python 3+
 代码编辑器：PyCharm，VScode
 
 
-1. 使用Git clone下来，这个项目
-==https://github.com/Whisper24X/Perf==
+1. 使用Git clone下来，这个项目 https://github.com/Whisper24X/Perf
 2. 使用Windows电脑，代码编辑器打开项目
 3. 连接devices【支持多台】
 连接方式 1
@@ -29,7 +28,7 @@ Python 3+
 3. 运行前，可检测配置文件是否正确：
 config.conf配置文件
 
-```
+``` shell
 使用Git clone下来，这个项目
 ==https://github.com/Whisper24X/Perf==
 使用Windows电脑，代码编辑器打开项目
@@ -78,7 +77,7 @@ Perf/R/设备id/results
 ```
 
 5. 可采集的数据范围，验证过的有
-   ```
+   ``` python
    logs：开发看是否存在crash/anr
    logcat-log：开发看是否存在crash/anr
    cpuinfo.csv
