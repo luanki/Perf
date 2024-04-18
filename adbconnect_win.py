@@ -2,6 +2,8 @@ import subprocess
 import shutil
 import os
 import threading
+from uiautomator import Device
+import subprocess
 import time
 import psutil
 
@@ -96,6 +98,10 @@ for device_line in device_lines:
         # 创建并启动一个线程来执行打开应用程序的命令
         open_app_thread = threading.Thread(target=run_command_in_directory,
                                            args=(f"adb shell am start -n com.debug.loggerui/.MainActivity", ""))
+        d = Device()
+        time.sleep(2)  # 增加一些延迟等待界面加载完成
+        # 点击指定元素
+        d(resourceId='com.debug.loggerui:id/startStopToggleButton').click()
         threads.append(open_app_thread)
         open_app_thread.start()
         subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
