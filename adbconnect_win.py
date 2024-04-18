@@ -75,7 +75,16 @@ for device_line in device_lines:
                 else:
                     file.write(line)
 
-        #sh = f"/Users/yangcong/Downloads/_{device_id}/"
+        # 执行 mtklog start 命令，并将其发送到后台
+        subprocess.run(["adb", "shell", "am", "start", "-n", "com.debug.loggerui/.MainActivity"])
+        d = Device()
+        time.sleep(2)  # 增加一些延迟等待界面加载完成
+        # 点击指定元素
+        d(resourceId='com.debug.loggerui:id/startStopToggleButton').click()
+        time.sleep(2)  # 增加一些延迟等待界面加载完成
+        # 将mtklog退到后台
+        subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
+
         # 执行 run.sh 文件（假设 run.sh 位于 MobilePerf 目录中）
         sh_directory = rf"C:\Users\yangcong\PycharmProjects\Perf\R\_{device_id}"
         sh_file = r"run.bat"
@@ -95,16 +104,16 @@ for device_line in device_lines:
         threads.append(thread_py)
         thread_py.start()
 
-        # 创建并启动一个线程来执行打开应用程序的命令
-        open_app_thread = threading.Thread(target=run_command_in_directory,
-                                           args=(f"adb shell am start -n com.debug.loggerui/.MainActivity", ""))
-        d = Device()
-        time.sleep(2)  # 增加一些延迟等待界面加载完成
-        # 点击指定元素
-        d(resourceId='com.debug.loggerui:id/startStopToggleButton').click()
-        threads.append(open_app_thread)
-        open_app_thread.start()
-        subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
+        # # 创建并启动一个线程来执行打开应用程序的命令
+        # open_app_thread = threading.Thread(target=run_command_in_directory,
+        #                                    args=(f"adb shell am start -n com.debug.loggerui/.MainActivity", ""))
+        # d = Device()
+        # time.sleep(2)  # 增加一些延迟等待界面加载完成
+        # # 点击指定元素
+        # d(resourceId='com.debug.loggerui:id/startStopToggleButton').click()
+        # threads.append(open_app_thread)
+        # open_app_thread.start()
+        # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
 
 # 等待所有线程执行完毕
 for thread in threads:
