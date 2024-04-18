@@ -82,7 +82,7 @@ for device_line in device_lines:
         # 进入 sh 文件所在目录
         #subprocess.run(f"cd {sh_directory} && sh {sh_file}", shell=True)
         # 创建并启动一个新的线程来执行命令
-        thread = threading.Thread(target=run_command_in_directory, args=(f"sh {sh_file}", sh_directory))
+        thread = threading.Thread(target=run_command_in_directory, args=(sh_file, sh_directory))
         threads.append(thread)
         thread.start()
             #file.write(f"\nDevice ID: {device_id}\n")  # 在配置文件末尾添加设备ID信息
