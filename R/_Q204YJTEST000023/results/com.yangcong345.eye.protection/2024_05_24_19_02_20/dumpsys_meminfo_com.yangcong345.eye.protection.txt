@@ -1,0 +1,228 @@
+2024-05-24 19-02-21 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 2523499 Realtime: 2523499
+
+** MEMINFO in pid 3984 [com.yangcong345.eye.protection] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    18380    18276        0        0    21900    30196    20438     4427
+  Dalvik Heap     7124     6832        0        0    15708     8589     4295     4294
+ Dalvik Other     2350     1988        0        0     5472                           
+        Stack      828      828        0        0      840                           
+       Ashmem       19        0        0        0      540                           
+    Other dev       16        0       16        0      332                           
+     .so mmap     6297      416      544        0    69200                           
+    .jar mmap     1698        0        0        0    33832                           
+    .apk mmap      579        0       12        0     3300                           
+    .ttf mmap       68        0        0        0      360                           
+    .dex mmap     5388       12     5336        0     6488                           
+    .oat mmap      865        0        0        0    15116                           
+    .art mmap     1554      888        4        0    21484                           
+   Other mmap     3585       48     1544        0    10116                           
+    GL mtrack    17840    17840        0        0    17840                           
+      Unknown      722      708        0        0     1516                           
+        TOTAL    67313    47836     7456        0   224044    38785    24733     8721
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     7724                          37192
+         Native Heap:    18276                          21900
+                Code:     6328                         128972
+               Stack:      828                            840
+            Graphics:    17840                          17840
+       Private Other:     4296
+              System:    12021
+             Unknown:                                   17300
+ 
+           TOTAL PSS:    67313            TOTAL RSS:   224044      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:      149         ViewRootImpl:        1
+         AppContexts:       10           Activities:        3
+              Assets:       13        AssetManagers:        0
+       Local Binders:       26        Proxy Binders:       52
+       Parcel memory:        8         Parcel count:       36
+    Death Recipients:        1      OpenSSL Sockets:        1
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      207
+  PAGECACHE_OVERFLOW:      135          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      148            122       39/28/14  /data/user/0/com.yangcong345.eye.protection/databases/bugly_db_
+
+2024-05-24 19-02-33 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 2535724 Realtime: 2535724
+
+** MEMINFO in pid 3984 [com.yangcong345.eye.protection] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    19044    18940        0        0    22564    30548    20537     4701
+  Dalvik Heap     5108     4816        0        0    13692     7209     3605     3604
+ Dalvik Other     2234     1856        0        0     5372                           
+        Stack      828      828        0        0      840                           
+       Ashmem       19        0        0        0      540                           
+    Other dev       16        0       16        0      332                           
+     .so mmap     6280      420      544        0    69200                           
+    .jar mmap     1649        0        0        0    33832                           
+    .apk mmap      801        0      116        0     3300                           
+    .ttf mmap       68        0        0        0      360                           
+    .dex mmap     5385       12     5336        0     6488                           
+    .oat mmap      850        0        0        0    15180                           
+    .art mmap     1595      900        4        0    21576                           
+   Other mmap     3583       48     1544        0    10116                           
+    GL mtrack     6820     6820        0        0     6820                           
+      Unknown      722      708        0        0     1516                           
+        TOTAL    55002    35348     7560        0   211728    37757    24142     8305
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     5720                          35268
+         Native Heap:    18940                          22564
+                Code:     6432                         129064
+               Stack:      828                            840
+            Graphics:     6820                           6820
+       Private Other:     4168
+              System:    12094
+             Unknown:                                   17172
+ 
+           TOTAL PSS:    55002            TOTAL RSS:   211728      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:       66         ViewRootImpl:        1
+         AppContexts:       10           Activities:        2
+              Assets:       13        AssetManagers:        0
+       Local Binders:       28        Proxy Binders:       56
+       Parcel memory:        9         Parcel count:       37
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      207
+  PAGECACHE_OVERFLOW:      135          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      148            122       43/31/14  /data/user/0/com.yangcong345.eye.protection/databases/bugly_db_
+
+2024-05-24 19-02-38 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 2540728 Realtime: 2540728
+
+** MEMINFO in pid 3984 [com.yangcong345.eye.protection] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    13488    13384        0        0    17008    26892    15074     6533
+  Dalvik Heap     3476     3184        0        0    12060     5951     2976     2975
+ Dalvik Other     2214     1836        0        0     5352                           
+        Stack      836      836        0        0      848                           
+       Ashmem       19        0        0        0      540                           
+    Other dev       16        0       16        0      332                           
+     .so mmap     6280      420      544        0    69200                           
+    .jar mmap     1643        0        0        0    33832                           
+    .apk mmap      801        0      116        0     3300                           
+    .ttf mmap       68        0        0        0      360                           
+    .dex mmap     5385       12     5336        0     6488                           
+    .oat mmap      850        0        0        0    15180                           
+    .art mmap     1603      908        4        0    21576                           
+   Other mmap     3424       48     1356        0    10116                           
+    GL mtrack     6820     6820        0        0     6820                           
+      Unknown      722      708        0        0     1516                           
+        TOTAL    47645    28156     7372        0   204528    32843    18050     9508
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     4096                          33636
+         Native Heap:    13384                          17008
+                Code:     6432                         129064
+               Stack:      836                            848
+            Graphics:     6820                           6820
+       Private Other:     3960
+              System:    12117
+             Unknown:                                   17152
+ 
+           TOTAL PSS:    47645            TOTAL RSS:   204528      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        4           Activities:        0
+              Assets:       13        AssetManagers:        0
+       Local Binders:       28        Proxy Binders:       43
+       Parcel memory:        8         Parcel count:       34
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      207
+  PAGECACHE_OVERFLOW:      135          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      148            122       43/34/14  /data/user/0/com.yangcong345.eye.protection/databases/bugly_db_
+
+2024-05-24 19-02-43 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 2545741 Realtime: 2545741
+
+** MEMINFO in pid 3984 [com.yangcong345.eye.protection] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    13904    13800        0        0    17424    27096    15798     6137
+  Dalvik Heap     3764     3472        0        0    12348     7179     3590     3589
+ Dalvik Other     2226     1840        0        0     5372                           
+        Stack      840      840        0        0      852                           
+       Ashmem       27        0        0        0      556                           
+    Other dev       16        0       16        0      332                           
+     .so mmap     6280      420      544        0    69200                           
+    .jar mmap     1643        0        0        0    33832                           
+    .apk mmap      594        0       44        0     3300                           
+    .ttf mmap       68        0        0        0      360                           
+    .dex mmap     5385       12     5336        0     6488                           
+    .oat mmap      850        0        0        0    15180                           
+    .art mmap     1603      908        4        0    21576                           
+   Other mmap     3424       48     1356        0    10116                           
+    GL mtrack     7364     7364        0        0     7364                           
+      Unknown      722      708        0        0     1516                           
+        TOTAL    48710    29412     7300        0   205816    34275    19388     9726
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     4384                          33924
+         Native Heap:    13800                          17424
+                Code:     6372                         129092
+               Stack:      840                            852
+            Graphics:     7364                           7364
+       Private Other:     3952
+              System:    11998
+             Unknown:                                   17160
+ 
+           TOTAL PSS:    48710            TOTAL RSS:   205816      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:       67         ViewRootImpl:        1
+         AppContexts:       10           Activities:        2
+              Assets:       13        AssetManagers:        0
+       Local Binders:       33        Proxy Binders:       45
+       Parcel memory:        8         Parcel count:       34
+    Death Recipients:        1      OpenSSL Sockets:        0
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      207
+  PAGECACHE_OVERFLOW:      135          MALLOC_SIZE:       46
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4      148            122       43/37/14  /data/user/0/com.yangcong345.eye.protection/databases/bugly_db_
+

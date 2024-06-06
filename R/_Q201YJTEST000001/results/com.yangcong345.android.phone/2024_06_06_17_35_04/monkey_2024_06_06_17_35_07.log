@@ -1,0 +1,2020 @@
+bash arg: -p
+bash arg: com.yangcong345.android.phone
+bash arg: -v
+bash arg: -v
+bash arg: -v
+bash arg: -s
+bash arg: 1000
+bash arg: --ignore-crashes
+bash arg: --ignore-timeouts
+bash arg: --ignore-security-exceptions
+bash arg: --kill-process-after-error
+bash arg: --pct-appswitch
+bash arg: 20
+bash arg: --pct-touch
+bash arg: 40
+bash arg: --pct-motion
+bash arg: 10
+bash arg: --pct-trackball
+bash arg: 0
+bash arg: --pct-anyevent
+bash arg: 10
+bash arg: --pct-flip
+bash arg: 0
+bash arg: --pct-pinchzoom
+bash arg: 0
+bash arg: --throttle
+bash arg: 1000
+bash arg: 1200000000
+:Monkey: seed=1000 count=1200000000
+:AllowPackage: com.yangcong345.android.phone
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.music.MusicBrowserActivity (from package com.android.music)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.cookiegames.smartcookie.MainActivity (from package com.cookiegames.smartcookie)
+//   - NOT USING main activity com.mediatek.camera.CameraLauncher (from package com.mediatek.camera)
+//   - NOT USING main activity com.yangcong345.cloud.launcher.Launcher3Proxy (from package com.yangcong345.cloud.launcher)
+//   - NOT USING main activity com.yangcong345.cloud.toolbox.home.MainHomeActivity (from package com.yangcong345.cloud.toolbox)
+//   - NOT USING main activity com.yangcong345.pad.systemsetting.SystemSettingActivity (from package com.yangcong345.pad.systemsetting)
+//   - NOT USING main activity com.google.android.apps.chrome.Main (from package org.chromium.browser)
+//   - NOT USING main activity com.tencent.pangu.link.SplashActivity (from package com.tencent.android.qqdownloader)
+//   - NOT USING main activity com.yangcong345.eye.protection.MainActivity (from package com.yangcong345.eye.protection)
+//   - NOT USING main activity com.adups.fota.GoogleOtaClient (from package com.adups.fota)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.sprd.soundrecorder.RecorderActivity (from package com.android.soundrecorder)
+//   - NOT USING main activity cn.com.wiisoft.airock.SplashActivity (from package cn.com.wiisoft.airock)
+//   - NOT USING main activity com.TMBTOUCH.PRODUCTION.TMBUI (from package com.TMBTOUCH.PRODUCTION)
+//   - NOT USING main activity com.ahsj.nfccard.activity.WelcomActivity (from package com.ahsj.nfccard)
+//   - NOT USING main activity com.android.module.app.ui.start.ABenchMarkStart (from package com.antutu.ABenchMark)
+//   - NOT USING main activity com.android.module.graphics.app.MainActivity (from package com.antutu.benchmark.full.lite)
+//   - NOT USING main activity com.autonavi.map.activity.SplashActivity (from package com.autonavi.minimap)
+//   - NOT USING main activity com.example.myapplication.MainActivity (from package com.example.myapplication)
+//   - NOT USING main activity com.jack.myhomeworkanswer.SplashActivity (from package com.jack.myhomeworkanswer)
+//   - NOT USING main activity com.example.nfcentranceguard.activity.LaunchActivity (from package com.menjinlnfc.lj)
+//   - NOT USING main activity com.qianyue.photorestoration.ui.activity.SplashActivity (from package com.qianyue.photorestoration)
+//   - NOT USING main activity com.qihoo360.mobilesafe.ui.index.AppEnterActivity (from package com.qihoo360.mobilesafe)
+//   - NOT USING main activity com.yangcong345.cloud.rommock.MainActivity (from package com.test.rommock)
+//   - NOT USING main activity com.topjohnwu.magisk.ui.MainActivity (from package com.topjohnwu.magisk)
+//   - NOT USING main activity com.winking.pwdcheck.activity.WifiSplashActivity (from package com.winking.pwdcheck)
+//   + Using main activity com.yangcong345.main.phone.splash.SplashActivity (from package com.yangcong345.android.phone)
+//   - NOT USING main activity com.yangcong345.cloud.ruledetect.MainActivity (from package com.yangcong345.cloud.ruledetect)
+//   - NOT USING main activity com.yangcong345.pad.market.page.HomeActivity (from package com.yangcong345.pad.market)
+//   - NOT USING main activity org.cloud.sonic.android.MainActivity (from package org.cloud.sonic.android)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.launcher3.uioverrides.QuickstepLauncher (from package com.android.launcher3)
+// Seeded: 1000
+// Event percentages:
+//   0: 40.0%
+//   1: 10.0%
+//   2: -0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 11.904762%
+//   7: 7.142857%
+//   8: 0.95238096%
+//   9: 20.0%
+//   10: -0.0%
+//   11: 10.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1116.0,724.0)
+:Sending Touch (ACTION_UP): 0:(1116.8796,703.9431)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,1179.0)
+:Sending Touch (ACTION_MOVE): 0:(677.43774,1181.5883)
+:Sending Touch (ACTION_MOVE): 0:(662.41766,1181.6316)
+:Sending Touch (ACTION_MOVE): 0:(640.1749,1183.4142)
+:Sending Touch (ACTION_UP): 0:(625.79346,1187.2007)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(182.0,49.0)
+:Sending Touch (ACTION_UP): 0:(169.05525,54.201355)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1032.0,695.0)
+:Sending Touch (ACTION_UP): 0:(1051.3759,697.5787)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1842.0,591.0)
+:Sending Touch (ACTION_UP): 0:(1840.9099,581.67175)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1058.0,387.0)
+:Sending Touch (ACTION_UP): 0:(1060.5566,390.03946)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1240.0,839.0)
+:Sending Touch (ACTION_UP): 0:(1234.1241,846.88184)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1274.0,851.0)
+:Sending Touch (ACTION_UP): 0:(1271.3107,860.7578)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1715.0,541.0)
+:Sending Touch (ACTION_UP): 0:(1706.7522,539.0342)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1241.0,33.0)
+:Sending Touch (ACTION_UP): 0:(1259.8517,41.650173)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1284.0,129.0)
+:Sending Touch (ACTION_UP): 0:(1283.971,129.39507)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1179.0,1115.0)
+:Sending Touch (ACTION_UP): 0:(1180.5485,1106.6091)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1357.0,897.0)
+:Sending Touch (ACTION_UP): 0:(1355.7937,885.64685)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(845.0,1018.0)
+:Sending Touch (ACTION_UP): 0:(855.71545,1017.2614)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1816.0,935.0)
+:Sending Touch (ACTION_UP): 0:(1822.1869,945.45874)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1056.0,1145.0)
+:Sending Touch (ACTION_UP): 0:(1049.0952,1163.1744)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(609.0,824.0)
+:Sending Touch (ACTION_UP): 0:(611.96857,826.8418)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(768.0,1040.0)
+:Sending Touch (ACTION_MOVE): 0:(769.8569,1029.1785)
+:Sending Touch (ACTION_MOVE): 0:(772.2131,1028.9285)
+:Sending Touch (ACTION_MOVE): 0:(774.7812,1016.26294)
+:Sending Touch (ACTION_MOVE): 0:(776.14233,1007.3139)
+:Sending Touch (ACTION_MOVE): 0:(777.0447,1000.3032)
+:Sending Touch (ACTION_MOVE): 0:(778.99316,997.121)
+:Sending Touch (ACTION_MOVE): 0:(780.8774,984.1754)
+:Sending Touch (ACTION_UP): 0:(782.7439,979.9071)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1539.0,992.0)
+:Sending Touch (ACTION_UP): 0:(1541.2198,998.0179)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1314.0,841.0)
+:Sending Touch (ACTION_MOVE): 0:(1326.4132,860.19543)
+:Sending Touch (ACTION_UP): 0:(1329.7832,866.00037)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 127    // KEYCODE_MEDIA_PAUSE
+:Sending Key (ACTION_UP): 127    // KEYCODE_MEDIA_PAUSE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1151.0,619.0)
+:Sending Touch (ACTION_UP): 0:(1142.4802,610.65015)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(642.0,213.0)
+:Sending Touch (ACTION_UP): 0:(644.3137,223.142)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1138.0,790.0)
+:Sending Touch (ACTION_UP): 0:(1134.755,790.22784)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1741.0,222.0)
+:Sending Touch (ACTION_UP): 0:(1735.2877,237.27032)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(352.0,627.0)
+:Sending Touch (ACTION_UP): 0:(349.98892,628.5167)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 287    // KEYCODE_THUMBS_DOWN
+:Sending Key (ACTION_UP): 287    // KEYCODE_THUMBS_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(459.0,155.0)
+:Sending Touch (ACTION_UP): 0:(447.10364,148.7074)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(646.0,430.0)
+:Sending Touch (ACTION_UP): 0:(657.47034,430.69238)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(403.0,1157.0)
+:Sending Touch (ACTION_UP): 0:(398.3605,1170.6464)
+//[calendar_time:2024-06-06 17:35:50.969  system_uptime:6788545]
+// Sending event #100
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:35:51.979  system_uptime:6789547]
+// Sending event #100
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(32.0,658.0)
+:Sending Touch (ACTION_UP): 0:(41.253338,652.1927)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 114    // KEYCODE_CTRL_RIGHT
+:Sending Key (ACTION_UP): 114    // KEYCODE_CTRL_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1917.0,322.0)
+:Sending Touch (ACTION_UP): 0:(1907.9832,322.415)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(804.0,218.0)
+:Sending Touch (ACTION_UP): 0:(802.41785,222.95045)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1068.0,968.0)
+:Sending Touch (ACTION_UP): 0:(1061.7881,973.03296)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(361.0,1178.0)
+:Sending Touch (ACTION_MOVE): 0:(363.3633,1192.0146)
+:Sending Touch (ACTION_MOVE): 0:(366.4873,1200.0)
+:Sending Touch (ACTION_UP): 0:(386.6316,1200.0)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1020.0,1179.0)
+:Sending Touch (ACTION_UP): 0:(1019.48505,1188.1395)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(624.0,937.0)
+:Sending Touch (ACTION_UP): 0:(626.5198,938.59247)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(1885.0,363.0)
+:Sending Touch (ACTION_MOVE): 0:(1887.2144,378.25552)
+:Sending Touch (ACTION_MOVE): 0:(1888.2067,392.73865)
+:Sending Touch (ACTION_MOVE): 0:(1890.3604,396.65994)
+:Sending Touch (ACTION_MOVE): 0:(1890.3625,412.13043)
+:Sending Touch (ACTION_MOVE): 0:(1891.2191,423.88696)
+:Sending Touch (ACTION_MOVE): 0:(1892.3295,425.84714)
+:Sending Touch (ACTION_UP): 0:(1894.538,427.23462)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(875.0,820.0)
+:Sending Touch (ACTION_UP): 0:(868.0714,820.8336)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1098.0,63.0)
+:Sending Touch (ACTION_UP): 0:(1110.4774,60.59482)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 15    // KEYCODE_8
+:Sending Key (ACTION_UP): 15    // KEYCODE_8
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1631.0,208.0)
+:Sending Touch (ACTION_MOVE): 0:(1621.9045,200.32108)
+:Sending Touch (ACTION_MOVE): 0:(1614.2339,192.16463)
+:Sending Touch (ACTION_MOVE): 0:(1604.8557,179.3182)
+:Sending Touch (ACTION_MOVE): 0:(1597.6311,173.36378)
+:Sending Touch (ACTION_MOVE): 0:(1594.8223,155.31499)
+:Sending Touch (ACTION_MOVE): 0:(1587.2493,133.28949)
+:Sending Touch (ACTION_MOVE): 0:(1577.1199,124.720276)
+:Sending Touch (ACTION_MOVE): 0:(1576.4878,106.151306)
+:Sending Touch (ACTION_UP): 0:(1570.8483,93.669205)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+:Sending Key (ACTION_UP): 163    // KEYCODE_NUMPAD_RIGHT_PAREN
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(634.0,848.0)
+:Sending Touch (ACTION_UP): 0:(640.1779,861.54645)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.video.business.player.HorizontalVideoActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(321.0,1168.0)
+:Sending Touch (ACTION_MOVE): 0:(324.65125,1177.984)
+:Sending Touch (ACTION_MOVE): 0:(328.62375,1180.178)
+:Sending Touch (ACTION_UP): 0:(332.53784,1181.6259)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(735.0,975.0)
+:Sending Touch (ACTION_UP): 0:(734.3907,962.3187)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(654.0,438.0)
+:Sending Touch (ACTION_UP): 0:(653.80206,435.5425)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(724.0,456.0)
+:Sending Touch (ACTION_UP): 0:(714.01337,452.89218)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 67    // KEYCODE_DEL
+:Sending Key (ACTION_UP): 67    // KEYCODE_DEL
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 100    // KEYCODE_BUTTON_Y
+:Sending Key (ACTION_UP): 100    // KEYCODE_BUTTON_Y
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Sending Touch (ACTION_DOWN): 0:(1636.0,681.0)
+:Sending Touch (ACTION_UP): 0:(1643.2451,682.9126)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 45    // KEYCODE_Q
+:Sending Key (ACTION_UP): 45    // KEYCODE_Q
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1080.0,1023.0)
+:Sending Touch (ACTION_UP): 0:(1091.8254,1009.28107)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(132.0,1107.0)
+:Sending Touch (ACTION_UP): 0:(134.59567,1099.0986)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(205.0,831.0)
+:Sending Touch (ACTION_UP): 0:(197.0437,833.0098)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(643.0,1086.0)
+:Sending Touch (ACTION_UP): 0:(645.7229,1100.6301)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1723.0,134.0)
+:Sending Touch (ACTION_MOVE): 0:(1708.491,133.56125)
+:Sending Touch (ACTION_MOVE): 0:(1703.8107,128.62523)
+:Sending Touch (ACTION_MOVE): 0:(1693.9329,124.55272)
+:Sending Touch (ACTION_MOVE): 0:(1690.1462,118.86576)
+:Sending Touch (ACTION_UP): 0:(1676.7736,109.341835)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1311.0,787.0)
+:Sending Touch (ACTION_MOVE): 0:(1307.4175,774.7522)
+:Sending Touch (ACTION_MOVE): 0:(1304.9125,772.12524)
+:Sending Touch (ACTION_MOVE): 0:(1303.2833,761.9887)
+:Sending Touch (ACTION_MOVE): 0:(1302.5314,755.35376)
+:Sending Touch (ACTION_MOVE): 0:(1299.3928,750.86176)
+//[calendar_time:2024-06-06 17:36:32.430  system_uptime:6829998]
+// Sending event #200
+:Sending Touch (ACTION_MOVE): 0:(1299.2777,733.89294)
+:Sending Touch (ACTION_UP): 0:(1296.1338,726.1173)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(900.0,98.0)
+:Sending Touch (ACTION_UP): 0:(889.49365,82.047745)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 125    // KEYCODE_FORWARD
+:Sending Key (ACTION_UP): 125    // KEYCODE_FORWARD
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Sending Touch (ACTION_DOWN): 0:(1563.0,753.0)
+:Sending Touch (ACTION_UP): 0:(1560.348,759.09955)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(1489.0,1033.0)
+:Sending Touch (ACTION_UP): 0:(1476.3285,1023.16473)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Sending Touch (ACTION_DOWN): 0:(1184.0,346.0)
+:Sending Touch (ACTION_UP): 0:(1183.7579,350.4617)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1256.0,818.0)
+:Sending Touch (ACTION_UP): 0:(1249.8728,804.028)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(1266.0,270.0)
+:Sending Touch (ACTION_UP): 0:(1289.4053,287.19244)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Sending Touch (ACTION_DOWN): 0:(19.0,418.0)
+:Sending Touch (ACTION_UP): 0:(17.143688,413.8884)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1891.0,566.0)
+:Sending Touch (ACTION_UP): 0:(1889.7296,564.87354)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(475.0,273.0)
+:Sending Touch (ACTION_UP): 0:(471.85413,290.22797)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1899.0,800.0)
+:Sending Touch (ACTION_UP): 0:(1897.6276,798.5118)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1492.0,849.0)
+:Sending Touch (ACTION_MOVE): 0:(1483.7334,852.70526)
+:Sending Touch (ACTION_MOVE): 0:(1481.3468,860.30664)
+:Sending Touch (ACTION_MOVE): 0:(1474.9604,868.5717)
+:Sending Touch (ACTION_MOVE): 0:(1467.0648,880.5098)
+:Sending Touch (ACTION_MOVE): 0:(1463.8712,884.8973)
+:Sending Touch (ACTION_MOVE): 0:(1461.9617,897.5476)
+:Sending Touch (ACTION_MOVE): 0:(1453.3938,906.4769)
+:Sending Touch (ACTION_UP): 0:(1448.2002,914.3285)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1804.0,1116.0)
+:Sending Touch (ACTION_MOVE): 0:(1804.7957,1118.7039)
+:Sending Touch (ACTION_MOVE): 0:(1826.29,1123.7087)
+:Sending Touch (ACTION_MOVE): 0:(1841.8618,1125.6812)
+:Sending Touch (ACTION_MOVE): 0:(1862.6862,1128.1222)
+:Sending Touch (ACTION_MOVE): 0:(1874.6926,1134.2617)
+:Sending Touch (ACTION_MOVE): 0:(1880.0276,1139.077)
+:Sending Touch (ACTION_MOVE): 0:(1886.0071,1140.7338)
+:Sending Touch (ACTION_UP): 0:(1899.2751,1143.1271)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(353.0,867.0)
+:Sending Touch (ACTION_UP): 0:(349.95322,870.8096)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 41    // KEYCODE_M
+:Sending Key (ACTION_UP): 41    // KEYCODE_M
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1563.0,782.0)
+:Sending Touch (ACTION_UP): 0:(1562.6475,777.2545)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(336.0,1141.0)
+:Sending Touch (ACTION_UP): 0:(339.18277,1142.7756)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1496.0,364.0)
+:Sending Touch (ACTION_UP): 0:(1503.0134,363.6318)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(604.0,826.0)
+:Sending Touch (ACTION_UP): 0:(612.7432,826.10254)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(432.0,49.0)
+:Sending Touch (ACTION_UP): 0:(445.96436,49.0991)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(180.0,304.0)
+:Sending Touch (ACTION_UP): 0:(199.29822,301.47592)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1718.0,157.0)
+:Sending Touch (ACTION_UP): 0:(1729.4517,149.3971)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 245    // KEYCODE_TV_INPUT_HDMI_3
+:Sending Key (ACTION_UP): 245    // KEYCODE_TV_INPUT_HDMI_3
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(342.0,575.0)
+:Sending Touch (ACTION_UP): 0:(330.3217,578.8465)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1371.0,1.0)
+:Sending Touch (ACTION_UP): 0:(1388.3875,0.0)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(587.0,594.0)
+:Sending Touch (ACTION_UP): 0:(601.3589,609.036)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Sending Touch (ACTION_DOWN): 0:(1211.0,731.0)
+:Sending Touch (ACTION_UP): 0:(1229.0776,743.23663)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(275.0,402.0)
+:Sending Touch (ACTION_UP): 0:(277.5468,409.1662)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(915.0,1160.0)
+:Sending Touch (ACTION_UP): 0:(915.6081,1144.645)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,454.0)
+:Sending Touch (ACTION_UP): 0:(367.26505,450.26395)
+//[calendar_time:2024-06-06 17:37:18.985  system_uptime:6876552]
+// Sending event #300
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:37:19.986  system_uptime:6877553]
+// Sending event #300
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1835.0,32.0)
+:Sending Touch (ACTION_UP): 0:(1844.4066,18.919436)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 16    // KEYCODE_9
+:Sending Key (ACTION_UP): 16    // KEYCODE_9
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1516.0,447.0)
+:Sending Touch (ACTION_UP): 0:(1515.3256,447.2357)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(314.0,392.0)
+:Sending Touch (ACTION_UP): 0:(314.26718,386.70554)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1342.0,1019.0)
+:Sending Touch (ACTION_UP): 0:(1341.2765,1008.4196)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(987.0,461.0)
+:Sending Touch (ACTION_UP): 0:(999.2887,456.76468)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1519.0,1108.0)
+:Sending Touch (ACTION_UP): 0:(1515.4337,1121.7944)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(238.0,411.0)
+:Sending Touch (ACTION_UP): 0:(247.43495,421.00784)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(782.0,236.0)
+:Sending Touch (ACTION_MOVE): 0:(787.5489,224.94238)
+:Sending Touch (ACTION_MOVE): 0:(794.8167,213.64433)
+:Sending Touch (ACTION_MOVE): 0:(802.0446,207.16228)
+:Sending Touch (ACTION_MOVE): 0:(806.74817,195.7797)
+:Sending Touch (ACTION_MOVE): 0:(812.4364,183.0034)
+:Sending Touch (ACTION_MOVE): 0:(812.8572,180.65717)
+:Sending Touch (ACTION_UP): 0:(821.3259,175.40121)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1028.0,811.0)
+:Sending Touch (ACTION_MOVE): 0:(1028.6504,806.3454)
+:Sending Touch (ACTION_MOVE): 0:(1028.9031,803.99817)
+:Sending Touch (ACTION_MOVE): 0:(1029.2122,795.5592)
+:Sending Touch (ACTION_MOVE): 0:(1029.6409,786.76575)
+:Sending Touch (ACTION_MOVE): 0:(1030.4795,785.5251)
+:Sending Touch (ACTION_MOVE): 0:(1031.0565,782.5908)
+:Sending Touch (ACTION_MOVE): 0:(1031.6442,778.9397)
+:Sending Touch (ACTION_MOVE): 0:(1032.0566,777.7409)
+:Sending Touch (ACTION_MOVE): 0:(1032.8759,768.10626)
+:Sending Touch (ACTION_UP): 0:(1033.6027,762.7267)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(633.0,166.0)
+:Sending Touch (ACTION_MOVE): 0:(634.62415,166.33012)
+:Sending Touch (ACTION_UP): 0:(636.00934,166.88069)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(142.0,783.0)
+:Sending Touch (ACTION_UP): 0:(137.09766,796.0173)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(368.0,1158.0)
+:Sending Touch (ACTION_UP): 0:(387.54047,1168.7684)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(2.0,622.0)
+:Sending Touch (ACTION_UP): 0:(0.0,622.1015)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(898.0,506.0)
+:Sending Touch (ACTION_UP): 0:(904.86237,492.94592)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1898.0,191.0)
+:Sending Touch (ACTION_UP): 0:(1895.1987,191.87881)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1717.0,310.0)
+:Sending Touch (ACTION_UP): 0:(1722.2302,318.41458)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(366.0,430.0)
+:Sending Touch (ACTION_MOVE): 0:(366.9517,432.52292)
+:Sending Touch (ACTION_UP): 0:(367.6089,435.6987)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(575.0,230.0)
+:Sending Touch (ACTION_UP): 0:(572.9398,229.77644)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(730.0,11.0)
+:Sending Touch (ACTION_UP): 0:(742.27405,17.653862)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(736.0,458.0)
+:Sending Touch (ACTION_UP): 0:(729.08154,459.2697)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1826.0,300.0)
+:Sending Touch (ACTION_UP): 0:(1816.9911,315.7806)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(933.0,249.0)
+:Sending Touch (ACTION_UP): 0:(939.8376,250.3839)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(516.0,457.0)
+:Sending Touch (ACTION_MOVE): 0:(511.37186,461.04526)
+:Sending Touch (ACTION_MOVE): 0:(495.7948,461.98993)
+:Sending Touch (ACTION_MOVE): 0:(483.95886,465.63718)
+:Sending Touch (ACTION_MOVE): 0:(481.91223,468.27667)
+:Sending Touch (ACTION_MOVE): 0:(478.14383,469.08252)
+:Sending Touch (ACTION_MOVE): 0:(467.25836,472.6095)
+:Sending Touch (ACTION_UP): 0:(454.26035,472.81522)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(271.0,1152.0)
+:Sending Touch (ACTION_UP): 0:(269.04095,1151.5819)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(232.0,872.0)
+:Sending Touch (ACTION_UP): 0:(239.64885,857.1858)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1330.0,207.0)
+//[calendar_time:2024-06-06 17:38:01.655  system_uptime:6919223]
+// Sending event #400
+:Sending Touch (ACTION_UP): 0:(1320.258,224.86621)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1160.0,929.0)
+:Sending Touch (ACTION_UP): 0:(1156.8514,918.05286)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1001.0,569.0)
+:Sending Touch (ACTION_UP): 0:(998.1685,562.18195)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(568.0,1173.0)
+:Sending Touch (ACTION_UP): 0:(555.2858,1156.846)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 172    // KEYCODE_GUIDE
+:Sending Key (ACTION_UP): 172    // KEYCODE_GUIDE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(274.0,83.0)
+:Sending Touch (ACTION_UP): 0:(272.82663,79.17579)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(645.0,759.0)
+:Sending Touch (ACTION_UP): 0:(643.45856,769.16113)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1443.0,687.0)
+:Sending Touch (ACTION_UP): 0:(1423.209,689.6192)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,864.0)
+:Sending Touch (ACTION_UP): 0:(341.53326,862.0871)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(188.0,685.0)
+:Sending Touch (ACTION_MOVE): 0:(196.43114,685.17395)
+:Sending Touch (ACTION_MOVE): 0:(205.31235,688.46954)
+:Sending Touch (ACTION_MOVE): 0:(207.10675,692.0242)
+:Sending Touch (ACTION_MOVE): 0:(215.41324,696.87164)
+:Sending Touch (ACTION_MOVE): 0:(222.039,699.86584)
+:Sending Touch (ACTION_UP): 0:(224.07217,701.0318)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1440.0,290.0)
+:Sending Touch (ACTION_MOVE): 0:(1446.9171,289.92105)
+:Sending Touch (ACTION_MOVE): 0:(1454.0804,289.91833)
+:Sending Touch (ACTION_MOVE): 0:(1454.7631,289.59824)
+:Sending Touch (ACTION_MOVE): 0:(1459.7642,289.19345)
+:Sending Touch (ACTION_MOVE): 0:(1464.3262,288.47913)
+:Sending Touch (ACTION_UP): 0:(1468.0603,287.86807)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1091.0,906.0)
+:Sending Touch (ACTION_UP): 0:(1089.6416,895.1855)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 115    // KEYCODE_CAPS_LOCK
+:Sending Key (ACTION_UP): 115    // KEYCODE_CAPS_LOCK
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 208    // KEYCODE_CALENDAR
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Key (ACTION_UP): 208    // KEYCODE_CALENDAR
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1027.0,438.0)
+:Sending Touch (ACTION_UP): 0:(1024.5197,451.4127)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1838.0,646.0)
+:Sending Touch (ACTION_UP): 0:(1840.1587,650.6767)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1133.0,98.0)
+:Sending Touch (ACTION_UP): 0:(1135.7723,96.05037)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1029.0,840.0)
+:Sending Touch (ACTION_MOVE): 0:(1029.0491,840.30115)
+:Sending Touch (ACTION_MOVE): 0:(1032.88,844.66266)
+:Sending Touch (ACTION_MOVE): 0:(1034.3461,846.6599)
+:Sending Touch (ACTION_MOVE): 0:(1034.7458,850.42725)
+:Sending Touch (ACTION_UP): 0:(1046.0751,852.31946)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 256    // KEYCODE_TV_CONTENTS_MENU
+:Sending Key (ACTION_UP): 256    // KEYCODE_TV_CONTENTS_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1238.0,589.0)
+:Sending Touch (ACTION_UP): 0:(1232.346,592.2474)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(200.0,492.0)
+:Sending Touch (ACTION_UP): 0:(205.30182,491.13113)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+//[calendar_time:2024-06-06 17:38:50.249  system_uptime:6967817]
+// Sending event #500
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:38:51.251  system_uptime:6968819]
+// Sending event #500
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1638.0,740.0)
+:Sending Touch (ACTION_UP): 0:(1620.5585,740.77045)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(979.0,206.0)
+:Sending Touch (ACTION_MOVE): 0:(976.18384,188.80795)
+:Sending Touch (ACTION_MOVE): 0:(974.0271,183.05357)
+:Sending Touch (ACTION_MOVE): 0:(971.94415,171.91112)
+:Sending Touch (ACTION_MOVE): 0:(969.6687,162.70992)
+:Sending Touch (ACTION_MOVE): 0:(967.06537,146.78413)
+:Sending Touch (ACTION_MOVE): 0:(961.96045,142.10394)
+:Sending Touch (ACTION_MOVE): 0:(957.2444,137.88362)
+:Sending Touch (ACTION_MOVE): 0:(955.4663,128.9931)
+:Sending Touch (ACTION_MOVE): 0:(952.60876,111.337036)
+:Sending Touch (ACTION_UP): 0:(949.0238,108.40106)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(183.0,1191.0)
+:Sending Touch (ACTION_UP): 0:(180.23775,1190.3944)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(640.0,171.0)
+:Sending Touch (ACTION_MOVE): 0:(656.9095,177.19109)
+:Sending Touch (ACTION_MOVE): 0:(668.4241,182.04663)
+:Sending Touch (ACTION_MOVE): 0:(678.3621,191.44159)
+:Sending Touch (ACTION_MOVE): 0:(688.67645,204.77763)
+:Sending Touch (ACTION_MOVE): 0:(709.09796,210.0637)
+:Sending Touch (ACTION_MOVE): 0:(709.8887,223.42403)
+:Sending Touch (ACTION_MOVE): 0:(722.8349,231.70168)
+:Sending Touch (ACTION_UP): 0:(729.82666,237.59547)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1173.0,247.0)
+:Sending Touch (ACTION_UP): 0:(1172.9452,231.41696)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 208    // KEYCODE_CALENDAR
+// Rejecting start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.android.calendar/.AllInOneActivity } in package com.android.calendar
+:Sending Key (ACTION_UP): 208    // KEYCODE_CALENDAR
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(766.0,275.0)
+:Sending Touch (ACTION_UP): 0:(783.676,281.52786)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(507.0,725.0)
+:Sending Touch (ACTION_UP): 0:(498.8212,730.4954)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1889.0,414.0)
+:Sending Touch (ACTION_UP): 0:(1885.2172,397.12894)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(157.0,762.0)
+:Sending Touch (ACTION_MOVE): 0:(141.95944,751.40967)
+:Sending Touch (ACTION_MOVE): 0:(133.30798,750.4476)
+:Sending Touch (ACTION_MOVE): 0:(112.75349,738.9989)
+:Sending Touch (ACTION_UP): 0:(92.96597,735.6753)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(818.0,188.0)
+:Sending Touch (ACTION_UP): 0:(819.12946,206.74162)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(154.0,346.0)
+:Sending Touch (ACTION_UP): 0:(142.33987,334.9882)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(580.0,1192.0)
+:Sending Touch (ACTION_UP): 0:(595.9626,1185.4578)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1805.0,418.0)
+:Sending Touch (ACTION_UP): 0:(1818.092,412.47583)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(938.0,230.0)
+:Sending Touch (ACTION_UP): 0:(933.284,235.28473)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(258.0,1171.0)
+:Sending Touch (ACTION_UP): 0:(243.92131,1168.8667)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(664.0,1164.0)
+:Sending Touch (ACTION_MOVE): 0:(659.39264,1169.9943)
+:Sending Touch (ACTION_MOVE): 0:(647.0466,1177.9608)
+:Sending Touch (ACTION_MOVE): 0:(646.47437,1184.8579)
+:Sending Touch (ACTION_MOVE): 0:(637.41925,1190.2365)
+:Sending Touch (ACTION_MOVE): 0:(631.04474,1200.0)
+:Sending Touch (ACTION_MOVE): 0:(630.3512,1200.0)
+:Sending Touch (ACTION_MOVE): 0:(627.45514,1200.0)
+:Sending Touch (ACTION_UP): 0:(619.2414,1200.0)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1770.0,268.0)
+:Sending Touch (ACTION_UP): 0:(1790.8602,268.92432)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(520.0,142.0)
+:Sending Touch (ACTION_MOVE): 0:(530.65656,145.81882)
+:Sending Touch (ACTION_MOVE): 0:(540.95416,145.91837)
+:Sending Touch (ACTION_MOVE): 0:(542.4397,147.60626)
+:Sending Touch (ACTION_MOVE): 0:(553.0244,149.5088)
+:Sending Touch (ACTION_MOVE): 0:(553.1157,153.50333)
+:Sending Touch (ACTION_MOVE): 0:(554.56494,157.41736)
+:Sending Touch (ACTION_MOVE): 0:(564.75574,158.41759)
+:Sending Touch (ACTION_MOVE): 0:(573.962,162.92366)
+:Sending Touch (ACTION_MOVE): 0:(574.0342,166.36475)
+:Sending Touch (ACTION_UP): 0:(584.89996,166.73022)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1324.0,1101.0)
+:Sending Touch (ACTION_UP): 0:(1327.2744,1100.6942)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1358.0,737.0)
+:Sending Touch (ACTION_UP): 0:(1360.8402,738.4437)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1072.0,303.0)
+:Sending Touch (ACTION_UP): 0:(1071.157,285.66556)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(24.0,768.0)
+:Sending Touch (ACTION_UP): 0:(22.901934,766.84686)
+//[calendar_time:2024-06-06 17:39:25.713  system_uptime:7003281]
+// Sending event #600
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:39:26.714  system_uptime:7004282]
+// Sending event #600
+:Sending Touch (ACTION_DOWN): 0:(1142.0,241.0)
+:Sending Touch (ACTION_UP): 0:(1128.9712,252.41309)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1912.0,628.0)
+:Sending Touch (ACTION_UP): 0:(1920.0,618.02277)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 203    // KEYCODE_BUTTON_16
+:Sending Key (ACTION_UP): 203    // KEYCODE_BUTTON_16
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 131    // KEYCODE_F1
+:Sending Key (ACTION_UP): 131    // KEYCODE_F1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(434.0,508.0)
+:Sending Touch (ACTION_UP): 0:(438.19348,503.55106)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1160.0,1097.0)
+:Sending Touch (ACTION_UP): 0:(1159.0784,1107.7394)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 55    // KEYCODE_COMMA
+:Sending Key (ACTION_UP): 55    // KEYCODE_COMMA
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1896.0,265.0)
+:Sending Touch (ACTION_UP): 0:(1897.875,256.93005)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1561.0,1005.0)
+:Sending Touch (ACTION_UP): 0:(1559.2589,1006.9732)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1290.0,106.0)
+:Sending Touch (ACTION_UP): 0:(1298.4579,102.708755)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(970.0,402.0)
+:Sending Touch (ACTION_UP): 0:(974.43036,402.33325)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(896.0,793.0)
+:Sending Touch (ACTION_UP): 0:(904.77277,794.00916)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1892.0,521.0)
+:Sending Touch (ACTION_UP): 0:(1899.0494,516.1316)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(980.0,1015.0)
+:Sending Touch (ACTION_UP): 0:(974.34534,1014.00806)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(795.0,434.0)
+:Sending Touch (ACTION_UP): 0:(794.2251,434.44507)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(199.0,1193.0)
+:Sending Touch (ACTION_UP): 0:(198.91338,1197.0775)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1174.0,500.0)
+:Sending Touch (ACTION_UP): 0:(1169.9431,493.90402)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1645.0,146.0)
+:Sending Touch (ACTION_UP): 0:(1651.6246,138.26884)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 230    // KEYCODE_TV_DATA_SERVICE
+:Sending Key (ACTION_UP): 230    // KEYCODE_TV_DATA_SERVICE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1388.0,720.0)
+:Sending Touch (ACTION_UP): 0:(1398.9027,723.30396)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1366.0,603.0)
+:Sending Touch (ACTION_UP): 0:(1358.2119,603.16406)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1216.0,223.0)
+:Sending Touch (ACTION_UP): 0:(1210.255,239.10924)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1690.0,113.0)
+:Sending Touch (ACTION_UP): 0:(1703.632,108.98958)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(76.0,289.0)
+:Sending Touch (ACTION_UP): 0:(61.870903,293.58707)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1229.0,105.0)
+:Sending Touch (ACTION_MOVE): 0:(1229.1721,122.76562)
+:Sending Touch (ACTION_MOVE): 0:(1229.343,127.56705)
+:Sending Touch (ACTION_MOVE): 0:(1229.5798,131.71432)
+:Sending Touch (ACTION_UP): 0:(1229.7917,151.15913)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(424.0,9.0)
+:Sending Touch (ACTION_UP): 0:(442.1684,6.9510064)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1115.0,606.0)
+:Sending Touch (ACTION_MOVE): 0:(1118.5168,610.96387)
+:Sending Touch (ACTION_UP): 0:(1122.6654,611.0073)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(733.0,820.0)
+:Sending Touch (ACTION_UP): 0:(730.0317,808.53284)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(772.0,262.0)
+:Sending Touch (ACTION_UP): 0:(772.5679,268.78534)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(834.0,947.0)
+:Sending Touch (ACTION_UP): 0:(833.9897,944.57996)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(376.0,1033.0)
+:Sending Touch (ACTION_UP): 0:(375.9128,1033.3285)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(703.0,1012.0)
+:Sending Touch (ACTION_UP): 0:(694.2977,1011.8566)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(905.0,167.0)
+:Sending Touch (ACTION_UP): 0:(904.5374,148.02376)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 272    // KEYCODE_MEDIA_SKIP_FORWARD
+:Sending Key (ACTION_UP): 272    // KEYCODE_MEDIA_SKIP_FORWARD
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(914.0,40.0)
+:Sending Touch (ACTION_UP): 0:(908.8151,41.87285)
+//[calendar_time:2024-06-06 17:40:19.554  system_uptime:7057122]
+// Sending event #700
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:40:20.556  system_uptime:7058124]
+// Sending event #700
+:Sending Touch (ACTION_DOWN): 0:(1615.0,338.0)
+:Sending Touch (ACTION_UP): 0:(1637.954,342.6515)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(149.0,597.0)
+:Sending Touch (ACTION_UP): 0:(146.2725,594.59534)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1674.0,359.0)
+:Sending Touch (ACTION_UP): 0:(1696.9941,359.78336)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1228.0,232.0)
+:Sending Touch (ACTION_UP): 0:(1213.3401,239.41377)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+:Sending Key (ACTION_UP): 248    // KEYCODE_TV_INPUT_COMPOSITE_2
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(887.0,951.0)
+:Sending Touch (ACTION_MOVE): 0:(890.799,966.4305)
+:Sending Touch (ACTION_MOVE): 0:(892.42255,968.04175)
+:Sending Touch (ACTION_MOVE): 0:(897.57355,976.6889)
+:Sending Touch (ACTION_MOVE): 0:(908.144,979.9234)
+:Sending Touch (ACTION_MOVE): 0:(925.3839,986.26526)
+:Sending Touch (ACTION_MOVE): 0:(942.0225,988.2285)
+:Sending Touch (ACTION_MOVE): 0:(957.5913,1005.3601)
+:Sending Touch (ACTION_MOVE): 0:(961.4558,1008.9709)
+:Sending Touch (ACTION_MOVE): 0:(962.1904,1013.47894)
+:Sending Touch (ACTION_UP): 0:(973.60077,1024.1586)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 197    // KEYCODE_BUTTON_10
+:Sending Key (ACTION_UP): 197    // KEYCODE_BUTTON_10
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 183    // KEYCODE_PROG_RED
+:Sending Key (ACTION_UP): 183    // KEYCODE_PROG_RED
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1791.0,200.0)
+:Sending Touch (ACTION_UP): 0:(1790.3558,202.808)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(700.0,474.0)
+:Sending Touch (ACTION_UP): 0:(695.8861,468.62473)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 83    // KEYCODE_NOTIFICATION
+:Sending Key (ACTION_UP): 83    // KEYCODE_NOTIFICATION
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(785.0,24.0)
+:Sending Touch (ACTION_UP): 0:(786.365,25.880257)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1265.0,823.0)
+:Sending Touch (ACTION_MOVE): 0:(1267.6989,821.2771)
+:Sending Touch (ACTION_MOVE): 0:(1271.2341,810.8262)
+:Sending Touch (ACTION_MOVE): 0:(1271.7394,802.03107)
+:Sending Touch (ACTION_MOVE): 0:(1277.084,801.6569)
+:Sending Touch (ACTION_MOVE): 0:(1278.0101,799.4879)
+:Sending Touch (ACTION_MOVE): 0:(1281.8599,791.34894)
+:Sending Touch (ACTION_MOVE): 0:(1286.9023,784.0185)
+:Sending Touch (ACTION_UP): 0:(1289.9056,770.44244)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1084.0,691.0)
+:Sending Touch (ACTION_UP): 0:(1092.0952,692.85266)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(767.0,255.0)
+:Sending Touch (ACTION_UP): 0:(766.5545,264.63553)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1781.0,1184.0)
+:Sending Touch (ACTION_MOVE): 0:(1770.9707,1183.8275)
+:Sending Touch (ACTION_MOVE): 0:(1759.8055,1183.6466)
+:Sending Touch (ACTION_MOVE): 0:(1752.2035,1183.5516)
+:Sending Touch (ACTION_MOVE): 0:(1744.6624,1183.2506)
+:Sending Touch (ACTION_MOVE): 0:(1734.1493,1182.8926)
+:Sending Touch (ACTION_MOVE): 0:(1731.4833,1182.8405)
+:Sending Touch (ACTION_UP): 0:(1728.2456,1182.6904)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 101    // KEYCODE_BUTTON_Z
+:Sending Key (ACTION_UP): 101    // KEYCODE_BUTTON_Z
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 103    // KEYCODE_BUTTON_R1
+:Sending Key (ACTION_UP): 103    // KEYCODE_BUTTON_R1
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(972.0,198.0)
+:Sending Touch (ACTION_UP): 0:(950.0786,196.31094)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(72.0,49.0)
+:Sending Touch (ACTION_UP): 0:(47.851624,49.623074)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1695.0,1166.0)
+:Sending Touch (ACTION_UP): 0:(1694.0293,1166.1239)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(394.0,136.0)
+:Sending Touch (ACTION_UP): 0:(382.75583,127.581314)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 177    // KEYCODE_TV_POWER
+:Sending Key (ACTION_UP): 177    // KEYCODE_TV_POWER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1857.0,437.0)
+:Sending Touch (ACTION_UP): 0:(1878.6805,440.3062)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(264.0,49.0)
+:Sending Touch (ACTION_UP): 0:(251.64412,48.33266)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+//[calendar_time:2024-06-06 17:41:07.182  system_uptime:7104750]
+// Sending event #800
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1351.0,450.0)
+:Sending Touch (ACTION_UP): 0:(1352.9292,454.68274)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(574.0,940.0)
+:Sending Touch (ACTION_UP): 0:(582.47534,945.36273)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1180.0,147.0)
+:Sending Touch (ACTION_MOVE): 0:(1170.0154,145.94005)
+:Sending Touch (ACTION_MOVE): 0:(1147.67,144.7224)
+:Sending Touch (ACTION_MOVE): 0:(1138.996,143.55164)
+:Sending Touch (ACTION_MOVE): 0:(1128.145,135.0926)
+:Sending Touch (ACTION_MOVE): 0:(1107.5256,119.66556)
+:Sending Touch (ACTION_MOVE): 0:(1102.1146,106.8854)
+:Sending Touch (ACTION_MOVE): 0:(1088.4315,106.15683)
+:Sending Touch (ACTION_MOVE): 0:(1082.9923,90.30249)
+:Sending Touch (ACTION_MOVE): 0:(1071.4465,86.3743)
+:Sending Touch (ACTION_UP): 0:(1066.9233,70.29675)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(660.0,1082.0)
+:Sending Touch (ACTION_UP): 0:(649.0094,1073.9294)
+Sleeping for 1000 milliseconds
+// Allowing start of Intent { cmp=com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity } in package com.yangcong345.android.phone
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(766.0,348.0)
+:Sending Touch (ACTION_UP): 0:(780.8021,334.8132)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 58    // KEYCODE_ALT_RIGHT
+:Sending Key (ACTION_UP): 58    // KEYCODE_ALT_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1706.0,901.0)
+:Sending Touch (ACTION_UP): 0:(1705.7474,897.4618)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(990.0,754.0)
+:Sending Touch (ACTION_UP): 0:(989.59534,751.2025)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(363.0,82.0)
+:Sending Touch (ACTION_MOVE): 0:(366.06677,72.35172)
+:Sending Touch (ACTION_MOVE): 0:(367.72757,61.06099)
+:Sending Touch (ACTION_MOVE): 0:(367.74414,60.133556)
+:Sending Touch (ACTION_UP): 0:(375.55676,47.229294)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(861.0,969.0)
+:Sending Touch (ACTION_UP): 0:(867.35156,971.8821)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 196    // KEYCODE_BUTTON_9
+:Sending Key (ACTION_UP): 196    // KEYCODE_BUTTON_9
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(710.0,272.0)
+:Sending Touch (ACTION_UP): 0:(713.2275,261.87756)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(356.0,867.0)
+:Sending Touch (ACTION_UP): 0:(354.7035,870.6138)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(720.0,830.0)
+:Sending Touch (ACTION_UP): 0:(716.0848,810.73926)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(859.0,746.0)
+:Sending Touch (ACTION_UP): 0:(856.5097,746.0961)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 252    // KEYCODE_TV_AUDIO_DESCRIPTION
+:Sending Key (ACTION_UP): 252    // KEYCODE_TV_AUDIO_DESCRIPTION
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 18    // KEYCODE_POUND
+:Sending Key (ACTION_UP): 18    // KEYCODE_POUND
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(73.0,164.0)
+:Sending Touch (ACTION_UP): 0:(70.99657,174.94147)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(415.0,56.0)
+:Sending Touch (ACTION_UP): 0:(427.28494,61.611794)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 266    // KEYCODE_STEM_2
+:Sending Key (ACTION_UP): 266    // KEYCODE_STEM_2
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1543.0,186.0)
+:Sending Touch (ACTION_UP): 0:(1564.9015,177.41557)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(782.0,1154.0)
+:Sending Touch (ACTION_UP): 0:(773.5027,1151.1104)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1664.0,433.0)
+:Sending Touch (ACTION_UP): 0:(1671.0652,431.7171)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1243.0,587.0)
+:Sending Touch (ACTION_UP): 0:(1242.0778,590.4276)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(956.0,63.0)
+:Sending Touch (ACTION_UP): 0:(947.8019,66.326416)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1200.0,210.0)
+:Sending Touch (ACTION_UP): 0:(1195.3796,209.90668)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1448.0,1070.0)
+:Sending Touch (ACTION_UP): 0:(1440.7339,1056.3909)
+//[calendar_time:2024-06-06 17:41:54.675  system_uptime:7152243]
+// Sending event #900
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:41:55.677  system_uptime:7153245]
+// Sending event #900
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(517.0,578.0)
+:Sending Touch (ACTION_UP): 0:(517.1414,582.58234)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1798.0,19.0)
+:Sending Touch (ACTION_UP): 0:(1796.5614,19.030912)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1237.0,799.0)
+:Sending Touch (ACTION_UP): 0:(1237.0359,802.5074)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1416.0,1061.0)
+:Sending Touch (ACTION_UP): 0:(1434.0354,1063.951)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(116.0,477.0)
+:Sending Touch (ACTION_UP): 0:(113.98395,470.49854)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(167.0,212.0)
+:Sending Touch (ACTION_UP): 0:(167.86514,201.49446)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1571.0,682.0)
+:Sending Touch (ACTION_UP): 0:(1558.1462,678.6107)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(515.0,1068.0)
+:Sending Touch (ACTION_UP): 0:(507.8962,1060.7684)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(783.0,155.0)
+:Sending Touch (ACTION_UP): 0:(780.81256,154.69759)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1683.0,131.0)
+:Sending Touch (ACTION_UP): 0:(1682.6497,126.06264)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 133    // KEYCODE_F3
+:Sending Key (ACTION_UP): 133    // KEYCODE_F3
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 11    // KEYCODE_4
+:Sending Key (ACTION_UP): 11    // KEYCODE_4
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(260.0,179.0)
+:Sending Touch (ACTION_MOVE): 0:(274.51053,178.61346)
+:Sending Touch (ACTION_UP): 0:(285.13968,177.01857)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(656.0,758.0)
+:Sending Touch (ACTION_UP): 0:(653.7092,759.46967)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1097.0,442.0)
+:Sending Touch (ACTION_UP): 0:(1096.5978,446.2394)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(355.0,733.0)
+:Sending Touch (ACTION_UP): 0:(356.4283,738.1526)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 51    // KEYCODE_W
+:Sending Key (ACTION_UP): 51    // KEYCODE_W
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1359.0,987.0)
+:Sending Touch (ACTION_UP): 0:(1358.3691,983.74756)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1719.0,673.0)
+:Sending Touch (ACTION_UP): 0:(1716.6918,683.64923)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(79.0,312.0)
+:Sending Touch (ACTION_UP): 0:(68.12389,305.27966)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 4    // KEYCODE_BACK
+:Sending Key (ACTION_UP): 4    // KEYCODE_BACK
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1246.0,282.0)
+:Sending Touch (ACTION_MOVE): 0:(1245.319,299.89508)
+:Sending Touch (ACTION_MOVE): 0:(1244.369,318.39505)
+:Sending Touch (ACTION_MOVE): 0:(1244.1827,329.88333)
+:Sending Touch (ACTION_MOVE): 0:(1243.0435,339.65314)
+:Sending Touch (ACTION_MOVE): 0:(1242.9097,340.11908)
+:Sending Touch (ACTION_MOVE): 0:(1242.0033,352.32278)
+:Sending Touch (ACTION_MOVE): 0:(1240.8971,365.28064)
+:Sending Touch (ACTION_UP): 0:(1240.342,373.07925)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1206.0,378.0)
+:Sending Touch (ACTION_UP): 0:(1216.7797,372.02798)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(472.0,667.0)
+:Sending Touch (ACTION_UP): 0:(472.3833,672.2698)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1825.0,1060.0)
+:Sending Touch (ACTION_UP): 0:(1820.7289,1037.9108)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(389.0,1095.0)
+:Sending Touch (ACTION_MOVE): 0:(389.2744,1084.4993)
+:Sending Touch (ACTION_MOVE): 0:(390.6587,1082.0701)
+:Sending Touch (ACTION_MOVE): 0:(393.77084,1074.5015)
+:Sending Touch (ACTION_MOVE): 0:(396.31616,1068.4143)
+:Sending Touch (ACTION_MOVE): 0:(398.4052,1062.8983)
+:Sending Touch (ACTION_MOVE): 0:(401.54245,1051.7773)
+:Sending Touch (ACTION_UP): 0:(402.85797,1051.5347)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 24    // KEYCODE_VOLUME_UP
+:Sending Key (ACTION_UP): 24    // KEYCODE_VOLUME_UP
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(611.0,944.0)
+:Sending Touch (ACTION_UP): 0:(608.8882,924.9269)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 176    // KEYCODE_SETTINGS
+//[calendar_time:2024-06-06 17:42:42.412  system_uptime:7199980]
+// Sending event #1000
+:Sending Key (ACTION_UP): 176    // KEYCODE_SETTINGS
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(243.0,409.0)
+:Sending Touch (ACTION_UP): 0:(244.28413,411.0568)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(651.0,534.0)
+:Sending Touch (ACTION_UP): 0:(640.683,532.9721)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(319.0,253.0)
+:Sending Touch (ACTION_UP): 0:(316.7918,237.04755)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(778.0,387.0)
+:Sending Touch (ACTION_UP): 0:(775.2778,386.63828)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1017.0,1150.0)
+:Sending Touch (ACTION_MOVE): 0:(1006.6337,1145.5697)
+:Sending Touch (ACTION_MOVE): 0:(986.07715,1130.8984)
+:Sending Touch (ACTION_MOVE): 0:(983.11316,1121.873)
+:Sending Touch (ACTION_MOVE): 0:(979.8523,1116.2122)
+:Sending Touch (ACTION_MOVE): 0:(977.9606,1112.2853)
+:Sending Touch (ACTION_UP): 0:(957.25244,1109.6666)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(830.0,1131.0)
+:Sending Touch (ACTION_UP): 0:(824.06506,1129.2328)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1239.0,609.0)
+:Sending Touch (ACTION_UP): 0:(1237.4403,624.883)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 188    // KEYCODE_BUTTON_1
+:Sending Key (ACTION_UP): 188    // KEYCODE_BUTTON_1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1672.0,258.0)
+:Sending Touch (ACTION_UP): 0:(1671.1958,259.27585)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 109    // KEYCODE_BUTTON_SELECT
+:Sending Key (ACTION_UP): 109    // KEYCODE_BUTTON_SELECT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1046.0,273.0)
+:Sending Touch (ACTION_UP): 0:(1056.1011,288.79883)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(490.0,427.0)
+:Sending Touch (ACTION_UP): 0:(476.99792,430.6139)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(506.0,390.0)
+:Sending Touch (ACTION_UP): 0:(482.35016,390.0248)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(668.0,821.0)
+:Sending Touch (ACTION_UP): 0:(667.0956,814.5655)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(413.0,361.0)
+:Sending Touch (ACTION_UP): 0:(399.31436,358.49045)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(42.0,72.0)
+:Sending Touch (ACTION_UP): 0:(35.076294,75.676155)
+Sleeping for 1000 milliseconds
+// activityResuming(com.yangcong345.android.phone)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(264.0,1127.0)
+:Sending Touch (ACTION_UP): 0:(249.93127,1130.9508)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1619.0,1173.0)
+:Sending Touch (ACTION_UP): 0:(1623.6051,1166.9998)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 231    // KEYCODE_VOICE_ASSIST
+:Sending Key (ACTION_UP): 231    // KEYCODE_VOICE_ASSIST
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(892.0,373.0)
+:Sending Touch (ACTION_UP): 0:(876.7191,375.06262)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 247    // KEYCODE_TV_INPUT_COMPOSITE_1
+:Sending Key (ACTION_UP): 247    // KEYCODE_TV_INPUT_COMPOSITE_1
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(295.0,201.0)
+:Sending Touch (ACTION_UP): 0:(294.82748,184.8424)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(876.0,341.0)
+:Sending Touch (ACTION_MOVE): 0:(881.70074,340.5243)
+:Sending Touch (ACTION_MOVE): 0:(891.9382,340.10406)
+:Sending Touch (ACTION_MOVE): 0:(902.86505,339.59412)
+:Sending Touch (ACTION_MOVE): 0:(913.31287,338.82147)
+:Sending Touch (ACTION_MOVE): 0:(920.6932,338.56125)
+:Sending Touch (ACTION_UP): 0:(923.2991,337.76935)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(393.0,599.0)
+:Sending Touch (ACTION_UP): 0:(397.82867,598.943)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(277.0,24.0)
+:Sending Touch (ACTION_MOVE): 0:(274.96887,23.660107)
+:Sending Touch (ACTION_MOVE): 0:(273.53345,23.41292)
+:Sending Touch (ACTION_MOVE): 0:(268.87262,21.703856)
+:Sending Touch (ACTION_MOVE): 0:(261.54327,19.839106)
+:Sending Touch (ACTION_MOVE): 0:(261.10855,18.49469)
+:Sending Touch (ACTION_MOVE): 0:(256.3889,18.062498)
+:Sending Touch (ACTION_UP): 0:(250.65965,17.443647)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 106    // KEYCODE_BUTTON_THUMBL
+:Sending Key (ACTION_UP): 106    // KEYCODE_BUTTON_THUMBL
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(700.0,561.0)
+:Sending Touch (ACTION_UP): 0:(700.64703,553.71075)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1361.0,378.0)
+:Sending Touch (ACTION_UP): 0:(1356.6642,373.79004)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1834.0,789.0)
+:Sending Touch (ACTION_UP): 0:(1833.522,789.71606)
+//[calendar_time:2024-06-06 17:43:29.974  system_uptime:7247541]
+// Sending event #1100
+Sleeping for 1000 milliseconds
+//[calendar_time:2024-06-06 17:43:30.975  system_uptime:7248543]
+// Sending event #1100
+:Sending Key (ACTION_DOWN): 239    // KEYCODE_TV_SATELLITE_CS
+:Sending Key (ACTION_UP): 239    // KEYCODE_TV_SATELLITE_CS
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,911.0)
+:Sending Touch (ACTION_UP): 0:(680.49805,899.13916)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 67    // KEYCODE_DEL
+:Sending Key (ACTION_UP): 67    // KEYCODE_DEL
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 180    // KEYCODE_STB_INPUT
+:Sending Key (ACTION_UP): 180    // KEYCODE_STB_INPUT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1098.0,1006.0)
+:Sending Touch (ACTION_UP): 0:(1100.9116,1005.95514)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 203    // KEYCODE_BUTTON_16
+:Sending Key (ACTION_UP): 203    // KEYCODE_BUTTON_16
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(809.0,147.0)
+:Sending Touch (ACTION_UP): 0:(803.4617,158.43738)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1037.0,235.0)
+:Sending Touch (ACTION_UP): 0:(1029.9984,228.52118)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1753.0,725.0)
+:Sending Touch (ACTION_UP): 0:(1754.4159,729.57446)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(890.0,647.0)
+:Sending Touch (ACTION_UP): 0:(893.4498,633.46375)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(709.0,165.0)
+:Sending Touch (ACTION_UP): 0:(698.5484,152.55658)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 280    // KEYCODE_SYSTEM_NAVIGATION_UP
+:Sending Key (ACTION_UP): 280    // KEYCODE_SYSTEM_NAVIGATION_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(106.0,650.0)
+:Sending Touch (ACTION_MOVE): 0:(93.01781,653.86804)
+:Sending Touch (ACTION_MOVE): 0:(81.95672,657.48645)
+:Sending Touch (ACTION_MOVE): 0:(78.50107,659.038)
+:Sending Touch (ACTION_MOVE): 0:(76.240776,662.8571)
+:Sending Touch (ACTION_MOVE): 0:(72.05412,668.38043)
+:Sending Touch (ACTION_MOVE): 0:(71.413246,672.3562)
+:Sending Touch (ACTION_UP): 0:(60.66812,677.12964)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1122.0,344.0)
+:Sending Touch (ACTION_UP): 0:(1129.6987,358.68878)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(855.0,43.0)
+:Sending Touch (ACTION_UP): 0:(856.22687,45.20234)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(293.0,106.0)
+:Sending Touch (ACTION_UP): 0:(284.05093,105.8237)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 82    // KEYCODE_MENU
+:Sending Key (ACTION_UP): 82    // KEYCODE_MENU
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(740.0,946.0)
+:Sending Touch (ACTION_UP): 0:(751.255,944.88226)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1349.0,242.0)
+:Sending Touch (ACTION_UP): 0:(1364.1575,245.47339)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(375.0,60.0)
+:Sending Touch (ACTION_UP): 0:(369.69592,62.427948)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 127    // KEYCODE_MEDIA_PAUSE
+:Sending Key (ACTION_UP): 127    // KEYCODE_MEDIA_PAUSE
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(125.0,974.0)
+:Sending Touch (ACTION_UP): 0:(116.46859,975.9895)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1029.0,1040.0)
+:Sending Touch (ACTION_UP): 0:(1036.0483,1037.6367)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 22    // KEYCODE_DPAD_RIGHT
+:Sending Key (ACTION_UP): 22    // KEYCODE_DPAD_RIGHT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(345.0,619.0)
+:Sending Touch (ACTION_UP): 0:(349.81323,618.51776)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1711.0,906.0)
+:Sending Touch (ACTION_UP): 0:(1707.0524,903.097)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1830.0,1094.0)
+:Sending Touch (ACTION_UP): 0:(1816.826,1113.1304)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 19    // KEYCODE_DPAD_UP
+:Sending Key (ACTION_UP): 19    // KEYCODE_DPAD_UP
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(719.0,470.0)
+:Sending Touch (ACTION_UP): 0:(719.44763,487.5454)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 23    // KEYCODE_DPAD_CENTER
+:Sending Key (ACTION_UP): 23    // KEYCODE_DPAD_CENTER
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 21    // KEYCODE_DPAD_LEFT
+:Sending Key (ACTION_UP): 21    // KEYCODE_DPAD_LEFT
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 20    // KEYCODE_DPAD_DOWN
+:Sending Key (ACTION_UP): 20    // KEYCODE_DPAD_DOWN
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(508.0,85.0)
+:Sending Touch (ACTION_UP): 0:(510.9643,79.962456)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(189.0,706.0)
+//[calendar_time:2024-06-06 17:44:21.467  system_uptime:7299034]
+// Sending event #1200
+:Sending Touch (ACTION_UP): 0:(196.7012,705.7789)
+Sleeping for 1000 milliseconds
+:Sending Key (ACTION_DOWN): 152    // KEYCODE_NUMPAD_8
+:Sending Key (ACTION_UP): 152    // KEYCODE_NUMPAD_8
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(170.0,451.0)
+:Sending Touch (ACTION_UP): 0:(176.62437,453.34912)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(1753.0,584.0)
+:Sending Touch (ACTION_UP): 0:(1762.1096,583.46136)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(321.0,11.0)
+:Sending Touch (ACTION_MOVE): 0:(328.12735,15.80714)
+:Sending Touch (ACTION_MOVE): 0:(328.86258,22.02039)
+:Sending Touch (ACTION_MOVE): 0:(348.04163,23.619343)
+:Sending Touch (ACTION_MOVE): 0:(365.14093,25.869888)
+:Sending Touch (ACTION_MOVE): 0:(378.50894,35.717033)
+:Sending Touch (ACTION_MOVE): 0:(383.7039,36.920143)
+:Sending Touch (ACTION_MOVE): 0:(391.26193,43.666317)
+:Sending Touch (ACTION_MOVE): 0:(394.8064,44.77702)
+:Sending Touch (ACTION_MOVE): 0:(415.06915,49.885483)
+:Sending Touch (ACTION_UP): 0:(427.17816,57.4878)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(469.0,846.0)
+:Sending Touch (ACTION_UP): 0:(453.71603,844.79114)

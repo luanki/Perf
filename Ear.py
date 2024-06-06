@@ -175,14 +175,21 @@ def generate_html(csv_file, meminfo_file, fps_file, output_directory):
 #             for csv_file, meminfo_file, fps_file in zip(csv_files, meminfo_files, fps_files):
 #                 output_directory = os.path.dirname(csv_file)
 #                 generate_html(csv_file, meminfo_file, fps_file, output_directory)
+
 def visualize_csv_files():
-    directory = "/Users/yangcong/PycharmProjects/Perf/R/"
-    folders = [f.path for f in os.scandir(directory) if f.is_dir()]
+    # 动态获取基路径（假设脚本位于项目的根目录）
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    # # 获取上三级目录路径
+    # target_dir = get_parent_directory(base_path, levels=2)
+    source_mobileperf_folder = os.path.join(base_path, "R")  # 源MobilePerf文件夹路径
+    #print(source_mobileperf_folder)
+    #directory = "/Users/yangcong/PycharmProjects/Perf/R/"
+    folders = [f.path for f in os.scandir(source_mobileperf_folder) if f.is_dir()]
     #print(folders)
     for folder in folders:
-        pattern = f"{folder}/results/com.yangcong345.android.phone/*/cpuinfo.csv"
-        meminfo_pattern = f"{folder}/results/com.yangcong345.android.phone/*/meminfo.csv"
-        fps_pattern = f"{folder}/results/com.yangcong345.android.phone/fps_data.csv"
+        pattern = f"{folder}/results/*/*/cpuinfo.csv"
+        meminfo_pattern = f"{folder}/results/*/*/meminfo.csv"
+        fps_pattern = f"{folder}/results/*/fps_data.csv"
 
         #print(pattern)
         csv_files = glob.glob(pattern)
@@ -203,7 +210,10 @@ def job():
     visualize_csv_files()
     if not running:  # 如果标志为 False，则停止调度器
         scheduler.shutdown()
-
+def get_parent_directory(path, levels=1):
+    for _ in range(levels):
+        path = os.path.dirname(path)
+    return path
 if __name__ == "__main__":
     scheduler = BackgroundScheduler()
     scheduler.add_job(job, 'interval', seconds=2)
