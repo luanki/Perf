@@ -6,6 +6,7 @@ from uiautomator import Device
 import time
 import psutil
 import re
+import platform
 
 def sanitize_device_id(device_id):
     # 将无效字符替换为下划线
@@ -13,7 +14,11 @@ def sanitize_device_id(device_id):
     return sanitized_id
 
 def run_command_in_directory(command, directory):
-    subprocess.run(f"cd {directory} && {command}", shell=True)
+    subprocess.run(command, cwd=directory, shell=True)
+
+# 检测操作系统类型
+is_windows = os.name == 'nt'
+is_mac = platform.system() == 'Darwin'
 
 # 创建一个线程列表用于存储每个sh文件的执行线程
 threads = []
@@ -67,18 +72,17 @@ for device_line in device_lines:
         # time.sleep(2)  # 增加一些延迟以等待界面加载完成
         # # 将mtklog退到后台
         # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
-
         # 执行run.sh文件（假设run.sh位于MobilePerf目录中）
         sh_directory = os.path.join(base_path, "R", f"_{target_device_id}")
-        #print(sh_directory)
-        sh_file = f"run.sh"
+        sh_file = "run.sh" if not is_windows else "run.bat"  # Windows 使用run.bat文件
+        command = f"sh {sh_file}" if not is_windows else sh_file  # Windows 直接运行批处理文件
         # 创建并启动一个新的线程来执行命令
         thread = threading.Thread(target=run_command_in_directory, args=(f"sh {sh_file}", sh_directory))
         threads.append(thread)
         thread.start()
 
         # 执行fps_run.py文件，并将设备ID作为参数传递
-        py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run.py")
+        py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run_android13.py")
         # 创建并启动一个新的线程来执行命令
         thread_py = threading.Thread(target=run_command_in_directory, args=(f"python {py_file} {device_id}", sh_directory))
         threads.append(thread_py)
