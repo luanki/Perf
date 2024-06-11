@@ -81,7 +81,7 @@ for device_line in device_lines:
             sh_file = "run.sh"
             command = f"sh {sh_file}"
         # 创建并启动一个新的线程来执行命令
-        thread = threading.Thread(target=run_command_in_directory, args=(f"sh {sh_file}", sh_directory))
+        thread = threading.Thread(target=run_command_in_directory, args=(command, sh_directory))
         threads.append(thread)
         thread.start()
 
