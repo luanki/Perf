@@ -7,7 +7,7 @@ import re
 import sys
 from infofps import FpsInfo
 from inputfps import FpsListenserImpl
-
+import platform
 
 class FPSMonitor(object):
     def __init__(self, sn):
@@ -117,7 +117,15 @@ class FpsCollector(object):
 
     def get_focus_window(self):
         '''通过adb shell dumpsys activity | findstr "mResume"获取焦点窗口信息'''
-        cmd = f"adb -s {self.device} shell dumpsys activity activities | grep \"ResumedActivity\""
+        # 检测操作系统类型
+        is_windows = os.name == 'nt'
+        is_mac = platform.system() == 'Darwin'
+        if is_windows:
+            cmd = f"adb -s {self.device} shell dumpsys activity activities | findstr \"ResumedActivity\""
+        else:
+            cmd = f"adb -s {self.device} shell dumpsys activity activities | grep \"ResumedActivity\""
+
+        # cmd = f"adb -s {self.device} shell dumpsys activity activities | grep \"ResumedActivity\""
         window_info = os.popen(cmd).read()
 
         if not window_info:

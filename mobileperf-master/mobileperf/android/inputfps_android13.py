@@ -3,16 +3,25 @@ from datetime import datetime
 import csv
 import os
 import glob
+
+
+def get_config_value(file_path, key):
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.strip().startswith(key):
+                return line.split('=')[1].strip()
+    return None
 class FpsListenserImpl(IFpsListener):
     def __init__(self):
-        pass
+        self.package = get_config_value("config.conf", "package")
 
+    @staticmethod
     def get_parent_directory(path, levels=1):
         for _ in range(levels):
             path = os.path.dirname(path)
         return path
 
-    def report_fps_info_android13(self, fps_info, devices):
+    def report_fps_info(self, fps_info, devices):
         print('\n')
         print("当前设备是：" + devices)
         print("当前进程是：" + str(fps_info.pkg_name))
@@ -32,7 +41,7 @@ class FpsListenserImpl(IFpsListener):
         source_mobileperf_folder = os.path.join(target_dir)  # 源MobilePerf文件夹路径
 
         target_device_id = devices.replace(':', '_').replace('.', '_')
-        file_path = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", f"{str(fps_info.pkg_name)}", "fps_data.csv")
+        file_path = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", self.package, "fps_data.csv")
 
 
         #file_path = f"/Users/yangcong/PycharmProjects/Perf/R/_{target_device_id}/results/com.yangcong345.android.phone/fps_data.csv"

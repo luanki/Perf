@@ -8,7 +8,7 @@ from infofps import FpsInfo
 from inputfps import FpsListenserImpl
 
 import sys
-
+import platform
 class FPSMonitor(object):
     def __init__(self, sn):
         self.frequency = 2  # 取样频率
@@ -119,7 +119,13 @@ class FpsCollector(object):
         '''通过adb shell dumpsys activity | findstr "mResume"
 
         '''
-        cmd = "adb -s " + self.device + " shell dumpsys activity | grep mResume"
+        is_windows = os.name == 'nt'
+        is_mac = platform.system() == 'Darwin'
+        if is_windows:
+            cmd = f"adb -s {self.device} shell dumpsys activity | findstr mResume"
+        else:
+            cmd = f"adb -s {self.device} shell dumpsys activity | grep mResume"
+
         # print(cmd)
         windowInfo = os.popen(cmd)
         windowInfo = str(windowInfo.readline())
