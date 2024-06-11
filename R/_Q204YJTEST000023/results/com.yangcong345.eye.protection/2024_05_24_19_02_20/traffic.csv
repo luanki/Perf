@@ -1,6 +1,0 @@
-datetime,device_total(KB),device_receive(KB),device_transport(KB),package,pid,pid_rx(KB),pid_tx(KB),pid_total(KB)
-2024-05-24 19-02-20,0.0,0.0,0.0,com.yangcong345.eye.protection,3984,0.0,0.0,0.0
-2024-05-24 19-02-26,15.04,11.26,3.78,com.yangcong345.eye.protection,3984,11.26,3.78,15.04
-2024-05-24 19-02-30,65.9,47.64,18.26,com.yangcong345.eye.protection,3984,65.31,22.35,87.67
-2024-05-24 19-02-35,161.19,120.59,40.59,com.yangcong345.eye.protection,3984,120.59,40.59,161.19
-2024-05-24 19-02-40,162.58,121.94,40.65,com.yangcong345.eye.protection,3984,121.94,40.65,162.58
