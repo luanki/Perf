@@ -16,37 +16,18 @@ Python 3+
 连接方式 2
 - tcpip连接
 与系统环境保持同一个网络，使用tcpip方式连接
-  ```
-  adb -s snid shell ifconfig
+```
+adb -s snid shell ifconfig
   
-  adb -s snid tcpip 5555
+adb -s snid tcpip 5555
   
-  adb connect snid-ip:5555
-  
-  ```
+adb connect snid-ip:5555
+```
 
 3. 运行前，可检测配置文件是否正确：
 config.conf配置文件
-
 ``` shell
-使用Git clone下来，这个项目
-==https://github.com/Whisper24X/Perf==
-使用Windows电脑，代码编辑器打开项目
-连接devices【支持多台】
-连接方式 1
-直连方式
-使用USB连接电脑即可
-连接方式 2
-tcpip连接
-与系统环境保持同一个网络，使用tcpip方式连接
-adb -s snid shell ifconfig
 
-adb -s snid tcpip 5555
-
-adb connect snid-ip:5555
-
-
-运行前，可检测配置文件是否正确：
 config.conf配置文件
 [Common]
 #填写包名，必填
@@ -77,18 +58,34 @@ Perf/R/设备id/results
 ```
 
 5. 可采集的数据范围，验证过的有
-   ``` python
-   logs：开发看是否存在crash/anr
-   logcat-log：开发看是否存在crash/anr
-   cpuinfo.csv
-    device_cpu_rate%
-    user%
-    pid_cpu%
-   meminfo.csv
-    free_ram(MB)
-    pid_pss(MB)
-   ```
-   
+``` python
+logs：开发看是否存在crash/anr
+logcat-log：开发看是否存在crash/anr
+cpuinfo.csv
+device_cpu_rate%
+user%
+pid_cpu%
+meminfo.csv
+free_ram(MB)
+pid_pss(MB)
+fps
+jank
+```
+
+6. Android系统兼容性
+``` python
+Android 5-11执行方式：
+使用 adbconnect.py 执行文件进行执行
+
+Android 13 执行方式：
+使用 adbconnect_Android13.py 执行文件进行执行
+
+```
+7. 支持部署的系统
+``` python
+支持Windows
+支持Mac
+```
 
 可采集的数据范围，验证过的有logs：开发看是否存在crash/anr
 logcat-log：开发看是否存在crash/anr
@@ -99,4 +96,8 @@ cpuinfo.csv
 meminfo.csv
  free_ram(MB)
  pid_pss(MB)
+
+
+
+
 
