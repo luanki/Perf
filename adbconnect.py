@@ -7,6 +7,24 @@ import time
 import psutil
 import re
 import platform
+import logging
+
+
+import sys
+# 获取当前文件所在目录的绝对路径
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 获取 mobileperf-master 目录的路径
+mobileperf_dir = os.path.join(base_dir, 'mobileperf-master')
+
+# 添加 mobileperf-master 目录到 sys.path
+sys.path.append(mobileperf_dir)
+
+# 导入 DB_utils.py 中的某个函数
+from mobileperf.android.DB_utils import DatabaseOperations
+
+
+
 
 def sanitize_device_id(device_id):
     # 将无效字符替换为下划线
@@ -35,6 +53,9 @@ device_count = len(device_lines)
 base_path = os.path.dirname(os.path.abspath(__file__))
 
 source_mobileperf_folder = os.path.join(base_path, "mobileperf-master")  # 源MobilePerf文件夹路径
+
+
+
 #print(source_mobileperf_folder)
 
 # 遍历每个设备并执行相应操作
@@ -73,6 +94,7 @@ for device_line in device_lines:
         # # 将mtklog退到后台
         # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
         # 执行run.sh文件（假设run.sh位于MobilePerf目录中）
+
         sh_directory = os.path.join(base_path, "R", f"_{target_device_id}")
         if is_windows:
             sh_file = "run.bat"
@@ -84,6 +106,27 @@ for device_line in device_lines:
         thread = threading.Thread(target=run_command_in_directory, args=(command, sh_directory))
         threads.append(thread)
         thread.start()
+
+
+        if device_id.startswith("S30"):
+            # 处理S30设备
+            device_name = "S30"
+        elif device_id.startswith("Q20"):
+            # 处理Q20设备
+            device_name = "Q20"
+        else:
+            # 其他设备处理
+            device_name = "未知"
+
+        #向数据库插入devices基本信息
+        # 将CPU数据插入数据库
+        # 实例化数据库连接
+        db_operations = DatabaseOperations()
+        try:
+            db_operations.devices_info_insert(device_id, device_name)
+        except Exception as db_e:
+            print(db_e)
+            print("devices_info插入数据库失败！！")
 
         # 执行fps_run.py文件，并将设备ID作为参数传递
         py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run.py")

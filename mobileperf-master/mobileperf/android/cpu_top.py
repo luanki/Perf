@@ -18,6 +18,7 @@ import traceback
 
 from datetime import datetime
 
+from DB_utils import DatabaseOperations
 BaseDir=os.path.dirname(__file__)
 sys.path.append(os.path.join(BaseDir,'../..'))
 
@@ -338,6 +339,10 @@ class CpuCollector(object):
                 csv.writer(df, lineterminator='\n').writerow(cpu_title)
         except RuntimeError as e:
             logger.error(e)
+
+        # 数据库连接实例化
+        db_operations = DatabaseOperations()
+
         while not self._stop_event.is_set() and time.time() < end_time:
             try:
                 logger.debug("---------------cpuinfos, into _collect_package_cpu_thread loop thread is : " + str(threading.current_thread().name))
@@ -359,11 +364,29 @@ class CpuCollector(object):
                 #校准时间，由于top执行需要耗时，需要将这个损耗加上去
                 logger.debug("INFO: CpuMonitor save cpu_device_list: " + str(self.cpu_list))
                 try:
-                    with open(cpu_file, 'a+',encoding="utf-8") as df:
+                    with open(cpu_file, 'a+', encoding="utf-8") as df:
                         csv.writer(df, lineterminator='\n').writerow(self.cpu_list)
                         del self.cpu_list[:]
                 except RuntimeError as e:
                     logger.error(e)
+
+                # 将CPU数据插入数据库
+                try:
+                    for package_info in cpu_info.package_list:
+                        cpu_data = (
+                            self.device.device_id,
+                            TimeUtils.getCurrentTime(),
+                            cpu_info.device_cpu_rate,
+                            cpu_info.user_rate,
+                            cpu_info.system_rate,
+                            cpu_info.idle_rate,
+                            package_info["package"],
+                            package_info["pid"],
+                            package_info["pid_cpu"]
+                        )
+                        db_operations.CPU_info_insert(cpu_data)
+                except Exception as db_e:
+                    logger.error(f"Failed to insert CPU data into database: {db_e}")
 
                 # self.get_max_freq()
                 delta_inter = self._interval - time_consume

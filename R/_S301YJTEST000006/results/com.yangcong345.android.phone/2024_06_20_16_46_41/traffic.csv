@@ -1,0 +1,2 @@
+datetime,device_total(KB),device_receive(KB),device_transport(KB),package,pid,pid_rx(KB),pid_tx(KB),pid_total(KB)
+2024-06-20 16-46-41,0.0,0.0,0.0,com.yangcong345.android.phone,17579,0.0,0.0,0.0

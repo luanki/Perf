@@ -1,0 +1,101 @@
+bash arg: -p
+bash arg: com.yangcong345.android.phone
+bash arg: -v
+bash arg: -v
+bash arg: -v
+bash arg: -s
+bash arg: 1000
+bash arg: --ignore-crashes
+bash arg: --ignore-timeouts
+bash arg: --ignore-security-exceptions
+bash arg: --kill-process-after-error
+bash arg: --pct-appswitch
+bash arg: 20
+bash arg: --pct-touch
+bash arg: 40
+bash arg: --pct-motion
+bash arg: 10
+bash arg: --pct-trackball
+bash arg: 0
+bash arg: --pct-anyevent
+bash arg: 10
+bash arg: --pct-flip
+bash arg: 0
+bash arg: --pct-pinchzoom
+bash arg: 0
+bash arg: --throttle
+bash arg: 1000
+bash arg: 1200000000
+:Monkey: seed=1000 count=1200000000
+:AllowPackage: com.yangcong345.android.phone
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Selecting main activities from category android.intent.category.LAUNCHER
+//   - NOT USING main activity com.android.calendar.AllInOneActivity (from package com.android.calendar)
+//   - NOT USING main activity com.android.deskclock.DeskClock (from package com.android.deskclock)
+//   - NOT USING main activity com.android.gallery3d.app.GalleryActivity (from package com.android.gallery3d)
+//   - NOT USING main activity com.android.settings.Settings (from package com.android.settings)
+//   - NOT USING main activity com.cookiegames.smartcookie.MainActivity (from package com.cookiegames.smartcookie)
+//   - NOT USING main activity com.mediatek.camera.CameraLauncher (from package com.mediatek.camera)
+//   - NOT USING main activity com.yangcong345.cloud.control.PadLauncherActivity (from package com.yangcong345.cloud.launcher)
+//   - NOT USING main activity com.yangcong345.cloud.toolbox.home.MainHomeActivity (from package com.yangcong345.cloud.toolbox)
+//   - NOT USING main activity com.yangcong345.support.common.LauncherSchemeActivity (from package com.yangcong345.cloud.ui.launcher)
+//   - NOT USING main activity com.yangcong345.pad.systemsetting.SystemSettingActivity (from package com.yangcong345.pad.systemsetting)
+//   - NOT USING main activity com.google.android.apps.chrome.Main (from package org.chromium.browser)
+//   - NOT USING main activity com.plaso.student.lib.login.Login (from package ai.infi.cn)
+//   - NOT USING main activity com.yangcong345.eye.protection.LauncherActivity (from package com.yangcong345.eye.protection)
+//   - NOT USING main activity com.yiqi.student.activity.StudentOneKeyLoginActivity (from package com.yiqi.onetoone)
+//   - NOT USING main activity com.adups.fota.GoogleOtaClient (from package com.adups.fota)
+//   - NOT USING main activity com.android.calculator2.Calculator (from package com.android.calculator2)
+//   - NOT USING main activity com.android.documentsui.LauncherActivity (from package com.android.documentsui)
+//   - NOT USING main activity com.sprd.soundrecorder.RecorderActivity (from package com.android.soundrecorder)
+//   - NOT USING main activity cn.knowbox.androidaiclass.PrivacyPolicyActivity (from package cn.knowbox.androidaiclass)
+//   - NOT USING main activity com.xes.cloudlearning.login.activity.SplashActivity (from package com.dadaabc.zhuozan.dadateacherhd)
+//   - NOT USING main activity com.example.hra.activity.HomeActivity (from package com.example.hra)
+//   - NOT USING main activity com.feitian.siyue.views.view.main.WelActivity (from package com.feitian.siyue)
+//   - NOT USING main activity com.gumi.spokenenglish.activity.LogoActivity (from package com.gumi.spokenenglish)
+//   - NOT USING main activity com.hra.uniontest.MainActivity (from package com.hra.uniontest)
+//   - NOT USING main activity com.konstant.video.debug.MainActivity (from package com.konstant.video.debug)
+//   - NOT USING main activity com.ucpro.MainActivity (from package com.quark.browser)
+//   - NOT USING main activity com.theone.aipeilian.ui.MainActivity (from package com.theone.aipeilian)
+//   - NOT USING main activity com.fenghuajueli.module_host.LauncherActivity (from package com.xikunlun.zhongkaosuji)
+//   - NOT USING main activity com.xueersi.parentsmeeting.module.home.LaunchActivity (from package com.xueersi.parentsmeeting)
+//   + Using main activity com.yangcong345.main.phone.splash.SplashActivity (from package com.yangcong345.android.phone)
+//   - NOT USING main activity com.yangcong345.pad.market.page.HomeActivity (from package com.yangcong345.pad.market)
+//   - NOT USING main activity com.yuanfudao.tutor.activity.ProjectMainActivity (from package com.yuantiku.tutor)
+//   - NOT USING main activity com.zhl.xxxx.aphone.english.activity.home.GuideActivity (from package com.zhl.asyy.aphone)
+//   - NOT USING main activity net.whty.app.eyu.ui.LaunchActivity (from package net.whty.app.eyu)
+//   - NOT USING main activity vizpower.weblogin.LoginActivity (from package vizpower.imeeting)
+// Selecting main activities from category android.intent.category.MONKEY
+//   - NOT USING main activity com.android.settings.Settings$RunningServicesActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.settings.Settings$StorageUseActivity (from package com.android.settings)
+//   - NOT USING main activity com.android.launcher3.uioverrides.QuickstepLauncher (from package com.android.launcher3)
+// Seeded: 1000
+// Event percentages:
+//   0: 40.0%
+//   1: 10.0%
+//   2: -0.0%
+//   3: -0.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 11.904762%
+//   7: 7.142857%
+//   8: 0.95238096%
+//   9: 20.0%
+//   10: -0.0%
+//   11: 10.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone
+Sleeping for 1000 milliseconds
+// Rejecting start of Intent { act=android.intent.action.VIEW dat=ycmath://padlauncher.com/homePage?position=-1 cmp=com.yangcong345.cloud.ui.launcher/com.yangcong345.support.common.LauncherSchemeActivity } in package com.yangcong345.cloud.ui.launcher
+:Sending Touch (ACTION_DOWN): 0:(1116.0,724.0)
+:Sending Touch (ACTION_UP): 0:(1116.8796,703.9431)
+Sleeping for 1000 milliseconds
+:Sending Touch (ACTION_DOWN): 0:(690.0,1179.0)
+:Sending Touch (ACTION_MOVE): 0:(677.43774,1181.5883)
+:Sending Touch (ACTION_MOVE): 0:(662.41766,1181.6316)
+:Sending Touch (ACTION_MOVE): 0:(640.1749,1183.4142)
+:Sending Touch (ACTION_UP): 0:(625.79346,1187.2007)
+Sleeping for 1000 milliseconds
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity;end
+// Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity } in package com.yangcong345.android.phone

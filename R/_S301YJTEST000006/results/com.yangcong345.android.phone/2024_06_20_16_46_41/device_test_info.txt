@@ -1,0 +1,656 @@
+device serialnum:S301YJTEST000006
+device model:XP11G-G XP11G-G
+test package:com.yangcong345.android.phone
+system version:10
+test package ver:Activity Resolver Table:
+  Schemes:
+      ycunionpay:
+        620cbca com.yangcong345.android.phone/com.yangcong345.pay.coupon.AlipayMiniProCallbackActivity filter a3f093
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ycunionpay"
+      ycmath:
+        24a813b com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity filter 89791b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ycmath"
+          Authority: "yangcong345.com": -1
+        bbb3058 com.yangcong345.android.phone/com.yangcong345.pad.launcher.SupportSchemeActivity filter f378182
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "ycmath"
+          Authority: "padsupport.com": -1
+      tencent1103578315:
+        37e95b1 com.yangcong345.android.phone/com.tencent.tauth.AuthActivity filter dcc68d0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent1103578315"
+      vendors:
+        667da96 com.yangcong345.android.phone/com.baidu.techain.push.HWPushActivity filter 350fab8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "vendors"
+          Authority: "com.hw.push": -1
+        667da96 com.yangcong345.android.phone/com.baidu.techain.push.HWPushActivity filter 82f0091
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "vendors"
+          Authority: "com.yangcong345.android.phone": -1
+          Path: "PatternMatcher{LITERAL: /notify_detail}"
+      vpushscheme:
+        4d5f617 com.yangcong345.android.phone/com.baidu.techain.push.VivoPushActivity filter b770a64
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "vpushscheme"
+          Authority: "com.yangcong345.android.phone": -1
+          Path: "PatternMatcher{LITERAL: /detail}"
+      honorps:
+        cdefa04 com.yangcong345.android.phone/com.baidu.techain.push.HonorPushActivity filter 31302ef
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "honorps"
+          Authority: "com.yangcong345.android.phone": -1
+          Path: "PatternMatcher{LITERAL: /honor_detail}"
+      qwallet1103578315:
+        e35dbed com.yangcong345.android.phone/com.pingplusplus.android.PaymentActivity filter 43214cd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qwallet1103578315"
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        24a813b com.yangcong345.android.phone/com.yangcong345.main.phone.splash.SplashActivity filter 363372a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      android.intent.action.VIEW:
+        c3f0a22 com.yangcong345.android.phone/com.baidu.techain.push.OPPOPushActivity filter f559bf6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+        4d5f617 com.yangcong345.android.phone/com.baidu.techain.push.VivoPushActivity filter 33c8bf7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.action.Techain.VIEW:
+        439dcb3 com.yangcong345.android.phone/com.baidu.techain.TechainActivity filter 76033ce
+          Action: "com.baidu.action.Techain.VIEW"
+          Category: "com.baidu.category.techain"
+          Category: "android.intent.category.DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        353b270 com.yangcong345.android.phone/com.sina.weibo.sdk.share.ShareTransActivity filter 8d830c9
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.baidu.techain.nc.action:
+        da149e9 com.yangcong345.android.phone/com.baidu.techain.NCActivity filter dd741fc
+          Action: "com.baidu.techain.nc.action"
+          Category: "com.baidu.category.techain"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      comm_clock_broadcast_receiver:
+        567a66e com.yangcong345.android.phone/com.yangcong345.core.function.clock.DefaultClockBroadcastReceiver filter cb6df0b
+          Action: "comm_clock_broadcast_receiver"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        8eb910f com.yangcong345.android.phone/com.baidu.techain.push.MIUIPushReceiver filter 87aeea6
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      com.xiaomi.mipush.ERROR:
+        8eb910f com.yangcong345.android.phone/com.baidu.techain.push.MIUIPushReceiver filter b7260e7
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        319859c com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushReceiver filter e7a2483
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      SIGN_IN_CLOCK:
+        b3b9ba5 com.yangcong345.android.phone/com.yangcong345.main.phone.growth.clock.ClockBroadcastReceiver filter faa1085
+          Action: "SIGN_IN_CLOCK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        86bbb7a com.yangcong345.android.phone/com.yangcong345.foundation.netstate.NetStateReceiver filter f5481e8
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        35a2f2b com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushMsgReceiver filter ed74f32
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK:
+        e075f88 com.yangcong345.android.phone/com.baidu.techain.push.MZPushReceiver filter 2e3d494
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.yangcong345.android.phone"
+      com.meizu.flyme.push.intent.PUSH_SYSTEM:
+        36f4d21 com.yangcong345.android.phone/com.meizu.cloud.pushsdk.MzPushSystemReceiver filter ed1de39
+          Action: "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      com.huawei.android.push.intent.RECEIVE:
+        319859c com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushReceiver filter e7a2483
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.meizu.c2dm.intent.RECEIVE:
+        e075f88 com.yangcong345.android.phone/com.baidu.techain.push.MZPushReceiver filter 2e3d494
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.yangcong345.android.phone"
+      com.vivo.pushclient.action.RECEIVE:
+        86a1546 com.yangcong345.android.phone/com.baidu.techain.push.VIVOPushReceiver filter 43ecb3d
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.baidu.techain.push.action.PUSH_EVENT:
+        1ca9307 com.yangcong345.android.phone/com.yangcong345.platform.push.YCMathPushService filter 84fbeda
+          Action: "com.baidu.techain.push.action.PUSH_EVENT"
+          Category: "com.yangcong345.android.phone"
+      com.meizu.flyme.push.intent.MESSAGE:
+        e075f88 com.yangcong345.android.phone/com.baidu.techain.push.MZPushReceiver filter 2e3d494
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.yangcong345.android.phone"
+      com.meizu.c2dm.intent.REGISTRATION:
+        e075f88 com.yangcong345.android.phone/com.baidu.techain.push.MZPushReceiver filter 2e3d494
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.yangcong345.android.phone"
+      com.xiaomi.push.PING_TIMER:
+        a76ec34 com.yangcong345.android.phone/com.xiaomi.push.service.receivers.PingReceiver filter 173a600
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        8eb910f com.yangcong345.android.phone/com.baidu.techain.push.MIUIPushReceiver filter 8003001
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.meizu.flyme.push.intent.REGISTER.FEEDBACK:
+        e075f88 com.yangcong345.android.phone/com.baidu.techain.push.MZPushReceiver filter 2e3d494
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.yangcong345.android.phone"
+      com.huawei.intent.action.PUSH:
+        35a2f2b com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushMsgReceiver filter ed74f32
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.huawei.hms.games.service:
+        4d29a5d com.yangcong345.android.phone/com.huawei.hms.jos.games.service.GameService filter a272c7e
+          Action: "com.huawei.hms.games.service"
+      com.huawei.push.msg.NOTIFY_MSG:
+        9a23fd2 com.yangcong345.android.phone/com.huawei.hms.support.api.push.service.HmsMsgService filter 26d222c
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        7f358a3 com.yangcong345.android.phone/com.heytap.msp.push.service.DataMessageCallbackService filter 105928a permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        7f358a3 com.yangcong345.android.phone/com.heytap.msp.push.service.DataMessageCallbackService filter 105928a permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.baidu.action.Techain.VIEW:
+        8b097a0 com.yangcong345.android.phone/com.baidu.techain.TechainService filter 9b085df
+          Action: "com.baidu.action.Techain.VIEW"
+          Category: "com.baidu.category.techain"
+          Category: "android.intent.category.DEFAULT"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        7237f59 com.yangcong345.android.phone/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter 2c1a0fb permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.huawei.push.msg.PASSBY_MSG:
+        9a23fd2 com.yangcong345.android.phone/com.huawei.hms.support.api.push.service.HmsMsgService filter 26d222c
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        2c0871e com.yangcong345.android.phone/com.baidu.techain.push.HonorPushMsgService filter 8a03518
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.huawei.push.action.MESSAGING_EVENT:
+        458dbff com.yangcong345.android.phone/com.baidu.techain.push.HWPushMsgService filter 2e924f5
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Permissions:
+  Permission [com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (3178dcc):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{603b815 com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.push.permission.MESSAGE] (f69391b):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{515bab8 com.yangcong345.android.phone.push.permission.MESSAGE}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.C2D_MESSAGE] (b74c091):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{4885bf6 com.yangcong345.android.phone.permission.C2D_MESSAGE}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.MIPUSH_RECEIVE] (584bf7):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{4c7ca64 com.yangcong345.android.phone.permission.MIPUSH_RECEIVE}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.techain.RECEIVE] (613d4cd):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature|privileged
+    perm=Permission{4d64182 com.yangcong345.android.phone.permission.techain.RECEIVE}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.PUSH_PROVIDER] (3bbb093):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{b6928d0 com.yangcong345.android.phone.permission.PUSH_PROVIDER}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.PUSH_WRITE_PROVIDER] (715f0c9):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{82af3ce com.yangcong345.android.phone.permission.PUSH_WRITE_PROVIDER}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Permissions:
+  Permission [com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG] (fe6c2ef):
+    sourcePackage=com.yangcong345.android.phone
+    uid=10068 gids=null type=0 prot=signature
+    perm=Permission{88001fc com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG}
+    packageSetting=PackageSetting{6e9f72a com.yangcong345.android.phone/10068}
+
+Registered ContentProviders:
+  com.yangcong345.android.phone/com.yangcong345.platform.update.util.UpdateFileProvider:
+    Provider{403d085 com.yangcong345.android.phone/com.yangcong345.platform.update.util.UpdateFileProvider}
+  com.yangcong345.android.phone/androidx.core.content.FileProvider:
+    Provider{b067eda com.yangcong345.android.phone/androidx.core.content.FileProvider}
+  com.yangcong345.android.phone/com.huawei.hms.jos.games.archive.ArchiveRemoteAccessProvider:
+    Provider{3069f0b com.yangcong345.android.phone/com.huawei.hms.jos.games.archive.ArchiveRemoteAccessProvider}
+  com.yangcong345.android.phone/com.baidu.techain.TechainProvider:
+    Provider{bc941e8 com.yangcong345.android.phone/com.baidu.techain.TechainProvider}
+  com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushProvider:
+    Provider{835f001 com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushProvider}
+  com.yangcong345.android.phone/com.yangcong345.webpage.utils.WebFileProvider:
+    Provider{fddaea6 com.yangcong345.android.phone/com.yangcong345.webpage.utils.WebFileProvider}
+  com.yangcong345.android.phone/com.huawei.hms.aaid.InitProvider:
+    Provider{6fe20e7 com.yangcong345.android.phone/com.huawei.hms.aaid.InitProvider}
+  com.yangcong345.android.phone/com.liulishuo.okdownload.OkDownloadProvider:
+    Provider{1e49494 com.yangcong345.android.phone/com.liulishuo.okdownload.OkDownloadProvider}
+  com.yangcong345.android.phone/com.yangcong345.homework.view.HomeworkFileProvider:
+    Provider{2108b3d com.yangcong345.android.phone/com.yangcong345.homework.view.HomeworkFileProvider}
+  com.yangcong345.android.phone/com.sina.weibo.sdk.content.FileProvider:
+    Provider{9a60f32 com.yangcong345.android.phone/com.sina.weibo.sdk.content.FileProvider}
+  com.yangcong345.android.phone/androidx.startup.InitializationProvider:
+    Provider{701e483 com.yangcong345.android.phone/androidx.startup.InitializationProvider}
+  com.yangcong345.android.phone/com.baidu.techain.THProvider:
+    Provider{fc06600 com.yangcong345.android.phone/com.baidu.techain.THProvider}
+  com.yangcong345.android.phone/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{7ff9e39 com.yangcong345.android.phone/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.yangcong345.android.phone/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider:
+    Provider{321ec7e com.yangcong345.android.phone/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+  com.yangcong345.android.phone/com.yangcong345.platform.socialize.entity.SocialProvider:
+    Provider{2f445df com.yangcong345.android.phone/com.yangcong345.platform.socialize.entity.SocialProvider}
+
+ContentProvider Authorities:
+  [com.yangcong345.android.phone.androidx.startup]:
+    Provider{701e483 com.yangcong345.android.phone/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.socialize.fileprovider]:
+    Provider{2f445df com.yangcong345.android.phone/com.yangcong345.platform.socialize.entity.SocialProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.huawei.push.provider]:
+    Provider{835f001 com.yangcong345.android.phone/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.update.myprovider]:
+    Provider{403d085 com.yangcong345.android.phone/com.yangcong345.platform.update.util.UpdateFileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.homework.provider]:
+    Provider{2108b3d com.yangcong345.android.phone/com.yangcong345.homework.view.HomeworkFileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.foundation.common.myprovider]:
+    Provider{b067eda com.yangcong345.android.phone/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.hmssdk.jos.archive]:
+    Provider{3069f0b com.yangcong345.android.phone/com.huawei.hms.jos.games.archive.ArchiveRemoteAccessProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.updateSdk.fileProvider]:
+    Provider{321ec7e com.yangcong345.android.phone/com.huawei.updatesdk.fileprovider.UpdateSdkFileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.AGCInitializeProvider]:
+    Provider{7ff9e39 com.yangcong345.android.phone/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.provider]:
+    Provider{fddaea6 com.yangcong345.android.phone/com.yangcong345.webpage.utils.WebFileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.aaidinitprovider]:
+    Provider{6fe20e7 com.yangcong345.android.phone/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.fileprovider]:
+    Provider{9a60f32 com.yangcong345.android.phone/com.sina.weibo.sdk.content.FileProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.techain.th.provider]:
+    Provider{fc06600 com.yangcong345.android.phone/com.baidu.techain.THProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.com.liulishuo.okdownload]:
+    Provider{1e49494 com.yangcong345.android.phone/com.liulishuo.okdownload.OkDownloadProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+  [com.yangcong345.android.phone.techain.ac.provider]:
+    Provider{bc941e8 com.yangcong345.android.phone/com.baidu.techain.TechainProvider}
+      applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+
+Key Set Manager:
+  [com.yangcong345.android.phone]
+      Signing KeySets: 8
+
+Packages:
+  Package [com.yangcong345.android.phone] (6e9f72a):
+    userId=10068
+    pkg=Package{4f41b71 com.yangcong345.android.phone}
+    codePath=/data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==
+    resourcePath=/data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==
+    legacyNativeLibraryDir=/data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=758100 minSdk=21 targetSdk=33
+    versionName=7.58.1
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{8c5e22c com.yangcong345.android.phone}
+    flags=[ SYSTEM DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE ]
+    dataDir=/data/user/0/com.yangcong345.android.phone
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.simalliance.openmobileapi
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2024-06-19 15:38:15
+    firstInstallTime=2024-06-13 17:12:32
+    lastUpdateTime=2024-06-19 15:38:16
+    signatures=PackageSignatures{132e4f5 version:2, signatures:[487f3f80], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA UPDATED_SYSTEM_APP LARGE_HEAP ]
+    declared permissions:
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+      com.yangcong345.android.phone.push.permission.MESSAGE: prot=signature, INSTALLED
+      com.yangcong345.android.phone.permission.C2D_MESSAGE: prot=signature, INSTALLED
+      com.yangcong345.android.phone.permission.techain.RECEIVE: prot=signature|privileged, INSTALLED
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG: prot=signature, INSTALLED
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER: prot=signature, INSTALLED
+      com.yangcong345.android.phone.permission.PUSH_WRITE_PROVIDER: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.CAMERA
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.WAKE_LOCK
+      android.permission.VIBRATE
+      android.permission.REORDER_TASKS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.POST_NOTIFICATIONS
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      com.google.android.gms.permission.AD_ID
+      android.permission.READ_SETTINGS
+      android.permission.WRITE_SETTINGS
+      com.huawei.hwid.permission.gameservice.archive.access.provider
+      com.asus.msa.SupplementaryDID.ACCESS
+      freemme.permission.msa
+      freemme.permission.msa.SECURITY_ACCESS
+      oplus.permission.settings.LAUNCH_FOR_EXPORT
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE
+      com.meizu.flyme.push.permission.RECEIVE
+      com.yangcong345.android.phone.push.permission.MESSAGE
+      com.meizu.c2dm.permission.RECEIVE
+      com.yangcong345.android.phone.permission.C2D_MESSAGE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.yangcong345.android.phone.permission.techain.RECEIVE
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.yangcong345.android.phone.push.permission.MESSAGE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      com.yangcong345.android.phone.permission.C2D_MESSAGE: granted=true
+      android.permission.INTERNET: granted=true
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.yangcong345.android.phone.permission.techain.RECEIVE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=3441085 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+
+Hidden system packages:
+  Package [com.yangcong345.android.phone] (eec528a):
+    userId=10068
+    pkg=Package{c8160fb com.yangcong345.android.phone}
+    codePath=/system/app/ycmath_7.58.1
+    resourcePath=/system/app/ycmath_7.58.1
+    legacyNativeLibraryDir=/system/app/ycmath_7.58.1/lib
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    versionCode=758100 minSdk=21 targetSdk=33
+    versionName=7.58.1
+    splits=[base]
+    apkSigningVersion=0
+    applicationInfo=ApplicationInfo{bc4f518 com.yangcong345.android.phone}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE ]
+    dataDir=/data/user/0/com.yangcong345.android.phone
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+      org.simalliance.openmobileapi
+    timeStamp=2024-06-13 17:12:32
+    firstInstallTime=2024-06-13 17:12:32
+    lastUpdateTime=2024-06-13 17:12:32
+    signatures=PackageSignatures{e19db71 version:0, signatures:[], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE: prot=signature
+      com.yangcong345.android.phone.push.permission.MESSAGE: prot=signature
+      com.yangcong345.android.phone.permission.C2D_MESSAGE: prot=signature
+      com.yangcong345.android.phone.permission.techain.RECEIVE: prot=signature|privileged
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG: prot=signature
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER: prot=signature
+      com.yangcong345.android.phone.permission.PUSH_WRITE_PROVIDER: prot=signature
+    requested permissions:
+      android.permission.CAMERA
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+      android.permission.WAKE_LOCK
+      android.permission.VIBRATE
+      android.permission.REORDER_TASKS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.INTERNET
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.POST_NOTIFICATIONS
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      com.google.android.gms.permission.AD_ID
+      android.permission.READ_SETTINGS
+      android.permission.WRITE_SETTINGS
+      com.huawei.hwid.permission.gameservice.archive.access.provider
+      com.asus.msa.SupplementaryDID.ACCESS
+      freemme.permission.msa
+      freemme.permission.msa.SECURITY_ACCESS
+      oplus.permission.settings.LAUNCH_FOR_EXPORT
+      android.permission.ACCESS_BACKGROUND_LOCATION: restricted=true
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE
+      com.meizu.flyme.push.permission.RECEIVE
+      com.yangcong345.android.phone.push.permission.MESSAGE
+      com.meizu.c2dm.permission.RECEIVE
+      com.yangcong345.android.phone.permission.C2D_MESSAGE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.yangcong345.android.phone.permission.techain.RECEIVE
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+    install permissions:
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      com.yangcong345.android.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.yangcong345.android.phone.push.permission.MESSAGE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      com.yangcong345.android.phone.permission.C2D_MESSAGE: granted=true
+      android.permission.INTERNET: granted=true
+      com.yangcong345.android.phone.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      com.yangcong345.android.phone.permission.techain.RECEIVE: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.yangcong345.android.phone.permission.PUSH_PROVIDER: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      com.yangcong345.android.phone.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=0 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+
+Package Changes:
+  Sequence number=40
+  User 0:
+    seq=0, package=com.test.rommock
+    seq=2, package=com.cookiegames.smartcookie
+    seq=3, package=com.hhdd.kadahd
+    seq=4, package=com.xueersi.abczone
+    seq=13, package=com.yangcong345.pad.market
+    seq=21, package=com.tencent.mm
+    seq=22, package=com.xueersi.parentsmeeting
+    seq=23, package=com.tencent.wemeet.app
+    seq=24, package=com.alibaba.android.rimet
+    seq=25, package=com.hpplay.happycast
+    seq=26, package=com.zuoyebang.airclass
+    seq=28, package=com.example.hra
+    seq=29, package=com.hra.uniontest
+    seq=32, package=com.konstant.video.debug
+    seq=34, package=com.ss.android.lark
+    seq=36, package=com.yangcong345.cloud.launcher
+    seq=37, package=com.yangcong345.android.phone
+    seq=38, package=com.yangcong345.cloud.ui.launcher
+    seq=39, package=com.yangcong345.cloud.toolbox
+
+
+Dexopt state:
+  [com.yangcong345.android.phone]
+    path: /data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==/base.apk
+      arm64: [status=run-from-apk] [reason=unknown]
+      known secondary dex files:
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/native_ad_plugin_dex.jar
+          class loader context: PCL[];PCL[/data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/tbs_jars_fusion_dex.jar];PCL[/data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/apache_dex.jar];PCL[/data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==/base.apk]
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/tbs_jsapi_plugin.jar
+          class loader context: PCL[];PCL[/data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/tbs_jars_fusion_dex.jar];PCL[/data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/apache_dex.jar];PCL[/data/app/com.yangcong345.android.phone-qNtOx3wi01uz-lq5H4vG6A==/base.apk]
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/apache_dex.jar
+          class loader context: =VariableClassLoaderContext=
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/tbs_jars_fusion_dex.jar
+          class loader context: =VariableClassLoaderContext=
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/pb_dex.jar
+          class loader context: =VariableClassLoaderContext=
+        /data/user/0/com.yangcong345.android.phone/app_tbs_64/core_share/tbs_sdk_extension_dex.jar
+          class loader context: =VariableClassLoaderContext=
+
+
+Compiler stats:
+  [com.yangcong345.android.phone]
+     base.apk - 17798
+     ycmath_7.58.1.apk - 86
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+  APEX session state:
+test cost time::0.0h
