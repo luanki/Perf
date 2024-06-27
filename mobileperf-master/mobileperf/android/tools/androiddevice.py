@@ -1167,11 +1167,17 @@ class AndroidDevice():
     '''
 
     def __init__(self, device_id=None):
+        self.device_id = device_id
         self.adb = None
         self.is_local = AndroidDevice.is_local_device(device_id)
         #         现阶段暂时直接使用本地定义的adb
         if self.is_local:
             self.adb = ADB(device_id)
+
+    def get_device_id(self):
+        '''获取设备ID
+        '''
+        return self.device_id
 
     @staticmethod
     def is_local_device(device_id):

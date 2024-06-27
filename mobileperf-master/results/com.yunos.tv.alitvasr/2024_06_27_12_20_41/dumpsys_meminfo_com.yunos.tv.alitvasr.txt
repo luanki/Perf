@@ -1,0 +1,1650 @@
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-41 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-42 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-43 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-44 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-45 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+
+2024-06-27 12-20-46 dumpsys meminfo package info:
+adb: device '85I7UO4PFQCINJL7' not found
+

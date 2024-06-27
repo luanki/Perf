@@ -95,6 +95,8 @@ for device_line in device_lines:
         # subprocess.run(['adb', '-s', device_id, 'shell', 'input', 'keyevent', 'KEYCODE_HOME'])
         # 执行run.sh文件（假设run.sh位于MobilePerf目录中）
 
+
+
         sh_directory = os.path.join(base_path, "R", f"_{target_device_id}")
         if is_windows:
             sh_file = "run.bat"
@@ -107,6 +109,13 @@ for device_line in device_lines:
         threads.append(thread)
         thread.start()
 
+        # # 执行fps_run.py文件，并将设备ID作为参数传递
+        # py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "cpu_top.py")
+        # # 创建并启动一个新的线程来执行命令
+        # thread_py = threading.Thread(target=run_command_in_directory,
+        #                              args=(f"python {py_file} {device_id}", sh_directory))
+        # threads.append(thread_py)
+        # thread_py.start()
 
         if device_id.startswith("S30"):
             # 处理S30设备
@@ -124,9 +133,12 @@ for device_line in device_lines:
         db_operations = DatabaseOperations()
         try:
             db_operations.devices_info_insert(device_id, device_name)
+
         except Exception as db_e:
             print(db_e)
             print("devices_info插入数据库失败！！")
+
+
 
         # 执行fps_run.py文件，并将设备ID作为参数传递
         py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run.py")

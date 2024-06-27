@@ -3,7 +3,8 @@ from datetime import datetime
 import csv
 import os
 import glob
-
+from mobileperf.android.DB_utils import DatabaseOperations
+from mobileperf.common.log import logger
 
 def get_config_value(file_path, key):
     with open(file_path, 'r') as file:
@@ -33,6 +34,17 @@ class FpsListenserImpl(IFpsListener):
         print(fps_info.jankys_ary)
         print("当前窗口卡顿数(>166.7ms)是：" + str(fps_info.jankys_more_than_166))
         print('\n')
+
+
+
+        # 数据库连接实例化
+        db_operations = DatabaseOperations()
+
+        # 查询新ids，用于区分新老数据
+        latest_ids = db_operations.get_latest_ids(devices)
+
+
+
         # 动态获取基路径（假设脚本位于项目的根目录）
         base_path = os.path.dirname(os.path.abspath(__file__))
         # 获取上三级目录路径
@@ -62,3 +74,18 @@ class FpsListenserImpl(IFpsListener):
                 int(fps_info.fps),
                 str(fps_info.jankys_more_than_166)
             ])
+        try:
+            # Prepare fps_data for insertion into database
+            fps_data = (
+                devices,
+                datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                str(fps_info.pkg_name) + "/" + str(fps_info.window_name),
+                int(fps_info.fps),
+                str(fps_info.jankys_more_than_166),
+                latest_ids
+            )
+            # Insert fps_info into the database
+            db_operations.insert_fpsinfo(fps_data)
+
+        except Exception as db_e:
+            logger.error(f"Failed to insert FPS data into database: {db_e}")

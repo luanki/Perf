@@ -20,6 +20,8 @@ from shutil import copyfile,rmtree
 
 BaseDir=os.path.dirname(__file__)
 sys.path.append(os.path.join(BaseDir,'../..'))
+from datetime import datetime
+from DB_utils import DatabaseOperations
 
 from mobileperf.android.tools.androiddevice import AndroidDevice
 from mobileperf.common.utils import TimeUtils,FileUtils,ZipUtils
@@ -254,6 +256,8 @@ class MemInfoPackageCollector(object):
         # sdcard 卡目录下dump需要打开这个开关
         self.device.adb.run_shell_cmd("setenforce 0")
         first_dump = True
+        # 数据库连接实例化
+        db_operations = DatabaseOperations()
         while not self._stop_event.is_set() and time.time() < end_time:
             try:
                 before = time.time()
@@ -350,6 +354,30 @@ class MemInfoPackageCollector(object):
                                 logger.debug(gather_list)
                         except RuntimeError as e:
                             logger.error(e)
+
+                        # 查询新ids，用于区分新老数据
+                        latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
+                        # 将CPU数据插入数据库
+                        try:
+                            for package_pid_pss in mem_device_snapshot.package_pid_pss_list:
+                                print(f"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb: {package_pid_pss}")
+                                meminfo_data = (
+                                    self.device.get_device_id(),
+                                    # TimeUtils.formatTimeStamp(collection_time),
+                                    datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                                    mem_device_snapshot.totalmem,
+                                    mem_device_snapshot.freemem,
+                                    package_pid_pss['package'],
+                                    package_pid_pss['pid'],
+                                    package_pid_pss['pss'],
+                                    latest_ids
+                                )
+                                # print( self.device.device_id+"-----------------------------------------------------------------------------------")
+
+                                db_operations.insert_meminfo(meminfo_data)
+                        except Exception as db_e:
+                            logger.error(f"Failed to insert Meminfo data into database: {db_e}")
+
 
                 after = time.time()
                 time_consume = after - before
