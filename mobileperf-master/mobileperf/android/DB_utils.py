@@ -144,6 +144,23 @@ class DatabaseOperations:
             conn.close()
 
 
+    def get_all_devices(self):
+        conn = self.connect()
+        if not conn:
+            return None
+        cur = conn.cursor()
+        try:
+            cur.execute("SELECT * FROM devices;")
+            devices = cur.fetchall()
+            return devices
+        except Exception as e:
+            print(f"Failed to fetch devices: {e}")
+            return None
+        finally:
+            cur.close()
+            conn.close()
+
+
 
 
 
