@@ -1,3 +1,0 @@
-*.apk filter=lfs diff=lfs merge=lfs -text
-antutu-benchmark-v10.apk filter=lfs diff=lfs merge=lfs -text
-antutu_benchmark_v10_3d_lite.apk filter=lfs diff=lfs merge=lfs -text
