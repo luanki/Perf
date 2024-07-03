@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 from mobileperf.android.DB_utils import DatabaseOperations
 
 app = Flask(__name__)
+CORS(app)  # 添加CORS支持
 db_operations = DatabaseOperations()
 
 @app.route('/latest_ids', methods=['GET'])

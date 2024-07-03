@@ -1,17 +1,19 @@
+<!-- src/App.vue -->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <DeviceList />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DeviceList from './components/DeviceList.vue'; // 导入修正后的组件名称
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DeviceList // 注册修正后的组件名称
   }
-}
+};
 </script>
 
 <style>
