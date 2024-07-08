@@ -1,0 +1,9 @@
+datatime,total_ram(MB),free_ram(MB),package,pid,pid_pss(MB)
+2024-07-08 16-02-35,7860.95,5369.16,com.yangcong345.android.phone,2488,419.87
+2024-07-08 16-03-29,7860.95,5364.2,com.yangcong345.android.phone,2488,426.38
+2024-07-08 16-04-19,7860.95,5371.18,com.yangcong345.android.phone,2488,419.51
+2024-07-08 16-05-09,7860.95,5364.39,com.yangcong345.android.phone,2488,419.96
+2024-07-08 16-05-59,7860.95,5356.69,com.yangcong345.android.phone,2488,421.64
+2024-07-08 16-06-49,7860.95,5351.7,com.yangcong345.android.phone,2488,419.83
+2024-07-08 16-07-39,7860.95,5351.01,com.yangcong345.android.phone,2488,421.1
+2024-07-08 16-08-29,7860.95,5375.14,com.yangcong345.android.phone,2488,434.1

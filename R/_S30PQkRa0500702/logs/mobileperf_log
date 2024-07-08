@@ -1,0 +1,306 @@
+[2024-07-08 15:56:05,490]DEBUG:mobileperf:startup:RuntimeData.top_dir:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702
+[2024-07-08 15:56:05,491]DEBUG:mobileperf:startup:configpath:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/config.conf
+[2024-07-08 15:56:05,491]DEBUG:mobileperf:startup:{'package': ['com.yangcong345.android.phone'], 'pid_change_focus_package': '', 'frequency': 5, 'dumpheap_freq': 3600, 'timeout': 259200, 'serialnum': 'S30PQkRa0500702', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': 'true', 'main_activity': '', 'activity_list': ''}
+[2024-07-08 15:56:05,504]DEBUG:mobileperf:androiddevice:b'List of devices attached\nS30PQkRa0500702\tdevice\n\n'
+[2024-07-08 15:56:05,504]DEBUG:mobileperf:androiddevice:system have adb
+[2024-07-08 15:56:05,505]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp
+[2024-07-08 15:56:05,538]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp time consume: 0.030909299850463867
+[2024-07-08 15:56:05,538]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_46_03.hprof
+[2024-07-08 15:56:05,571]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_46_03.hprof time consume: 0.032257080078125
+[2024-07-08 15:56:05,572]DEBUG:mobileperf:androiddevice:2024-07-08 15:46
+[2024-07-08 15:56:05,574]DEBUG:mobileperf:androiddevice:/data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_46_03.hprof is not overtime days:3
+[2024-07-08 15:56:05,583]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-07-08 15:56:05,583]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S30PQkRa0500702\tdevice', '']
+[2024-07-08 15:56:05,584]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell pm list packages
+[2024-07-08 15:56:05,641]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell pm list packages time consume: 0.0563969612121582
+[2024-07-08 15:56:05,641]DEBUG:mobileperf:androiddevice:['package:com.yangcong345.eye.protection', 'package:com.android.cts.priv.ctsshim', 'package:com.android.internal.display.cutout.emulation.corner', 'package:com.android.internal.display.cutout.emulation.double', 'package:com.android.providers.telephony', 'package:com.android.dynsystem', 'package:com.mediatek.camera', 'package:com.android.providers.calendar', 'package:com.cookiegames.smartcookie', 'package:com.mediatek.telephony', 'package:com.android.providers.media', 'package:com.android.theme.icon.square', 'package:com.android.internal.systemui.navbar.gestural_wide_back', 'package:com.mediatek.location.lppe.main', 'package:com.hra.security_manage', 'package:com.android.wallpapercropper', 'package:com.android.theme.color.cinnamon', 'package:com.mediatek.gnss.nonframeworklbs', 'package:com.verizon.remoteSimlock', 'package:com.android.protips', 'package:com.android.theme.icon_pack.rounded.systemui', 'package:com.android.documentsui', 'package:com.android.externalstorage', 'package:com.mediatek.ygps', 'package:com.android.htmlviewer', 'package:com.mediatek.autodialer', 'package:com.android.companiondevicemanager', 'package:com.android.mms.service', 'package:com.android.providers.downloads', 'package:com.adups.fota', 'package:com.mediatek.engineermode', 'package:com.android.theme.icon_pack.rounded.android', 'package:com.adups.fota.overlay', 'package:com.hra.agingtests2', 'package:com.android.theme.icon_pack.circular.themepicker', 'package:com.yangcong345.pad.systemsetting', 'package:com.android.soundrecorder', 'package:com.android.providers.downloads.ui', 'package:com.android.pacprocessor', 'package:com.android.simappdialog', 'package:com.android.networkstack', 'package:com.android.internal.display.cutout.emulation.tall', 'package:com.android.modulemetadata', 'package:com.android.certinstaller', 'package:com.android.theme.color.black', 'package:com.android.carrierconfig', 'package:com.android.theme.color.green', 'package:com.android.theme.color.ocean', 'package:com.android.theme.color.space', 'package:com.android.internal.systemui.navbar.threebutton', 'package:android', 'package:com.ihuman.ff', 'package:com.mediatek.emcamera', 'package:com.android.theme.icon_pack.rounded.launcher', 'package:com.android.egg', 'package:com.android.mtp', 'package:com.android.nfc', 'package:com.android.ons', 'package:com.android.launcher3', 'package:com.android.backupconfirm', 'package:com.android.internal.systemui.navbar.twobutton', 'package:com.android.provision', 'package:com.android.statementservice', 'package:com.android.hotspot2', 'package:com.mediatek.mdmlsample', 'package:com.android.settings.intelligence', 'package:com.android.calendar', 'package:com.mediatek.frameworkresoverlay', 'package:com.debug.loggerui', 'package:com.android.internal.systemui.navbar.gestural_extra_wide_back', 'package:com.android.providers.settings', 'package:com.android.sharedstoragebackup', 'package:com.mediatek.batterywarning', 'package:com.android.printspooler', 'package:com.android.theme.icon_pack.filled.settings', 'package:com.android.dreams.basic', 'package:com.ihuman.pinyin', 'package:com.yangcong345.cloud.toolbox', 'package:com.android.webview', 'package:com.android.se', 'package:com.android.inputdevices', 'package:com.android.bips', 'package:com.mediatek', 'package:com.android.theme.icon_pack.circular.settings', 'package:com.android.musicfx', 'package:com.android.cellbroadcastreceiver', 'package:com.android.theme.icon.teardrop', 'package:android.ext.shared', 'package:com.android.onetimeinitializer', 'package:com.yangcong345.pad.market', 'package:com.android.server.telecom', 'package:com.android.keychain', 'package:com.android.printservice.recommendation', 'package:com.android.gallery3d', 'package:com.android.theme.icon_pack.filled.systemui', 'package:android.ext.services', 'package:com.android.calllogbackup', 'package:com.hhdd.kadahd', 'package:com.android.localtransport', 'package:com.android.packageinstaller', 'package:com.android.carrierdefaultapp', 'package:com.mediatek.atmwifimeta', 'package:com.android.theme.font.notoserifsource', 'package:com.android.theme.icon_pack.filled.android', 'package:com.android.proxyhandler', 'package:com.android.theme.icon_pack.circular.systemui', 'package:com.android.inputmethod.latin', 'package:com.android.managedprovisioning', 'package:com.mediatek.capctrl.service', 'package:com.android.dreams.phototable', 'package:org.chromium.browser', 'package:com.mediatek.callrecorder', 'package:com.android.providers.partnerbookmarks', 'package:com.android.smspush', 'package:com.mediatek.factorymode', 'package:com.mediatek.gnssdebugreport', 'package:com.android.theme.icon.squircle', 'package:com.android.storagemanager', 'package:com.android.bookmarkprovider', 'package:com.android.settings', 'package:com.longsys2.testdram', 'package:com.google.android.inputmethod.pinyin', 'package:com.android.theme.icon_pack.filled.launcher', 'package:com.android.networkstack.permissionconfig', 'package:com.mediatek.mdmconfig', 'package:com.android.calculator2', 'package:com.mediatek.lbs.em2.ui', 'package:com.android.cts.ctsshim', 'package:com.alibaba.android.rimet', 'package:com.android.theme.icon_pack.circular.launcher', 'package:com.android.vpndialogs', 'package:com.yangcong345.cloud.launcher', 'package:com.android.music', 'package:com.android.phone', 'package:com.android.shell', 'package:com.android.theme.icon_pack.filled.themepicker', 'package:com.android.wallpaperbackup', 'package:com.android.providers.blockednumber', 'package:com.xueersi.abczone', 'package:com.android.providers.userdictionary', 'package:com.android.emergency', 'package:com.android.internal.systemui.navbar.gestural', 'package:com.android.location.fused', 'package:com.android.theme.color.orchid', 'package:com.yangcong345.cloud.ui.launcher', 'package:com.android.deskclock', 'package:com.android.systemui', 'package:com.android.theme.color.purple', 'package:com.android.bluetoothmidiservice', 'package:com.android.permissioncontroller', 'package:com.android.traceur', 'package:com.mediatek.sensorhub.ui', 'package:android.auto_generated_rro_product__', 'package:com.android.bluetooth', 'package:com.yangcong345.android.phone', 'package:com.android.providers.contacts', 'package:com.android.captiveportallogin', 'package:com.android.theme.icon.roundedrect', 'package:com.android.internal.systemui.navbar.gestural_narrow_back', 'package:com.android.theme.icon_pack.rounded.settings', 'package:com.mediatek.dataprotection', 'package:com.wapi.wapicertmanager', 'package:android.auto_generated_rro_vendor__', 'package:com.android.theme.icon_pack.circular.android']
+[2024-07-08 15:56:05,641]DEBUG:mobileperf:androiddevice:['com.yangcong345.eye.protection', 'com.android.cts.priv.ctsshim', 'com.android.internal.display.cutout.emulation.corner', 'com.android.internal.display.cutout.emulation.double', 'com.android.providers.telephony', 'com.android.dynsystem', 'com.mediatek.camera', 'com.android.providers.calendar', 'com.cookiegames.smartcookie', 'com.mediatek.telephony', 'com.android.providers.media', 'com.android.theme.icon.square', 'com.android.internal.systemui.navbar.gestural_wide_back', 'com.mediatek.location.lppe.main', 'com.hra.security_manage', 'com.android.wallpapercropper', 'com.android.theme.color.cinnamon', 'com.mediatek.gnss.nonframeworklbs', 'com.verizon.remoteSimlock', 'com.android.protips', 'com.android.theme.icon_pack.rounded.systemui', 'com.android.documentsui', 'com.android.externalstorage', 'com.mediatek.ygps', 'com.android.htmlviewer', 'com.mediatek.autodialer', 'com.android.companiondevicemanager', 'com.android.mms.service', 'com.android.providers.downloads', 'com.adups.fota', 'com.mediatek.engineermode', 'com.android.theme.icon_pack.rounded.android', 'com.adups.fota.overlay', 'com.hra.agingtests2', 'com.android.theme.icon_pack.circular.themepicker', 'com.yangcong345.pad.systemsetting', 'com.android.soundrecorder', 'com.android.providers.downloads.ui', 'com.android.pacprocessor', 'com.android.simappdialog', 'com.android.networkstack', 'com.android.internal.display.cutout.emulation.tall', 'com.android.modulemetadata', 'com.android.certinstaller', 'com.android.theme.color.black', 'com.android.carrierconfig', 'com.android.theme.color.green', 'com.android.theme.color.ocean', 'com.android.theme.color.space', 'com.android.internal.systemui.navbar.threebutton', 'android', 'com.ihuman.ff', 'com.mediatek.emcamera', 'com.android.theme.icon_pack.rounded.launcher', 'com.android.egg', 'com.android.mtp', 'com.android.nfc', 'com.android.ons', 'com.android.launcher3', 'com.android.backupconfirm', 'com.android.internal.systemui.navbar.twobutton', 'com.android.provision', 'com.android.statementservice', 'com.android.hotspot2', 'com.mediatek.mdmlsample', 'com.android.settings.intelligence', 'com.android.calendar', 'com.mediatek.frameworkresoverlay', 'com.debug.loggerui', 'com.android.internal.systemui.navbar.gestural_extra_wide_back', 'com.android.providers.settings', 'com.android.sharedstoragebackup', 'com.mediatek.batterywarning', 'com.android.printspooler', 'com.android.theme.icon_pack.filled.settings', 'com.android.dreams.basic', 'com.ihuman.pinyin', 'com.yangcong345.cloud.toolbox', 'com.android.webview', 'com.android.se', 'com.android.inputdevices', 'com.android.bips', 'com.mediatek', 'com.android.theme.icon_pack.circular.settings', 'com.android.musicfx', 'com.android.cellbroadcastreceiver', 'com.android.theme.icon.teardrop', 'android.ext.shared', 'com.android.onetimeinitializer', 'com.yangcong345.pad.market', 'com.android.server.telecom', 'com.android.keychain', 'com.android.printservice.recommendation', 'com.android.gallery3d', 'com.android.theme.icon_pack.filled.systemui', 'android.ext.services', 'com.android.calllogbackup', 'com.hhdd.kadahd', 'com.android.localtransport', 'com.android.packageinstaller', 'com.android.carrierdefaultapp', 'com.mediatek.atmwifimeta', 'com.android.theme.font.notoserifsource', 'com.android.theme.icon_pack.filled.android', 'com.android.proxyhandler', 'com.android.theme.icon_pack.circular.systemui', 'com.android.inputmethod.latin', 'com.android.managedprovisioning', 'com.mediatek.capctrl.service', 'com.android.dreams.phototable', 'org.chromium.browser', 'com.mediatek.callrecorder', 'com.android.providers.partnerbookmarks', 'com.android.smspush', 'com.mediatek.factorymode', 'com.mediatek.gnssdebugreport', 'com.android.theme.icon.squircle', 'com.android.storagemanager', 'com.android.bookmarkprovider', 'com.android.settings', 'com.longsys2.testdram', 'com.google.android.inputmethod.pinyin', 'com.android.theme.icon_pack.filled.launcher', 'com.android.networkstack.permissionconfig', 'com.mediatek.mdmconfig', 'com.android.calculator2', 'com.mediatek.lbs.em2.ui', 'com.android.cts.ctsshim', 'com.alibaba.android.rimet', 'com.android.theme.icon_pack.circular.launcher', 'com.android.vpndialogs', 'com.yangcong345.cloud.launcher', 'com.android.music', 'com.android.phone', 'com.android.shell', 'com.android.theme.icon_pack.filled.themepicker', 'com.android.wallpaperbackup', 'com.android.providers.blockednumber', 'com.xueersi.abczone', 'com.android.providers.userdictionary', 'com.android.emergency', 'com.android.internal.systemui.navbar.gestural', 'com.android.location.fused', 'com.android.theme.color.orchid', 'com.yangcong345.cloud.ui.launcher', 'com.android.deskclock', 'com.android.systemui', 'com.android.theme.color.purple', 'com.android.bluetoothmidiservice', 'com.android.permissioncontroller', 'com.android.traceur', 'com.mediatek.sensorhub.ui', 'android.auto_generated_rro_product__', 'com.android.bluetooth', 'com.yangcong345.android.phone', 'com.android.providers.contacts', 'com.android.captiveportallogin', 'com.android.theme.icon.roundedrect', 'com.android.internal.systemui.navbar.gestural_narrow_back', 'com.android.theme.icon_pack.rounded.settings', 'com.mediatek.dataprotection', 'com.wapi.wapicertmanager', 'android.auto_generated_rro_vendor__', 'com.android.theme.icon_pack.circular.android']
+[2024-07-08 15:56:05,641]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk
+[2024-07-08 15:56:05,675]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk time consume: 0.032135009765625
+[2024-07-08 15:56:05,675]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:06,052]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5 time consume: 0.37593674659729004
+[2024-07-08 15:56:06,052]DEBUG:mobileperf:cpu_top:sdk version : 29
+[2024-07-08 15:56:06,052]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk
+[2024-07-08 15:56:06,099]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk time consume: 0.04239177703857422
+[2024-07-08 15:56:06,099]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk
+[2024-07-08 15:56:06,135]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk time consume: 0.03423309326171875
+[2024-07-08 15:56:06,135]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.product.brand
+[2024-07-08 15:56:06,172]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.product.brand time consume: 0.03508305549621582
+[2024-07-08 15:56:06,172]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.product.model
+[2024-07-08 15:56:06,210]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.product.model time consume: 0.036035776138305664
+[2024-07-08 15:56:06,210]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.release
+[2024-07-08 15:56:06,246]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.release time consume: 0.03465700149536133
+[2024-07-08 15:56:06,246]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys package com.yangcong345.android.phone
+[2024-07-08 15:56:06,294]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys package com.yangcong345.android.phone time consume: 0.04689812660217285
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:cpu_top:INFO: CpuCollector start...
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:cpu_top:INFO: CpuMonitor has started...
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:meminfos:INFO: MemInfoPackageCollector start... 
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:trafficstats:INFO: TrafficCollecor  start...
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:06,295]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:06,296]DEBUG:mobileperf:trafficstats:INFO: TrafficMonitor has started...
+[2024-07-08 15:56:06,296]ERROR:mobileperf:startup:Monitor.start() takes 1 positional argument but 2 were given
+[2024-07-08 15:56:06,296]DEBUG:mobileperf:thread_num:INFO: ThreadNum PackageCollector start... 
+[2024-07-08 15:56:06,297]DEBUG:mobileperf:trafficstats:--------- into _collect_traffic_thread loop thread is : Thread-3 (_collect_traffic_thread)
+[2024-07-08 15:56:06,298]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev
+[2024-07-08 15:56:06,298]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell monkey -p com.yangcong345.android.phone -v -v -v -s 1000 --ignore-crashes --ignore-timeouts --ignore-security-exceptions --kill-process-after-error --pct-appswitch 20 --pct-touch 40 --pct-motion 10 --pct-trackball 0 --pct-anyevent 10 --pct-flip 0 --pct-pinchzoom 0 --throttle 1000 1200000000
+[2024-07-08 15:56:06,299]DEBUG:mobileperf:thread_num:-----------into _collect_thread_num_thread loop, thread is : Thread-4 (_collect_thread_num_thread)
+[2024-07-08 15:56:06,299]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk
+[2024-07-08 15:56:06,301]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell mkdir /data/local/tmp
+[2024-07-08 15:56:06,301]DEBUG:mobileperf:monkey:monkey_thread_func
+[2024-07-08 15:56:06,344]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev time consume: 0.04301595687866211
+[2024-07-08 15:56:06,344]DEBUG:mobileperf:trafficstats:wifi_rx : 22567370 wifi_tx : 2514042 total wifi:25081412
+[2024-07-08 15:56:06,344]DEBUG:mobileperf:trafficstats: collection time in traffic is : 1720425366.344556
+[2024-07-08 15:56:06,344]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:06,349]DEBUG:mobileperf:androiddevice:adb error info:
+b"mkdir: '/data/local/tmp': File exists\n"
+[2024-07-08 15:56:06,349]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell mkdir /data/local/tmp time consume: 0.0438079833984375
+[2024-07-08 15:56:06,349]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell setenforce 0
+[2024-07-08 15:56:06,351]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell getprop ro.build.version.sdk time consume: 0.0471799373626709
+[2024-07-08 15:56:06,351]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:06,382]DEBUG:mobileperf:androiddevice:adb error info:
+b"setenforce: Couldn't set enforcing status to '0': Permission denied\n"
+[2024-07-08 15:56:06,382]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell setenforce 0 time consume: 0.031829118728637695
+[2024-07-08 15:56:06,383]DEBUG:mobileperf:meminfos:-----------into _collect_mem_thread loop, thread is : Thread-2 (_collect_memory_thread)
+[2024-07-08 15:56:06,383]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone
+[2024-07-08 15:56:06,417]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.07183218002319336
+[2024-07-08 15:56:06,418]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev
+[2024-07-08 15:56:06,426]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.07381200790405273
+[2024-07-08 15:56:06,426]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task
+[2024-07-08 15:56:06,448]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev time consume: 0.02984619140625
+[2024-07-08 15:56:06,449]DEBUG:mobileperf:trafficstats:wifi_rx : 22567370 wifi_tx : 2514042 total wifi:25081412
+[2024-07-08 15:56:06,449]DEBUG:mobileperf:trafficstats:['2024-07-08 15-56-06', 0.0, 0.0, 0.0, 'com.yangcong345.android.phone', 2488, 0.0, 0.0, 0.0]
+[2024-07-08 15:56:06,449]DEBUG:mobileperf:trafficstats: -----------traffic timeconsumed: 0.1515519618988037
+[2024-07-08 15:56:06,461]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task time consume: 0.03387188911437988
+[2024-07-08 15:56:06,461]DEBUG:mobileperf:thread_num:collection time in thread_num info is : 1720425366.4613812
+[2024-07-08 15:56:06,461]DEBUG:mobileperf:thread_num:[1720425366.4613812, 'com.yangcong345.android.phone', 2488, 163]
+[2024-07-08 15:56:06,461]DEBUG:mobileperf:thread_num:current time: 2024-07-08 15-56-06, processname: com.yangcong345.android.phone, pid: 2488 thread num: 163
+[2024-07-08 15:56:06,461]DEBUG:mobileperf:thread_num:time_consume  for thread num infos: 0.1622920036315918
+[2024-07-08 15:56:06,680]DEBUG:mobileperf:cpu_top:8.0 or higher, user_rate: 166, sys: 86,device cpu: 252
+[2024-07-08 15:56:06,680]DEBUG:mobileperf:cpu_top:idle_rate: 548
+[2024-07-08 15:56:06,681]DEBUG:mobileperf:cpu_top:cpuinfos, _parse top target_pck is : 1200000000 , self.pacakgename : com.yangcong345.android.phone
+[2024-07-08 15:56:06,681]DEBUG:mobileperf:cpu_top:cpuinfos, _parse top target_pck is : com.yangcong345.android.phone , self.pacakgename : com.yangcong345.android.phone
+[2024-07-08 15:56:06,681]DEBUG:mobileperf:cpu_top:cpuinfos, into _parse_pck packege is target package, pid is :2488
+[2024-07-08 15:56:06,682]DEBUG:mobileperf:cpu_top:=========== item == col_name: CPU] index : 8
+[2024-07-08 15:56:06,682]DEBUG:mobileperf:cpu_top:package: com.yangcong345.android.phone, cpu_rate: 51.7
+[2024-07-08 15:56:06,682]DEBUG:mobileperf:cpu_top:{'package': 'com.yangcong345.android.phone', 'pid': '2488', 'pid_cpu': '51.7', 'uid': 'u0_a86'}
+[2024-07-08 15:56:06,682]DEBUG:mobileperf:cpu_top:  ============== time consume for cpu info : 0.38650012016296387
+[2024-07-08 15:56:06,682]DEBUG:mobileperf:cpu_top:INFO: CpuMonitor save cpu_device_list: ['2024-07-08 15-56-06', '252', '166', '86', '548', 'com.yangcong345.android.phone', '2488', '51.7']
+[2024-07-08 15:56:06,760]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone time consume: 0.37638115882873535
+[2024-07-08 15:56:06,761]DEBUG:mobileperf:meminfos:dumpsys meminfo package time consume:0.37805891036987305
+[2024-07-08 15:56:06,761]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp
+[2024-07-08 15:56:06,831]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp time consume: 0.05520176887512207
+[2024-07-08 15:56:06,831]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell rm /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_46_03.hprof
+[2024-07-08 15:56:06,873]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell rm /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_46_03.hprof time consume: 0.0392000675201416
+[2024-07-08 15:56:06,873]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell am dumpheap com.yangcong345.android.phone /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof
+[2024-07-08 15:56:06,935]DEBUG:mobileperf:androiddevice:adb error info:
+b'Security exception: Process not debuggable: ProcessRecord{2620f4a 2488:com.yangcong345.android.phone/u0a86}\n\njava.lang.SecurityException: Process not debuggable: ProcessRecord{2620f4a 2488:com.yangcong345.android.phone/u0a86}\n\tat com.android.server.am.ActivityManagerService.dumpHeap(ActivityManagerService.java:17955)\n\tat com.android.server.am.ActivityManagerShellCommand.runDumpHeap(ActivityManagerShellCommand.java:979)\n\tat com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:197)\n\tat android.os.ShellCommand.exec(ShellCommand.java:104)\n\tat com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10218)\n\tat android.os.Binder.shellCommand(Binder.java:881)\n\tat android.os.Binder.onTransact(Binder.java:765)\n\tat android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4534)\n\tat com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2879)\n\tat android.os.Binder.execTransactInternal(Binder.java:1021)\n\tat android.os.Binder.execTransact(Binder.java:994)\n'
+[2024-07-08 15:56:06,935]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell am dumpheap com.yangcong345.android.phone /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof time consume: 0.06078386306762695
+[2024-07-08 15:56:07,307]DEBUG:mobileperf:logcat:logcatmonitor start...
+[2024-07-08 15:56:07,307]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell logcat -c  -b all
+[2024-07-08 15:56:07,417]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell logcat -c  -b all time consume: 0.1055140495300293
+[2024-07-08 15:56:07,417]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell logcat -v threadtime  -b all
+[2024-07-08 15:56:07,420]DEBUG:mobileperf:androiddevice:logcat_thread_func
+[2024-07-08 15:56:11,302]DEBUG:mobileperf:trafficstats:--------- into _collect_traffic_thread loop thread is : Thread-3 (_collect_traffic_thread)
+[2024-07-08 15:56:11,303]DEBUG:mobileperf:thread_num:-----------into _collect_thread_num_thread loop, thread is : Thread-4 (_collect_thread_num_thread)
+[2024-07-08 15:56:11,303]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev
+[2024-07-08 15:56:11,304]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:11,368]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev time consume: 0.05765724182128906
+[2024-07-08 15:56:11,368]DEBUG:mobileperf:trafficstats:wifi_rx : 22625470 wifi_tx : 2532303 total wifi:25157773
+[2024-07-08 15:56:11,368]DEBUG:mobileperf:trafficstats: collection time in traffic is : 1720425371.368407
+[2024-07-08 15:56:11,368]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:11,426]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.11675691604614258
+[2024-07-08 15:56:11,427]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task
+[2024-07-08 15:56:11,455]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.08464622497558594
+[2024-07-08 15:56:11,455]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev
+[2024-07-08 15:56:11,476]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task time consume: 0.0469050407409668
+[2024-07-08 15:56:11,476]DEBUG:mobileperf:thread_num:collection time in thread_num info is : 1720425371.4761841
+[2024-07-08 15:56:11,476]DEBUG:mobileperf:thread_num:[1720425371.4761841, 'com.yangcong345.android.phone', 2488, 162]
+[2024-07-08 15:56:11,476]DEBUG:mobileperf:thread_num:current time: 2024-07-08 15-56-11, processname: com.yangcong345.android.phone, pid: 2488 thread num: 162
+[2024-07-08 15:56:11,476]DEBUG:mobileperf:thread_num:time_consume  for thread num infos: 0.17301297187805176
+[2024-07-08 15:56:11,495]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev time consume: 0.03804612159729004
+[2024-07-08 15:56:11,495]DEBUG:mobileperf:trafficstats:wifi_rx : 22625470 wifi_tx : 2532303 total wifi:25157773
+[2024-07-08 15:56:11,495]DEBUG:mobileperf:trafficstats:['2024-07-08 15-56-11', 74.57, 56.74, 17.83, 'com.yangcong345.android.phone', 2488, 56.74, 17.83, 74.57]
+[2024-07-08 15:56:11,495]DEBUG:mobileperf:trafficstats: -----------traffic timeconsumed: 0.19280099868774414
+[2024-07-08 15:56:12,235]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:12,235]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:12,628]DEBUG:mobileperf:cpu_top:8.0 or higher, user_rate: 48, sys: 34,device cpu: 82
+[2024-07-08 15:56:12,628]DEBUG:mobileperf:cpu_top:idle_rate: 700
+[2024-07-08 15:56:12,628]DEBUG:mobileperf:cpu_top:cpuinfos, _parse top target_pck is : com.yangcong345.android.phone , self.pacakgename : com.yangcong345.android.phone
+[2024-07-08 15:56:12,628]DEBUG:mobileperf:cpu_top:cpuinfos, into _parse_pck packege is target package, pid is :2488
+[2024-07-08 15:56:12,629]DEBUG:mobileperf:cpu_top:=========== item == col_name: CPU] index : 8
+[2024-07-08 15:56:12,629]DEBUG:mobileperf:cpu_top:package: com.yangcong345.android.phone, cpu_rate: 13.7
+[2024-07-08 15:56:12,629]DEBUG:mobileperf:cpu_top:{'package': 'com.yangcong345.android.phone', 'pid': '2488', 'pid_cpu': '13.7', 'uid': 'u0_a86'}
+[2024-07-08 15:56:12,629]DEBUG:mobileperf:cpu_top:  ============== time consume for cpu info : 0.3937549591064453
+[2024-07-08 15:56:12,629]DEBUG:mobileperf:cpu_top:INFO: CpuMonitor save cpu_device_list: ['2024-07-08 15-56-12', '82', '48', '34', '700', 'com.yangcong345.android.phone', '2488', '13.7']
+[2024-07-08 15:56:14,833]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell input keyevent 25
+[2024-07-08 15:56:15,382]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell input keyevent 25 time consume: 0.5439548492431641
+[2024-07-08 15:56:16,308]DEBUG:mobileperf:trafficstats:--------- into _collect_traffic_thread loop thread is : Thread-3 (_collect_traffic_thread)
+[2024-07-08 15:56:16,308]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev
+[2024-07-08 15:56:16,308]DEBUG:mobileperf:thread_num:-----------into _collect_thread_num_thread loop, thread is : Thread-4 (_collect_thread_num_thread)
+[2024-07-08 15:56:16,311]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:16,376]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev time consume: 0.06176877021789551
+[2024-07-08 15:56:16,376]DEBUG:mobileperf:trafficstats:wifi_rx : 22626100 wifi_tx : 2534038 total wifi:25160138
+[2024-07-08 15:56:16,376]DEBUG:mobileperf:trafficstats: collection time in traffic is : 1720425376.376775
+[2024-07-08 15:56:16,376]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:16,426]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.11105585098266602
+[2024-07-08 15:56:16,427]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task
+[2024-07-08 15:56:16,470]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.08985495567321777
+[2024-07-08 15:56:16,471]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev
+[2024-07-08 15:56:16,472]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task time consume: 0.042765140533447266
+[2024-07-08 15:56:16,473]DEBUG:mobileperf:thread_num:collection time in thread_num info is : 1720425376.4730759
+[2024-07-08 15:56:16,473]DEBUG:mobileperf:thread_num:[1720425376.4730759, 'com.yangcong345.android.phone', 2488, 160]
+[2024-07-08 15:56:16,473]DEBUG:mobileperf:thread_num:current time: 2024-07-08 15-56-16, processname: com.yangcong345.android.phone, pid: 2488 thread num: 160
+[2024-07-08 15:56:16,473]DEBUG:mobileperf:thread_num:time_consume  for thread num infos: 0.16473007202148438
+[2024-07-08 15:56:16,511]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev time consume: 0.0384678840637207
+[2024-07-08 15:56:16,511]DEBUG:mobileperf:trafficstats:wifi_rx : 22626100 wifi_tx : 2534038 total wifi:25160138
+[2024-07-08 15:56:16,511]DEBUG:mobileperf:trafficstats:['2024-07-08 15-56-16', 76.88, 57.35, 19.53, 'com.yangcong345.android.phone', 2488, 57.35, 19.53, 76.88]
+[2024-07-08 15:56:16,511]DEBUG:mobileperf:trafficstats: -----------traffic timeconsumed: 0.204056978225708
+[2024-07-08 15:56:16,940]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06
+[2024-07-08 15:56:16,978]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06 time consume: 0.03259015083312988
+[2024-07-08 15:56:16,979]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo
+[2024-07-08 15:56:17,945]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:17,946]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:18,315]DEBUG:mobileperf:cpu_top:8.0 or higher, user_rate: 71, sys: 68,device cpu: 139
+[2024-07-08 15:56:18,316]DEBUG:mobileperf:cpu_top:idle_rate: 661
+[2024-07-08 15:56:18,316]DEBUG:mobileperf:cpu_top:cpuinfos, _parse top target_pck is : com.yangcong345.android.phone , self.pacakgename : com.yangcong345.android.phone
+[2024-07-08 15:56:18,316]DEBUG:mobileperf:cpu_top:cpuinfos, into _parse_pck packege is target package, pid is :2488
+[2024-07-08 15:56:18,317]DEBUG:mobileperf:cpu_top:=========== item == col_name: CPU] index : 8
+[2024-07-08 15:56:18,317]DEBUG:mobileperf:cpu_top:package: com.yangcong345.android.phone, cpu_rate: 0.0
+[2024-07-08 15:56:18,317]DEBUG:mobileperf:cpu_top:{'package': 'com.yangcong345.android.phone', 'pid': '2488', 'pid_cpu': '0.0', 'uid': 'u0_a86'}
+[2024-07-08 15:56:18,317]DEBUG:mobileperf:cpu_top:  ============== time consume for cpu info : 0.37113404273986816
+[2024-07-08 15:56:18,317]DEBUG:mobileperf:cpu_top:INFO: CpuMonitor save cpu_device_list: ['2024-07-08 15-56-18', '139', '71', '68', '661', 'com.yangcong345.android.phone', '2488', '0.0']
+[2024-07-08 15:56:19,119]DEBUG:mobileperf:logcat:launchtime log:07-08 15:56:18.917   930   952 I am_activity_launch_time: [0,215776126,com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity,92]
+[2024-07-08 15:56:19,120]DEBUG:mobileperf:logcat:Launch Info: ['2024-07-08 15-56-19', 'com.yangcong345.android.phone/com.yangcong345.webpage.container.WebHorizontalActivity', '92', 'normal launch']
+[2024-07-08 15:56:19,618]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo time consume: 2.6368048191070557
+[2024-07-08 15:56:19,620]DEBUG:mobileperf:meminfos:dumpsys meminfo time consume:2.6411070823669434
+[2024-07-08 15:56:19,620]DEBUG:mobileperf:meminfos: device general mem，total mem: 7860.95, 
+ used mem: 2065.47, free mem: 5442.22
+[2024-07-08 15:56:19,621]DEBUG:mobileperf:meminfos:{'package': 'com.yangcong345.android.phone', 'pid': '2488', 'pss': '254.67'}
+[2024-07-08 15:56:19,621]DEBUG:mobileperf:meminfos:current time: 2024-07-08 15-56-19, processname: ,total pss:254.67
+[2024-07-08 15:56:19,621]DEBUG:mobileperf:meminfos:collection time in meminfo is : 2024-07-08 15-56-19
+[2024-07-08 15:56:19,622]DEBUG:mobileperf:meminfos:write to file:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/pid_change.csv
+[2024-07-08 15:56:19,622]DEBUG:mobileperf:meminfos:['2024-07-08 15-56-06', 'com.yangcong345.android.phone', '2488']
+[2024-07-08 15:56:19,622]DEBUG:mobileperf:meminfos:write to file:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/meminfo.csv
+[2024-07-08 15:56:19,622]DEBUG:mobileperf:meminfos:['2024-07-08 15-56-06', 7860.95, 5442.22, 'com.yangcong345.android.phone', '2488', '254.67']
+[2024-07-08 15:56:20,369]INFO:mobileperf:meminfos:time consume for meminfos: 13.986333131790161
+[2024-07-08 15:56:20,369]DEBUG:mobileperf:meminfos:-----------into _collect_mem_thread loop, thread is : Thread-2 (_collect_memory_thread)
+[2024-07-08 15:56:20,370]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone
+[2024-07-08 15:56:20,688]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone time consume: 0.31433606147766113
+[2024-07-08 15:56:20,689]DEBUG:mobileperf:meminfos:dumpsys meminfo package time consume:0.31931304931640625
+[2024-07-08 15:56:20,689]INFO:mobileperf:meminfos:time consume for meminfos: 0.31988000869750977
+[2024-07-08 15:56:21,313]DEBUG:mobileperf:trafficstats:--------- into _collect_traffic_thread loop thread is : Thread-3 (_collect_traffic_thread)
+[2024-07-08 15:56:21,314]DEBUG:mobileperf:thread_num:-----------into _collect_thread_num_thread loop, thread is : Thread-4 (_collect_thread_num_thread)
+[2024-07-08 15:56:21,314]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev
+[2024-07-08 15:56:21,314]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:21,377]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev time consume: 0.05597686767578125
+[2024-07-08 15:56:21,378]DEBUG:mobileperf:trafficstats:wifi_rx : 22657302 wifi_tx : 2572008 total wifi:25229310
+[2024-07-08 15:56:21,378]DEBUG:mobileperf:trafficstats: collection time in traffic is : 1720425381.378145
+[2024-07-08 15:56:21,378]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:21,418]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.09859991073608398
+[2024-07-08 15:56:21,419]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task
+[2024-07-08 15:56:21,459]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.07827401161193848
+[2024-07-08 15:56:21,459]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev
+[2024-07-08 15:56:21,462]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task time consume: 0.04038405418395996
+[2024-07-08 15:56:21,462]DEBUG:mobileperf:thread_num:collection time in thread_num info is : 1720425381.462235
+[2024-07-08 15:56:21,462]DEBUG:mobileperf:thread_num:[1720425381.462235, 'com.yangcong345.android.phone', 2488, 163]
+[2024-07-08 15:56:21,462]DEBUG:mobileperf:thread_num:current time: 2024-07-08 15-56-21, processname: com.yangcong345.android.phone, pid: 2488 thread num: 163
+[2024-07-08 15:56:21,462]DEBUG:mobileperf:thread_num:time_consume  for thread num infos: 0.14869403839111328
+[2024-07-08 15:56:21,494]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev time consume: 0.03309369087219238
+[2024-07-08 15:56:21,494]DEBUG:mobileperf:trafficstats:wifi_rx : 22658678 wifi_tx : 2572548 total wifi:25231226
+[2024-07-08 15:56:21,495]DEBUG:mobileperf:trafficstats:['2024-07-08 15-56-21', 144.43, 87.82, 56.61, 'com.yangcong345.android.phone', 2488, 89.17, 57.13, 146.3]
+[2024-07-08 15:56:21,495]DEBUG:mobileperf:trafficstats: -----------traffic timeconsumed: 0.18206119537353516
+[2024-07-08 15:56:23,646]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:23,647]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:24,021]DEBUG:mobileperf:cpu_top:8.0 or higher, user_rate: 218, sys: 32,device cpu: 250
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:idle_rate: 550
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:cpuinfos, _parse top target_pck is : com.yangcong345.android.phone , self.pacakgename : com.yangcong345.android.phone
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:cpuinfos, into _parse_pck packege is target package, pid is :2488
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:=========== item == col_name: CPU] index : 8
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:package: com.yangcong345.android.phone, cpu_rate: 157
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:{'package': 'com.yangcong345.android.phone', 'pid': '2488', 'pid_cpu': '157', 'uid': 'u0_a86'}
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:  ============== time consume for cpu info : 0.3753693103790283
+[2024-07-08 15:56:24,022]DEBUG:mobileperf:cpu_top:INFO: CpuMonitor save cpu_device_list: ['2024-07-08 15-56-24', '250', '218', '32', '550', 'com.yangcong345.android.phone', '2488', '157']
+[2024-07-08 15:56:25,375]DEBUG:mobileperf:meminfos:-----------into _collect_mem_thread loop, thread is : Thread-2 (_collect_memory_thread)
+[2024-07-08 15:56:25,376]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone
+[2024-07-08 15:56:25,891]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell dumpsys meminfo com.yangcong345.android.phone time consume: 0.5074851512908936
+[2024-07-08 15:56:25,892]DEBUG:mobileperf:meminfos:dumpsys meminfo package time consume:0.5160808563232422
+[2024-07-08 15:56:25,893]INFO:mobileperf:meminfos:time consume for meminfos: 0.5182638168334961
+[2024-07-08 15:56:26,318]DEBUG:mobileperf:trafficstats:--------- into _collect_traffic_thread loop thread is : Thread-3 (_collect_traffic_thread)
+[2024-07-08 15:56:26,318]DEBUG:mobileperf:thread_num:-----------into _collect_thread_num_thread loop, thread is : Thread-4 (_collect_thread_num_thread)
+[2024-07-08 15:56:26,318]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev
+[2024-07-08 15:56:26,318]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:26,358]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/net/dev time consume: 0.03688526153564453
+[2024-07-08 15:56:26,358]DEBUG:mobileperf:trafficstats:wifi_rx : 22659442 wifi_tx : 2575207 total wifi:25234649
+[2024-07-08 15:56:26,358]DEBUG:mobileperf:trafficstats: collection time in traffic is : 1720425386.358477
+[2024-07-08 15:56:26,358]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:26,390]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.06994986534118652
+[2024-07-08 15:56:26,391]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task
+[2024-07-08 15:56:26,426]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.06629610061645508
+[2024-07-08 15:56:26,426]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev
+[2024-07-08 15:56:26,428]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -lt /proc/2488/task time consume: 0.03619694709777832
+[2024-07-08 15:56:26,429]DEBUG:mobileperf:thread_num:collection time in thread_num info is : 1720425386.429041
+[2024-07-08 15:56:26,429]DEBUG:mobileperf:thread_num:[1720425386.429041, 'com.yangcong345.android.phone', 2488, 162]
+[2024-07-08 15:56:26,429]DEBUG:mobileperf:thread_num:current time: 2024-07-08 15-56-26, processname: com.yangcong345.android.phone, pid: 2488 thread num: 162
+[2024-07-08 15:56:26,429]DEBUG:mobileperf:thread_num:time_consume  for thread num infos: 0.11096000671386719
+[2024-07-08 15:56:26,457]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell cat /proc/2488/net/dev time consume: 0.029552936553955078
+[2024-07-08 15:56:26,457]DEBUG:mobileperf:trafficstats:wifi_rx : 22659442 wifi_tx : 2575207 total wifi:25234649
+[2024-07-08 15:56:26,457]DEBUG:mobileperf:trafficstats:['2024-07-08 15-56-26', 149.65, 89.91, 59.73, 'com.yangcong345.android.phone', 2488, 89.91, 59.73, 149.65]
+[2024-07-08 15:56:26,458]DEBUG:mobileperf:trafficstats: -----------traffic timeconsumed: 0.1398000717163086
+[2024-07-08 15:56:29,354]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:29,355]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:29,623]DEBUG:mobileperf:startup: catch keyboardInterrupt, goodbye!!!
+[2024-07-08 15:56:29,623]DEBUG:mobileperf:cpu_top:INFO: CpuCollector stop...
+[2024-07-08 15:56:29,624]ERROR:mobileperf:startup:'Thread' object has no attribute 'isAlive'
+[2024-07-08 15:56:29,624]DEBUG:mobileperf:meminfos:INFO: MemInfoPackageCollector stop... 
+[2024-07-08 15:56:29,624]ERROR:mobileperf:startup:'Thread' object has no attribute 'isAlive'
+[2024-07-08 15:56:29,624]DEBUG:mobileperf:cpu_top:{'package': 'com.yangcong345.android.phone', 'pid': '', 'pid_cpu': ''}
+[2024-07-08 15:56:29,625]DEBUG:mobileperf:trafficstats:INFO: TrafficCollecor  stop...
+[2024-07-08 15:56:29,625]DEBUG:mobileperf:cpu_top:  ============== time consume for cpu info : 0.2695150375366211
+[2024-07-08 15:56:29,625]ERROR:mobileperf:startup:'Thread' object has no attribute 'isAlive'
+[2024-07-08 15:56:29,626]DEBUG:mobileperf:cpu_top:cpuinfos, can't get cpu info, continue
+[2024-07-08 15:56:29,626]WARNING:mobileperf.common.basemonitor:basemonitor:请在<class 'mobileperf.android.fps.FPSMonitor'>类中实现stop方法
+[2024-07-08 15:56:29,626]DEBUG:mobileperf:cpu_top:---------------cpuinfos, into _collect_package_cpu_thread loop thread is : Thread-1 (_collect_package_cpu_thread)
+[2024-07-08 15:56:29,627]DEBUG:mobileperf:thread_num:INFO: ThreadNumPackageCollector stop... 
+[2024-07-08 15:56:29,627]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell top -b -n 1 -d 5
+[2024-07-08 15:56:29,628]ERROR:mobileperf:startup:'Thread' object has no attribute 'isAlive'
+[2024-07-08 15:56:29,628]DEBUG:mobileperf:monkey:stop monkey
+[2024-07-08 15:56:29,628]DEBUG:mobileperf:logcat:logcat monitor: stop...
+[2024-07-08 15:56:29,629]DEBUG:mobileperf:logcat:logcat monitor: stopped
+[2024-07-08 15:56:29,630]DEBUG:mobileperf:androiddevice:stop logcat
+[2024-07-08 15:56:29,630]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A
+[2024-07-08 15:56:29,725]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ps -A time consume: 0.09249591827392578
+[2024-07-08 15:56:29,726]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell kill 11481
+[2024-07-08 15:56:29,752]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell kill 11481 time consume: 0.024609088897705078
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:['com.yangcong345.android.phone']
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:{'cpuinfo.csv': {'table_name': 'pid_cpu', 'x_axis': 'datatime', 'y_axis': '%', 'values': ['pid_cpu%', 'total_pid_cpu%']}, 'meminfo.csv': {'table_name': 'pid_pss', 'x_axis': 'datatime', 'y_axis': 'mem(MB)', 'values': ['pid_pss(MB)', 'total_pss(MB)']}, 'pid_change.csv': {'table_name': 'pid', 'x_axis': 'datatime', 'y_axis': 'pid_num', 'values': ['pid']}, 'pss_phone.csv': {'table_name': 'pss_detail', 'x_axis': 'datatime', 'y_axis': 'mem(MB)', 'values': ['pss', 'java_heap', 'native_heap', 'system']}}
+[2024-07-08 15:56:29,753]INFO:mobileperf:report:create report for /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/cpuinfo.csv
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/meminfo.csv
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/pid_change.csv
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:/Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06/pss_phone.csv
+[2024-07-08 15:56:29,753]DEBUG:mobileperf:report:['cpuinfo.csv', 'meminfo.csv', 'pid_change.csv', 'pss_phone.csv']
+[2024-07-08 15:56:29,754]DEBUG:mobileperf:report:get csv cpuinfo.csv to excel
+[2024-07-08 15:56:29,754]DEBUG:mobileperf:excel:filename:cpuinfo
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:series_index
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:[5]
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:report:get csv meminfo.csv to excel
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:filename:meminfo
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:series_index
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:[3]
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:report:get csv pid_change.csv to excel
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:filename:pid_change
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:series_index
+[2024-07-08 15:56:29,757]DEBUG:mobileperf:excel:[1]
+[2024-07-08 15:56:29,758]DEBUG:mobileperf:report:get csv pss_phone.csv to excel
+[2024-07-08 15:56:29,758]DEBUG:mobileperf:excel:filename:pss_phone
+[2024-07-08 15:56:29,758]DEBUG:mobileperf:excel:series_index
+[2024-07-08 15:56:29,758]DEBUG:mobileperf:excel:[1]
+[2024-07-08 15:56:29,758]INFO:mobileperf:report:wait to save summary_2024_07_08_15_56_29.xlsx
+[2024-07-08 15:56:29,766]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp
+[2024-07-08 15:56:29,800]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 shell ls -l /data/local/tmp time consume: 0.03290081024169922
+[2024-07-08 15:56:29,800]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06
+[2024-07-08 15:56:29,816]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_15_56_06.hprof /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06 time consume: 0.014800071716308594
+[2024-07-08 15:56:29,816]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/anr /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06
+[2024-07-08 15:56:29,832]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/anr /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_15_56_06 time consume: 0.013915300369262695

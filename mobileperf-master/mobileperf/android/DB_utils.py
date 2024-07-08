@@ -152,6 +152,7 @@ class DatabaseOperations:
         try:
             cur.execute("SELECT * FROM devices;")
             devices = cur.fetchall()
+            print("查看所有设备！")
             return devices
         except Exception as e:
             print(f"Failed to fetch devices: {e}")
