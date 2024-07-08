@@ -342,8 +342,7 @@ class CpuCollector(object):
         except RuntimeError as e:
             logger.error(e)
 
-        # 数据库连接实例化
-        db_operations = DatabaseOperations()
+
 
         while not self._stop_event.is_set() and time.time() < end_time:
             try:
@@ -372,10 +371,12 @@ class CpuCollector(object):
                 except RuntimeError as e:
                     logger.error(e)
 
-                #查询新ids，用于区分新老数据
-                latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
                 # 将CPU数据插入数据库
                 try:
+                    # 数据库连接实例化
+                    db_operations = DatabaseOperations()
+                    # 查询新ids，用于区分新老数据
+                    latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
                     for package_info in cpu_info.package_list:
                         cpu_data = (
                             self.device.get_device_id(),

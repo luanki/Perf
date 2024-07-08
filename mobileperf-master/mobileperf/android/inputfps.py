@@ -37,14 +37,6 @@ class FpsListenserImpl(IFpsListener):
 
 
 
-        # 数据库连接实例化
-        db_operations = DatabaseOperations()
-
-        # 查询新ids，用于区分新老数据
-        latest_ids = db_operations.get_latest_ids(devices)
-
-
-
         # 动态获取基路径（假设脚本位于项目的根目录）
         base_path = os.path.dirname(os.path.abspath(__file__))
         # 获取上三级目录路径
@@ -75,6 +67,11 @@ class FpsListenserImpl(IFpsListener):
                 str(fps_info.jankys_more_than_166)
             ])
         try:
+            # 数据库连接实例化
+            db_operations = DatabaseOperations()
+
+            # 查询新ids，用于区分新老数据
+            latest_ids = db_operations.get_latest_ids(devices)
             # Prepare fps_data for insertion into database
             fps_data = (
                 devices,

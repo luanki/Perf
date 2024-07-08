@@ -256,8 +256,7 @@ class MemInfoPackageCollector(object):
         # sdcard 卡目录下dump需要打开这个开关
         self.device.adb.run_shell_cmd("setenforce 0")
         first_dump = True
-        # 数据库连接实例化
-        db_operations = DatabaseOperations()
+
         while not self._stop_event.is_set() and time.time() < end_time:
             try:
                 before = time.time()
@@ -355,10 +354,13 @@ class MemInfoPackageCollector(object):
                         except RuntimeError as e:
                             logger.error(e)
 
-                        # 查询新ids，用于区分新老数据
-                        latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
+
                         # 将CPU数据插入数据库
                         try:
+                            # 数据库连接实例化
+                            db_operations = DatabaseOperations()
+                            # 查询新ids，用于区分新老数据
+                            latest_ids = db_operations.get_latest_ids(self.device.get_device_id())
                             for package_pid_pss in mem_device_snapshot.package_pid_pss_list:
                                 print(f"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb: {package_pid_pss}")
                                 meminfo_data = (

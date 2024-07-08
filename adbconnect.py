@@ -117,31 +117,33 @@ for device_line in device_lines:
         # threads.append(thread_py)
         # thread_py.start()
 
-        if device_id.startswith("S30"):
-            # 处理S30设备
-            device_name = "S30"
-        elif device_id.startswith("Q20"):
-            # 处理Q20设备
-            device_name = "Q20"
-        else:
-            # 其他设备处理
-            device_name = "未知"
-
-        #向数据库插入devices基本信息
-        # 将CPU数据插入数据库
-        # 实例化数据库连接
-        db_operations = DatabaseOperations()
-        try:
-            db_operations.devices_info_insert(device_id, device_name)
-
-        except Exception as db_e:
-            print(db_e)
-            print("devices_info插入数据库失败！！")
+        #SQL操作，无需sql操作，请注释了
+        # if device_id.startswith("S30"):
+        #     # 处理S30设备
+        #     device_name = "S30"
+        # elif device_id.startswith("Q20"):
+        #     # 处理Q20设备
+        #     device_name = "Q20"
+        # else:
+        #     # 其他设备处理
+        #     device_name = "未知"
+        #
+        # #向数据库插入devices基本信息
+        # # 将CPU数据插入数据库
+        # # 实例化数据库连接
+        # db_operations = DatabaseOperations()
+        # try:
+        #     db_operations.devices_info_insert(device_id, device_name)
+        #
+        # except Exception as db_e:
+        #     print(db_e)
+        #     print("devices_info插入数据库失败！！")
 
 
 
         # 执行fps_run.py文件，并将设备ID作为参数传递
         py_file = os.path.join(base_path, "mobileperf-master", "mobileperf", "android", "fps_run.py")
+        py_file = py_file.replace('\r', '')  # 移除路径中的回车符
         # 创建并启动一个新的线程来执行命令
         thread_py = threading.Thread(target=run_command_in_directory, args=(f"python {py_file} {device_id}", sh_directory))
         threads.append(thread_py)
