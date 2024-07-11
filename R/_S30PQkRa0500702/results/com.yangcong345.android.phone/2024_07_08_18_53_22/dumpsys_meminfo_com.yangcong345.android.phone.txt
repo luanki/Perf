@@ -1,0 +1,323 @@
+2024-07-08 18-53-23 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 18575523 Realtime: 23228324
+
+** MEMINFO in pid 2488 [com.yangcong345.android.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    78938    78652        0       46    90392    79788    10603
+  Dalvik Heap    17557    17472        0       31    17757    11613     6144
+ Dalvik Other    65428    65424        0        0                           
+        Stack      100      100        0        0                           
+       Ashmem      308      128        0        0                           
+    Other dev       83        0       80        0                           
+     .so mmap     9435      704     1972        0                           
+    .jar mmap     2664        0      408        0                           
+    .apk mmap    46883      180    38008        0                           
+    .ttf mmap       25        0        0        0                           
+    .dex mmap     1279      936      320        0                           
+    .oat mmap     1157        0       12        0                           
+    .art mmap     2994     2496       20        0                           
+   Other mmap     7522     1520     2192        0                           
+    GL mtrack    28360    28360        0        0                           
+      Unknown     5960     5920        0        2                           
+        TOTAL   268772   201892    43012       79   108149    91401    16747
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    19988
+         Native Heap:    78652
+                Code:    42540
+               Stack:      100
+            Graphics:    28360
+       Private Other:    75264
+              System:    23868
+ 
+               TOTAL:   268772       TOTAL SWAP PSS:       79
+ 
+ Objects
+               Views:       38         ViewRootImpl:        0
+         AppContexts:        8           Activities:        1
+              Assets:       15        AssetManagers:        0
+       Local Binders:       77        Proxy Binders:       43
+       Parcel memory:       38         Parcel count:      155
+    Death Recipients:        2      OpenSSL Sockets:        3
+            WebViews:        1
+ 
+ SQL
+         MEMORY_USED:     2823
+  PAGECACHE_OVERFLOW:      608          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       32             94       44/386/7  /data/user/0/com.yangcong345.android.phone/databases/techain_d.db
+         4       32             96        7/385/8  /data/user/0/com.yangcong345.android.phone/databases/bb_in_techain.db
+         4       24             22        0/625/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db
+         4        8                         0/0/0    (attached) temp
+         4       24             60        1/377/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db (2)
+         4       28             34       14/647/4  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2
+         4        8                         0/0/0    (attached) temp
+         4       28             39     1234/378/3  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2 (2)
+         4      140             39     3331/704/5  /data/user/0/com.yangcong345.android.phone/databases/coverage.db
+         4        8                         0/0/0    (attached) temp
+         4      140             24       19/377/2  /data/user/0/com.yangcong345.android.phone/databases/coverage.db (2)
+         4       20             36     5331/375/4  /data/user/0/com.yangcong345.android.phone/databases/PointDatabase
+         4       60            108      83/391/14  /data/user/0/com.yangcong345.android.phone/databases/bugly_db_
+         4       40             22        0/625/2  /data/user/0/com.yangcong345.android.phone/databases/yc_db
+         4        8                         0/0/0    (attached) temp
+         4       40            108       51/379/4  /data/user/0/com.yangcong345.android.phone/databases/yc_db (2)
+         4       24             22        0/620/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb
+         4        8                         0/0/0    (attached) temp
+         4       24             26        5/374/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb (2)
+         4       20            109       33/385/8  /data/user/0/com.yangcong345.android.phone/databases/btechainh.db
+ 
+ Asset Allocations
+    : 7121K
+    : 7121K
+    : 1382K
+
+2024-07-08 18-53-36 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 18588670 Realtime: 23241472
+
+** MEMINFO in pid 2488 [com.yangcong345.android.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    94260    93976        0       46    95500    85266    10233
+  Dalvik Heap    12809    12724        0       31    17770    11626     6144
+ Dalvik Other    65452    65448        0        0                           
+        Stack      100      100        0        0                           
+       Ashmem      342      128        0        0                           
+    Other dev       83        0       80        0                           
+     .so mmap     9312      704     1968        0                           
+    .jar mmap     2607        0      396        0                           
+    .apk mmap    46418      180    37936        0                           
+    .ttf mmap       25        0        0        0                           
+    .dex mmap     1279      936      320        0                           
+    .oat mmap     1133        0        4        0                           
+    .art mmap     2997     2500       20        0                           
+   Other mmap     7455     1480     2156        0                           
+   EGL mtrack    10200    10200        0        0                           
+    GL mtrack    31808    31808        0        0                           
+      Unknown     6120     6080        0        2                           
+        TOTAL   292479   226264    42880       79   113270    96892    16377
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    15244
+         Native Heap:    93976
+                Code:    42444
+               Stack:      100
+            Graphics:    42008
+       Private Other:    75372
+              System:    23335
+ 
+               TOTAL:   292479       TOTAL SWAP PSS:       79
+ 
+ Objects
+               Views:       47         ViewRootImpl:        2
+         AppContexts:       10           Activities:        2
+              Assets:       15        AssetManagers:        0
+       Local Binders:       84        Proxy Binders:       44
+       Parcel memory:       41         Parcel count:      167
+    Death Recipients:        2      OpenSSL Sockets:        4
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     2838
+  PAGECACHE_OVERFLOW:      623          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       32             94       44/389/7  /data/user/0/com.yangcong345.android.phone/databases/techain_d.db
+         4       32             96        7/388/8  /data/user/0/com.yangcong345.android.phone/databases/bb_in_techain.db
+         4       24             22        0/630/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db
+         4        8                         0/0/0    (attached) temp
+         4       24             60        1/380/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db (2)
+         4       28             34       14/652/4  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2
+         4        8                         0/0/0    (attached) temp
+         4       28             39     1234/381/3  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2 (2)
+         4      140             39     3331/709/5  /data/user/0/com.yangcong345.android.phone/databases/coverage.db
+         4        8                         0/0/0    (attached) temp
+         4      140             24       19/380/2  /data/user/0/com.yangcong345.android.phone/databases/coverage.db (2)
+         4       20             36     5347/378/4  /data/user/0/com.yangcong345.android.phone/databases/PointDatabase
+         4       68            108      87/394/14  /data/user/0/com.yangcong345.android.phone/databases/bugly_db_
+         4       40             22        0/630/2  /data/user/0/com.yangcong345.android.phone/databases/yc_db
+         4        8                         0/0/0    (attached) temp
+         4       40            108       51/382/4  /data/user/0/com.yangcong345.android.phone/databases/yc_db (2)
+         4       24             22        0/625/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb
+         4        8                         0/0/0    (attached) temp
+         4       24             26        5/377/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb (2)
+         4       20            109       33/388/8  /data/user/0/com.yangcong345.android.phone/databases/btechainh.db
+ 
+ Asset Allocations
+    : 7121K
+    : 7121K
+    : 1382K
+
+2024-07-08 18-53-41 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 18593711 Realtime: 23246513
+
+** MEMINFO in pid 2488 [com.yangcong345.android.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    94728    94444        0       46    99344    93288     6055
+  Dalvik Heap    16177    16092        0       31    17888    11744     6144
+ Dalvik Other    65524    65520        0        0                           
+        Stack      100      100        0        0                           
+       Ashmem     8142      128        0        0                           
+    Other dev       83        0       80        0                           
+     .so mmap     9312      704     1968        0                           
+    .jar mmap     2607        0      396        0                           
+    .apk mmap    46418      180    37936        0                           
+    .ttf mmap       25        0        0        0                           
+    .dex mmap     1279      936      320        0                           
+    .oat mmap     1133        0        4        0                           
+    .art mmap     2997     2500       20        0                           
+   Other mmap     7479     1500     2144        0                           
+   EGL mtrack    12466    12466        0        0                           
+    GL mtrack   145160   145160        0        0                           
+      Unknown     6152     6112        0        2                           
+        TOTAL   419861   345842    42868       79   117232   105032    12199
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    18612
+         Native Heap:    94444
+                Code:    42444
+               Stack:      100
+            Graphics:   157626
+       Private Other:    75484
+              System:    31151
+ 
+               TOTAL:   419861       TOTAL SWAP PSS:       79
+ 
+ Objects
+               Views:       47         ViewRootImpl:        2
+         AppContexts:       10           Activities:        2
+              Assets:       15        AssetManagers:        0
+       Local Binders:       84        Proxy Binders:       44
+       Parcel memory:       41         Parcel count:      165
+    Death Recipients:        2      OpenSSL Sockets:        6
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     2848
+  PAGECACHE_OVERFLOW:      633          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       32             94       44/392/7  /data/user/0/com.yangcong345.android.phone/databases/techain_d.db
+         4       32             96        7/391/8  /data/user/0/com.yangcong345.android.phone/databases/bb_in_techain.db
+         4       24             22        0/635/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db
+         4        8                         0/0/0    (attached) temp
+         4       24             60        1/383/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db (2)
+         4       28             34       14/657/4  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2
+         4        8                         0/0/0    (attached) temp
+         4       28             39     1234/384/3  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2 (2)
+         4      140             39     3331/714/5  /data/user/0/com.yangcong345.android.phone/databases/coverage.db
+         4        8                         0/0/0    (attached) temp
+         4      140             24       19/383/2  /data/user/0/com.yangcong345.android.phone/databases/coverage.db (2)
+         4       28             36     5359/381/4  /data/user/0/com.yangcong345.android.phone/databases/PointDatabase
+         4       68            108      87/397/14  /data/user/0/com.yangcong345.android.phone/databases/bugly_db_
+         4       40             22        0/635/2  /data/user/0/com.yangcong345.android.phone/databases/yc_db
+         4        8                         0/0/0    (attached) temp
+         4       40            108       51/385/4  /data/user/0/com.yangcong345.android.phone/databases/yc_db (2)
+         4       24             22        0/630/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb
+         4        8                         0/0/0    (attached) temp
+         4       24             26        5/380/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb (2)
+         4       20            109       33/391/8  /data/user/0/com.yangcong345.android.phone/databases/btechainh.db
+ 
+ Asset Allocations
+    : 7121K
+    : 7121K
+    : 1382K
+
+2024-07-08 18-53-46 dumpsys meminfo package info:
+Applications Memory Usage (in Kilobytes):
+Uptime: 18598660 Realtime: 23251462
+
+** MEMINFO in pid 2488 [com.yangcong345.android.phone] **
+                   Pss  Private  Private  SwapPss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    82464    82180        0       46    95688    87556     8131
+  Dalvik Heap    12433    12348        0       31    17684    11540     6144
+ Dalvik Other    65560    65556        0        0                           
+        Stack      100      100        0        0                           
+       Ashmem     9484      128        0        0                           
+    Other dev       83        0       80        0                           
+     .so mmap     9307      704     1968        0                           
+    .jar mmap     2607        0      396        0                           
+    .apk mmap    46883      180    38008        0                           
+    .ttf mmap       25        0        0        0                           
+    .dex mmap     1279      936      320        0                           
+    .oat mmap     1133        0        4        0                           
+    .art mmap     2997     2500       20        0                           
+   Other mmap     7487     1504     2144        0                           
+   EGL mtrack    12466    12466        0        0                           
+    GL mtrack   158572   158572        0        0                           
+      Unknown     6152     6112        0        2                           
+        TOTAL   419111   343286    42940       79   113372    99096    14275
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    14868
+         Native Heap:    82180
+                Code:    42516
+               Stack:      100
+            Graphics:   171038
+       Private Other:    75524
+              System:    32885
+ 
+               TOTAL:   419111       TOTAL SWAP PSS:       79
+ 
+ Objects
+               Views:       39         ViewRootImpl:        1
+         AppContexts:        8           Activities:        1
+              Assets:       15        AssetManagers:        0
+       Local Binders:       77        Proxy Binders:       44
+       Parcel memory:       50         Parcel count:      168
+    Death Recipients:        2      OpenSSL Sockets:        6
+            WebViews:        2
+ 
+ SQL
+         MEMORY_USED:     2838
+  PAGECACHE_OVERFLOW:      623          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       32             94       44/395/7  /data/user/0/com.yangcong345.android.phone/databases/techain_d.db
+         4       32             96        7/394/8  /data/user/0/com.yangcong345.android.phone/databases/bb_in_techain.db
+         4       24             22        0/640/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db
+         4        8                         0/0/0    (attached) temp
+         4       24             60        1/386/2  /data/user/0/com.yangcong345.android.phone/databases/ycxy_pdf_db (2)
+         4       28             34       14/662/4  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2
+         4        8                         0/0/0    (attached) temp
+         4       28             39     1234/387/3  /data/user/0/com.yangcong345.android.phone/databases/yc_diagnosis_db2 (2)
+         4      140             39     3331/719/5  /data/user/0/com.yangcong345.android.phone/databases/coverage.db
+         4        8                         0/0/0    (attached) temp
+         4      140             24       19/386/2  /data/user/0/com.yangcong345.android.phone/databases/coverage.db (2)
+         4       20             36     5387/384/4  /data/user/0/com.yangcong345.android.phone/databases/PointDatabase
+         4       68            108      87/400/14  /data/user/0/com.yangcong345.android.phone/databases/bugly_db_
+         4       40             22        0/640/2  /data/user/0/com.yangcong345.android.phone/databases/yc_db
+         4        8                         0/0/0    (attached) temp
+         4       40            108       51/388/4  /data/user/0/com.yangcong345.android.phone/databases/yc_db (2)
+         4       24             22        0/635/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb
+         4        8                         0/0/0    (attached) temp
+         4       24             26        5/383/2  /data/user/0/com.yangcong345.android.phone/databases/yc_cache_db_6392af102cbab800014677cb (2)
+         4       20            109       33/394/8  /data/user/0/com.yangcong345.android.phone/databases/btechainh.db
+ 
+ Asset Allocations
+    : 7121K
+    : 7121K
+    : 1382K
+
