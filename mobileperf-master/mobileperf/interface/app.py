@@ -62,6 +62,53 @@ def view_device_perf_info():
     else:
         return jsonify({"message": "未找到设备性能数据"}), 404
 
+@app.route('/get_cpu_info', methods=['POST'])
+def get_cpu_info():
+    data = request.json
+    # print(data)
+    sn = data.get('device_name')
+    ids = data.get('other_field')
+
+    cpu_info = db_operations.get_cpu_info(sn, ids)
+    if cpu_info:
+        # 先对设备数据按创建时间排序，最新的排在最前面
+        # print(cpu_info)
+
+        return jsonify(cpu_info)
+    else:
+        return jsonify({"message": "未找到相关数据"}), 404
+
+@app.route('/get_mem_info', methods=['POST'])
+def get_mem_info():
+    data = request.json
+    # print(data)
+    sn = data.get('device_name')
+    ids = data.get('other_field')
+
+    mem_info = db_operations.get_mem_info(sn, ids)
+    if mem_info:
+        # 先对设备数据按创建时间排序，最新的排在最前面
+        print(mem_info)
+
+        return jsonify(mem_info)
+    else:
+        return jsonify({"message": "未找到相关数据"}), 404
+
+@app.route('/get_fps_info', methods=['POST'])
+def get_fps_info():
+    data = request.json
+    # print(data)
+    sn = data.get('device_name')
+    ids = data.get('other_field')
+
+    fps_info = db_operations.get_fps_info(sn, ids)
+    if fps_info:
+        # 先对设备数据按创建时间排序，最新的排在最前面
+        print(fps_info)
+
+        return jsonify(fps_info)
+    else:
+        return jsonify({"message": "未找到相关数据"}), 404
 
 if __name__ == '__main__':
     app.run(debug=True)

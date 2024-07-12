@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <!-- <div>
         <h1>设备详情</h1>
         <p v-if="deviceData">
             <strong>设备名称：</strong> {{ deviceData.device_name }}
@@ -10,27 +10,191 @@
         <p v-else>
             加载中...
         </p>
+    </div> -->
+    <div class="card">
+        <h2>CPU</h2>
         <div v-if="devicePerfInfo">
-            <h2>API 响应</h2>
-            <pre>{{ devicePerfInfo }}</pre>
+            <apexchart type="area" height="350" :options="cpuChartOptions" :series="cpuSeries"></apexchart>
         </div>
     </div>
     <div class="card">
-        <div class="card-body">
-            <div id="chart-social-referrals" class="chart-lg"></div>
+        <h2>Memory</h2>
+        <div v-if="deviceMemInfo">
+            <apexchart type="area" height="350" :options="memChartOptions" :series="memSeries"></apexchart>
+        </div>
+    </div>
+    <div class="card">
+        <h2>FPS</h2>
+        <div v-if="deviceFpsInfo">
+            <apexchart type="area" height="350" :options="fpsChartOptions" :series="fpsSeries"></apexchart>
         </div>
     </div>
 </template>
 
 <script>
 import axios from 'axios';
+import VueApexCharts from 'vue3-apexcharts';
 
 export default {
     name: 'DeviceDetails',
+    components: {
+        apexchart: VueApexCharts
+    },
     data() {
         return {
             deviceData: null,
-            devic: null
+            devicePerfInfo: null,
+            cpuChartOptions: {
+                chart: {
+                    type: 'area',
+                    height: 350,
+                    animations: {
+                        enabled: true,
+                        easing: 'linear',
+                        dynamicAnimation: {
+                            speed: 1000
+                        }
+                    },
+                },
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        datetimeFormatter: {
+                            year: 'yyyy',
+                            month: "MMM 'yy",
+                            day: 'dd MMM',
+                            hour: 'HH:mm'
+                        },
+                        style: {
+                            color: '#fff',
+                        }
+
+                    },
+                    title: {
+                        text: '时间',
+                        style: {
+                            color: '#fff'
+                        }
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    x: {
+                        format: 'HH:mm:ss'
+                    }
+                },
+                title: {
+                    text: 'CPU',
+                    align: 'left'
+                },
+                stroke: {
+                    width: 2
+                },
+                series: []
+            },
+            memChartOptions: {
+                chart: {
+                    type: 'area',
+                    height: 350,
+                    animations: {
+                        enabled: true,
+                        easing: 'linear',
+                        dynamicAnimation: {
+                            speed: 1000
+                        }
+                    },
+                },
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        datetimeFormatter: {
+                            year: 'yyyy',
+                            month: "MMM 'yy",
+                            day: 'dd MMM',
+                            hour: 'HH:mm'
+                        },
+                        style: {
+                            color: '#fff',
+                        }
+                    },
+                    title: {
+                        text: '时间',
+                        style: {
+                            color: '#fff'
+                        }
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    x: {
+                        format: 'HH:mm:ss'
+                    }
+                },
+                title: {
+                    text: 'Memory Usage',
+                    align: 'left',
+                    style: {
+                        color: '#fff'
+                    }
+                },
+                stroke: {
+                    width: 2
+                },
+                series: []
+            },
+            fpsChartOptions: {
+                chart: {
+                    type: 'area',
+                    height: 350,
+                    animations: {
+                        enabled: true,
+                        easing: 'linear',
+                        dynamicAnimation: {
+                            speed: 1000
+                        }
+                    },
+                },
+                xaxis: {
+                    type: 'datetime',
+                    labels: {
+                        datetimeFormatter: {
+                            year: 'yyyy',
+                            month: "MMM 'yy",
+                            day: 'dd MMM',
+                            hour: 'HH:mm'
+                        },
+                        style: {
+                            color: '#fff',
+                        }
+                    },
+                    title: {
+                        text: '时间',
+                        style: {
+                            color: '#fff'
+                        }
+                    }
+                },
+                tooltip: {
+                    enabled: true,
+                    x: {
+                        format: 'HH:mm:ss'
+                    }
+                },
+                title: {
+                    text: 'Fps',
+                    align: 'left',
+                    style: {
+                        color: '#fff'
+                    }
+                },
+                stroke: {
+                    width: 2
+                },
+                series: []
+            },
+            cpuSeries: [],
+            memSeries: [],
+            fpsSeries: []
         };
     },
     created() {
@@ -40,6 +204,8 @@ export default {
         };
 
         this.fetchDevicePerfInfo();
+        this.fetchDeviceMemInfo();
+        this.fetchDeviceFpsInfo();
     },
     methods: {
         fetchDevicePerfInfo() {
@@ -48,113 +214,123 @@ export default {
                 other_field: this.deviceData.other_field
             };
 
-            axios.post('http://127.0.0.1:5000/view_device_perf_info', payload)
+            axios.post('http://127.0.0.1:5000/get_cpu_info', payload)
                 .then(response => {
+                    //console.log("API response:", response.data); 
                     this.devicePerfInfo = response.data;
-                    this.renderChart(); // 数据获取后调用方法渲染图表
+                    this.processChartData();
+                    // console.log(this.devicePerfInfo)
                 })
                 .catch(error => {
-                    console.error("获取设备性能信息出错:", error);
+                    console.error("获取设备cpu信息出错:", error);
                 });
         },
-        renderChart() {
-            if (this.devicePerfInfo) {
-                const seriesData = [
-                    {
-                        name: "Facebook",
-                        data: this.generateSeriesData(this.devicePerfInfo, 'facebook')
-                    },
-                    {
-                        name: "Twitter",
-                        data: this.generateSeriesData(this.devicePerfInfo, 'twitter')
-                    },
-                    {
-                        name: "Dribbble",
-                        data: this.generateSeriesData(this.devicePerfInfo, 'dribbble')
-                    }
-                ];
+        fetchDeviceMemInfo() {
+            const payload = {
+                device_name: this.deviceData.device_name,
+                other_field: this.deviceData.other_field
+            };
 
-                window.ApexCharts && new ApexCharts(document.getElementById('chart-social-referrals'), {
-                    chart: {
-                        type: "line",
-                        fontFamily: 'inherit',
-                        height: 240,
-                        parentHeightOffset: 0,
-                        toolbar: {
-                            show: false,
-                        },
-                        animations: {
-                            enabled: false
-                        },
-                    },
-                    fill: {
-                        opacity: 1,
-                    },
-                    stroke: {
-                        width: 2,
-                        lineCap: "round",
-                        curve: "smooth",
-                    },
-                    series: seriesData,
-                    tooltip: {
-                        theme: 'dark'
-                    },
-                    grid: {
-                        padding: {
-                            top: -20,
-                            right: 0,
-                            left: -4,
-                            bottom: -4
-                        },
-                        strokeDashArray: 4,
-                        xaxis: {
-                            lines: {
-                                show: true
-                            }
-                        },
-                    },
-                    xaxis: {
-                        labels: {
-                            padding: 0,
-                        },
-                        tooltip: {
-                            enabled: false
-                        },
-                        type: 'datetime',
-                        categories: this.devicePerfInfo.labels // 假设标签在 devicePerfInfo 中
-                    },
-                    yaxis: {
-                        labels: {
-                            padding: 4
-                        },
-                    },
-                    colors: [tabler.getColor("facebook"), tabler.getColor("twitter"), tabler.getColor("dribbble")],
-                    legend: {
-                        show: true,
-                        position: 'bottom',
-                        offsetY: 12,
-                        markers: {
-                            width: 10,
-                            height: 10,
-                            radius: 100,
-                        },
-                        itemMargin: {
-                            horizontal: 8,
-                            vertical: 8
-                        },
-                    },
-                }).render();
-            }
+            axios.post('http://127.0.0.1:5000/get_mem_info', payload)
+                .then(response => {
+                    this.deviceMemInfo = response.data;
+                    this.processMemChartData();
+                })
+                .catch(error => {
+                    console.error("获取设备memory信息出错:", error);
+                });
         },
-        generateSeriesData(devicePerfInfo, seriesName) {
-            const seriesData = [];
-            devicePerfInfo.forEach(dataPoint => {
-                // 根据实际的 API 响应结构进行调整
-                if (dataPoint.name === seriesName) {
-                    seriesData.push(dataPoint.value); // 替换为包含系列数据的实际字段
+        fetchDeviceFpsInfo() {
+            const payload = {
+                device_name: this.deviceData.device_name,
+                other_field: this.deviceData.other_field
+            };
+
+            axios.post('http://127.0.0.1:5000/get_fps_info', payload)
+                .then(response => {
+                    this.deviceFpsInfo = response.data;
+                    this.processFpsChartData(); // 添加这行调用
+                })
+                .catch(error => {
+                    console.error("获取设备fps信息出错:", error);
+                });
+        },
+        processChartData() {
+
+            const cpuSeries = this.devicePerfInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(), // 加上 ' UTC' 以确保时间戳被解释为UTC时间
+                y: data.device_cpu_rate
+            }));
+
+            const pidCpuSeries = this.devicePerfInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.pid_cpu_rate
+            }));
+
+            const userRateSeries = this.devicePerfInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.user_rate
+            }));
+
+
+            this.cpuSeries = [
+                {
+                    name: 'CPU Rate',
+                    data: cpuSeries
+                },
+                {
+                    name: 'PID CPU Rate',
+                    data: pidCpuSeries
+                },
+                {
+                    name: 'User Rate',
+                    data: userRateSeries
                 }
-            });
-            return seriesData;
+            ];
+        },
+        processMemChartData() {
+            const memSeries = this.deviceMemInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.total_ram
+            }));
+
+            const pidMemSeries = this.deviceMemInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.pid_pss
+            }));
+
+            this.memSeries = [
+                {
+                    name: 'Memory Totel',
+                    data: memSeries
+                },
+                {
+                    name: 'Memory Pid Pss',
+                    data: pidMemSeries
+                },
+            ];
+        },
+        processFpsChartData() {
+            const fpsSeries = this.deviceFpsInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.fps
+            }));
+
+            const jankSeries = this.deviceFpsInfo.map(data => ({
+                x: new Date(data.recorded_at + ' UTC').getTime(),
+                y: data.jank
+            }));
+
+            this.fpsSeries = [
+                {
+                    name: 'Fps',
+                    data: fpsSeries
+                },
+                {
+                    name: 'Jank',
+                    data: jankSeries
+                },
+            ];
         }
     }
 };
@@ -165,4 +341,3 @@ h1 {
     color: #42b983;
 }
 </style>
-

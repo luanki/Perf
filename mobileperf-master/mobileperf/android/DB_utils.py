@@ -2,7 +2,7 @@ import psycopg2
 import os
 import configparser
 import pandas as pd
-
+import datetime
 
 class DatabaseOperations:
     # def __init__(self):
@@ -252,6 +252,141 @@ class DatabaseOperations:
             cur.close()
             conn.close()
 
+
+
+    # def get_mem_info(self, sn, ids):
+    #     conn = self.connect()
+    #     if not conn:
+    #         return None
+    #     cur = conn.cursor()
+    #     try:
+    #         cur.execute("""
+    #                         select * from meminfo where device_ids = %s and device_id = %s
+    #                         """, (ids, sn))
+    #         devices = cur.fetchall()
+    #         print("查看指定设备meminfo！")
+    #         return devices
+    #     except Exception as e:
+    #         print(f"Failed to fetch devices: {e}")
+    #         return None
+    #     finally:
+    #         cur.close()
+    #         conn.close()
+
+    # def get_fps_info(self, sn, ids):
+    #     conn = self.connect()
+    #     if not conn:
+    #         return None
+    #     cur = conn.cursor()
+    #     try:
+    #         cur.execute("""
+    #                         select * from fps_info where device_ids = %s and device_id = %s
+    #                         """, (ids, sn))
+    #         devices = cur.fetchall()
+    #         print("查看指定设备fpsinfo！")
+    #         return devices
+    #     except Exception as e:
+    #         print(f"Failed to fetch devices: {e}")
+    #         return None
+    #     finally:
+    #         cur.close()
+    #         conn.close()
+
+    def get_cpu_info(self, sn, ids):
+        conn = self.connect()
+        if not conn:
+            return None
+        cur = conn.cursor()
+        try:
+            cur.execute("""
+                    select * from cpu_info where device_ids = %s and device_id = %s
+                    """, (ids, sn))
+            devices = cur.fetchall()
+            print("查看指定设备cpuinfo！")
+            columns = [column[0] for column in cur.description]
+
+            # 将查询结果存储为键值对形式的字典，并存储到列表中
+            result = []
+            for row in devices:
+                row_dict = {}
+                for i in range(len(columns)):
+                    if isinstance(row[i], datetime.datetime):
+                        row_dict[columns[i]] = row[i].strftime('%Y-%m-%d %H:%M:%S')  # 转换为字符串格式
+                    else:
+                        row_dict[columns[i]] = row[i]
+                result.append(row_dict)
+
+            return result if result else []  # 返回空列表 [] 如果 result 为空
+        except Exception as e:
+            print(f"Failed to fetch cpuinfo: {e}")
+            return None
+        finally:
+            cur.close()
+            conn.close()
+
+    def get_mem_info(self, sn, ids):
+        conn = self.connect()
+        if not conn:
+            return None
+        cur = conn.cursor()
+        try:
+            cur.execute("""
+                    select * from meminfo where device_ids = %s and device_id = %s
+                    """, (ids, sn))
+            devices = cur.fetchall()
+            print("查看指定设备meminfo！")
+            columns = [column[0] for column in cur.description]
+
+            # 将查询结果存储为键值对形式的字典，并存储到列表中
+            result = []
+            for row in devices:
+                row_dict = {}
+                for i in range(len(columns)):
+                    if isinstance(row[i], datetime.datetime):
+                        row_dict[columns[i]] = row[i].strftime('%Y-%m-%d %H:%M:%S')  # 转换为字符串格式
+                    else:
+                        row_dict[columns[i]] = row[i]
+                result.append(row_dict)
+
+            return result if result else []  # 返回空列表 [] 如果 result 为空
+        except Exception as e:
+            print(f"Failed to fetch memory: {e}")
+            return None
+        finally:
+            cur.close()
+            conn.close()
+
+    def get_fps_info(self, sn, ids):
+        conn = self.connect()
+        if not conn:
+            return None
+        cur = conn.cursor()
+        try:
+            cur.execute("""
+                    select * from fps_info where device_ids = %s and device_id = %s
+                    """, (ids, sn))
+            devices = cur.fetchall()
+            print("查看指定设备fpsinfo！")
+            columns = [column[0] for column in cur.description]
+
+            # 将查询结果存储为键值对形式的字典，并存储到列表中
+            result = []
+            for row in devices:
+                row_dict = {}
+                for i in range(len(columns)):
+                    if isinstance(row[i], datetime.datetime):
+                        row_dict[columns[i]] = row[i].strftime('%Y-%m-%d %H:%M:%S')  # 转换为字符串格式
+                    else:
+                        row_dict[columns[i]] = row[i]
+                result.append(row_dict)
+
+            return result if result else []  # 返回空列表 [] 如果 result 为空
+        except Exception as e:
+            print(f"Failed to fetch fps: {e}")
+            return None
+        finally:
+            cur.close()
+            conn.close()
 # # 定义数据库配置信息
 # db_config = {
 #     'db': 'Perf',
@@ -270,5 +405,5 @@ class DatabaseOperations:
 # # 测试 get_latest_ids 方法
 # device_id = 'S30PQkRa0500702'
 # ids = '18'
-# d = db_operations.get_devices_perf_info(device_id,ids)
+# d = db_operations.get_cpu_info(device_id,ids)
 # print(d)
