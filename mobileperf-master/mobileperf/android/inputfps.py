@@ -3,24 +3,22 @@ from datetime import datetime
 import csv
 import os
 import glob
-from mobileperf.android.DB_utils import DatabaseOperations
-from mobileperf.common.log import logger
-
-def get_config_value(file_path, key):
-    with open(file_path, 'r') as file:
-        for line in file:
-            if line.strip().startswith(key):
-                return line.split('=')[1].strip()
-    return None
 class FpsListenserImpl(IFpsListener):
     def __init__(self):
-        self.package = get_config_value("config.conf", "package")
+        pass
 
-    @staticmethod
     def get_parent_directory(path, levels=1):
         for _ in range(levels):
             path = os.path.dirname(path)
         return path
+
+    def identify_directory_name(self, base_dir):
+        # 遍历self.package目录下的所有子目录
+        for dir_name in os.listdir(base_dir):
+            dir_path = os.path.join(base_dir, dir_name)
+            if os.path.isdir(dir_path):  # 确保是目录
+                return dir_name  # 识别第一个目录名称并返回
+        return None
 
     def report_fps_info(self, fps_info, devices):
         print('\n')
@@ -34,9 +32,6 @@ class FpsListenserImpl(IFpsListener):
         print(fps_info.jankys_ary)
         print("当前窗口卡顿数(>166.7ms)是：" + str(fps_info.jankys_more_than_166))
         print('\n')
-
-
-
         # 动态获取基路径（假设脚本位于项目的根目录）
         base_path = os.path.dirname(os.path.abspath(__file__))
         # 获取上三级目录路径
@@ -45,8 +40,17 @@ class FpsListenserImpl(IFpsListener):
         source_mobileperf_folder = os.path.join(target_dir)  # 源MobilePerf文件夹路径
 
         target_device_id = devices.replace(':', '_').replace('.', '_')
-        file_path = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", self.package, "fps_data.csv")
+        # 构建self.package目录路径
+        package_dir = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", self.package)
+        identified_dir_name = self.identify_directory_name(package_dir)  # 识别子目录名称
 
+        if identified_dir_name:
+            # 使用识别到的目录名称构建文件路径
+            file_path = os.path.join(package_dir, identified_dir_name, "fps_data.csv")
+            print(f"FPS Data File Path: {file_path}")
+        else:
+            print("未找到子目录")
+            return  # 未找到目录则停止执行
 
         #file_path = f"/Users/yangcong/PycharmProjects/Perf/R/_{target_device_id}/results/com.yangcong345.android.phone/fps_data.csv"
         # 检查文件是否存在，如果不存在则写入标题
@@ -66,23 +70,3 @@ class FpsListenserImpl(IFpsListener):
                 int(fps_info.fps),
                 str(fps_info.jankys_more_than_166)
             ])
-        try:
-            # 数据库连接实例化
-            db_operations = DatabaseOperations()
-
-            # 查询新ids，用于区分新老数据
-            latest_ids = db_operations.get_latest_ids(devices)
-            # Prepare fps_data for insertion into database
-            fps_data = (
-                devices,
-                datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                str(fps_info.pkg_name) + "/" + str(fps_info.window_name),
-                int(fps_info.fps),
-                str(fps_info.jankys_more_than_166),
-                latest_ids
-            )
-            # Insert fps_info into the database
-            db_operations.insert_fpsinfo(fps_data)
-
-        except Exception as db_e:
-            logger.error(f"Failed to insert FPS data into database: {db_e}")

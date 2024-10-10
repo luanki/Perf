@@ -189,7 +189,7 @@ def visualize_csv_files():
     for folder in folders:
         pattern = f"{folder}/results/*/*/cpuinfo.csv"
         meminfo_pattern = f"{folder}/results/*/*/meminfo.csv"
-        fps_pattern = f"{folder}/results/*/fps_data.csv"
+        fps_pattern = f"{folder}/results/*/*/fps_data.csv"
 
         #print(pattern)
         csv_files = glob.glob(pattern)
