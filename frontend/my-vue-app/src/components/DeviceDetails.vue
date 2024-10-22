@@ -214,7 +214,7 @@ export default {
                 other_field: this.deviceData.other_field
             };
 
-            axios.post('http://127.0.0.1:5000/get_cpu_info', payload)
+            axios.post('http://127.0.0.1:5100/get_cpu_info', payload)
                 .then(response => {
                     //console.log("API response:", response.data); 
                     this.devicePerfInfo = response.data;
@@ -231,7 +231,7 @@ export default {
                 other_field: this.deviceData.other_field
             };
 
-            axios.post('http://127.0.0.1:5000/get_mem_info', payload)
+            axios.post('http://127.0.0.1:5100/get_mem_info', payload)
                 .then(response => {
                     this.deviceMemInfo = response.data;
                     this.processMemChartData();
@@ -246,7 +246,7 @@ export default {
                 other_field: this.deviceData.other_field
             };
 
-            axios.post('http://127.0.0.1:5000/get_fps_info', payload)
+            axios.post('http://127.0.0.1:5100/get_fps_info', payload)
                 .then(response => {
                     this.deviceFpsInfo = response.data;
                     this.processFpsChartData(); // 添加这行调用

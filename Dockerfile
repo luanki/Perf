@@ -17,4 +17,4 @@ COPY . /app
 RUN pip install -r requirements.txt
 
 # 运行脚本
-CMD ["python3", "adbconnect.py"]
+#CMD ["python3", "adbconnect.py"]

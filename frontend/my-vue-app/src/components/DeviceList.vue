@@ -168,7 +168,7 @@ export default {
   },
   methods: {
     fetchDevices() {
-      axios.get('http://127.0.0.1:5000/latest_ids')
+      axios.get('http://127.0.0.1:5100/latest_ids')
         .then(response => {
           this.devices = response.data;
           // console.log(this.devices);

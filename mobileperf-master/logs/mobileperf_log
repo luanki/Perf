@@ -3546,3 +3546,28 @@ b'Security exception: Process not debuggable: ProcessRecord{2620f4a 2488:com.yan
 [2024-07-08 18:53:49,714]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/local/tmp/com.yangcong345.android.phone_dumpheap_2024_07_08_18_53_23.hprof /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_18_53_22 time consume: 0.013417959213256836
 [2024-07-08 18:53:49,714]DEBUG:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/anr /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_18_53_22
 [2024-07-08 18:53:49,729]INFO:mobileperf:androiddevice:adb -s S30PQkRa0500702 pull /data/anr /Users/yangcong/性能/Perf/R/_S30PQkRa0500702/results/com.yangcong345.android.phone/2024_07_08_18_53_22 time consume: 0.014458894729614258
+[2024-10-22 14:24:48,331]DEBUG:mobileperf:startup:RuntimeData.top_dir:/Users/yangcong/性能/Perf/mobileperf-master
+[2024-10-22 14:24:48,332]DEBUG:mobileperf:startup:configpath:/Users/yangcong/性能/Perf/mobileperf-master/config.conf
+[2024-10-22 14:24:48,333]DEBUG:mobileperf:startup:{'package': ['com.yangcong345.android.phone'], 'pid_change_focus_package': '', 'frequency': 5, 'dumpheap_freq': 3600, 'timeout': 259200, 'serialnum': '192.168.10.38:7777', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': 'true', 'main_activity': '', 'activity_list': ''}
+[2024-10-22 14:24:48,561]DEBUG:mobileperf:androiddevice:b'List of devices attached\n\n'
+[2024-10-22 14:24:48,562]DEBUG:mobileperf:androiddevice:system have adb
+[2024-10-22 14:24:48,562]DEBUG:mobileperf:androiddevice:adb -s 192.168.10.38:7777 shell ls -l /data/local/tmp
+[2024-10-22 14:24:48,575]DEBUG:mobileperf:androiddevice:adb error info:
+b"adb: device '192.168.10.38:7777' not found\n"
+[2024-10-22 14:24:48,575]INFO:mobileperf:androiddevice:adb -s 192.168.10.38:7777 shell ls -l /data/local/tmp time consume: 0.011720895767211914
+[2024-10-22 14:24:48,587]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 14:24:48,587]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
+[2024-10-22 14:24:48,587]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
+[2024-10-22 14:24:50,601]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 14:24:50,602]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
+[2024-10-22 14:24:50,602]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
+[2024-10-22 14:24:52,642]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 14:24:52,643]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
+[2024-10-22 14:24:52,643]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
+[2024-10-22 14:24:54,682]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 14:24:54,683]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
+[2024-10-22 14:24:54,683]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
+[2024-10-22 14:24:56,720]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 14:24:56,721]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
+[2024-10-22 14:24:56,721]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
+[2024-10-22 14:24:58,726]ERROR:mobileperf:startup:after 5 times check,device not found:192.168.10.38:7777

@@ -18,7 +18,7 @@ COPY mobileperf /app/mobileperf
 
 
 # 暴露 Flask 服务端口
-EXPOSE 5500
+EXPOSE 5100
 
 # 运行 Flask 应用
 CMD ["python", "mobileperf/interface/app.py"]

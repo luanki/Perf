@@ -1,29 +1,23 @@
-version: '3.7'
 networks:
   perf:
-    driver: bridge  # 指定网络驱动程序为bridge
+    driver: bridge  # 定义 perf 网络
 services:
   postgresql:
     image: postgres:14.5
-    container_name: postgresql    # 容器名为'postgresql'
-    # 重启策略
-    restart: always               # 指定容器退出后的重启策略为始终重启，但是不考虑在Docker守护进程启动时就已经停止了的容器
-    # 设置环境变量,相当于docker run命令中的-e
+    container_name: postgresql
+    restart: always
     environment:
       TZ: Asia/Shanghai
       LANG: en_US.UTF-8
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 123456
-      ALLOW_IP_RANGE: 0.0.0.0/0 # 允许所有ip访问
-    # 数据卷挂载路径设置,将本机目录映射到容器目录
     volumes:
       - "./docker/postgresql/data:/var/lib/postgresql/data"
-    # 映射端口
     ports:
       - "5432:5432"
     networks:
-      - perf
+      - perf  # 使用 perf 网络
   frontend:
     image: nginx:1.21.3
     container_name: frontend
@@ -31,22 +25,54 @@ services:
     restart: always
     # 数据卷挂载路径设置,将本机目录映射到容器目录
     volumes:
-      - "./docker/nginx/nginx.conf:/etc/nginx/conf.d"
-      - "./frontend/my-vue-app/dist:/usr/share/nginx/html"
+      - "./docker/nginx/conf.d/:/etc/nginx/conf.d/"
+      - "./frontend/my-vue-app/dist/:/usr/share/nginx/html/"
     # 映射端口
     ports:
-      - "5000:80"
+      - "8000:80"
     networks:
       - perf
-   backend:
-    container_name: backend
+  backend:
     build:
-      context: ./docker/backend
-      dockerfile: Dockerfile
-    # 重启策略
-    restart: always
-    # 映射端口
+      context: ./mobileperf-master  # 指定后端服务目录
+      dockerfile: Dockerfile  # Flask 后端服务的 Dockerfile
+    volumes:
+      - ./mobileperf-master/mobileperf:/app/mobileperf  # 挂载后端服务目录
     ports:
-      - "8000:8000"
+      - "5100:5100"
+    environment:
+      - FLASK_ENV=development
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=postgres
+      - POSTGRES_HOST=postgresql  # 数据库服务名称
+    depends_on:
+      - postgresql
     networks:
-      - perf
+      - perf  # 使用 perf 网络
+#  adb_service:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    container_name: adb_service
+#    volumes:
+#      - .:/app
+#      - ~/.android:/root/.android  # 挂载主机的 ADB key 文件
+#    restart: always
+#    privileged: true  # 允许容器访问 USB 设备
+#    network_mode: "host"  # 使用主机网络模式
+#    command: [ "adb", "-a", "nodaemon", "server" ]
+
+  start:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: start
+    volumes:
+      - .:/app
+    #restart: always
+    privileged: true  # 允许容器访问 USB 设备
+    networks:
+      - perf  # 使用 Docker 网络
+    #network_mode: "host"  # 使用主机网络模式
+    command: [ "python3", "adb_services.py" ]
