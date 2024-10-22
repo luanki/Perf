@@ -197,8 +197,8 @@ def report_device():
                 print(f"成功连接设备 {device_id}，端口: {tcp_port}")
                 # 在成功连接后处理设备
                 # 连接成功后执行设备的设置和性能测试
-                #handle_device_setup("host.docker.internal", tcp_port)
-                handle_device_setup(device_id,  tcp_port)
+                handle_device_setup("host.docker.internal", tcp_port)
+                #handle_device_setup(device_id,  tcp_port)
                 return jsonify({"message": "设备信息已成功接收，已连接"}), 200
             else:
                 print(f"连接设备 {device_id} 失败: {result.stderr}")
@@ -222,25 +222,8 @@ def disconnect_device():
         # 从字典中删除设备信息
         del connected_devices[target_device_id]
         logging.info(f"设备 {device_id} 断开连接，端口: {tcp_port}")
-        # 停止run.bat或run.sh的进程
-        # print(f"停止设备 host.docker.internal:{tcp_port}的线程")
-        # stop_events[f"host.docker.internal:{tcp_port}"].set()  # 设置停止事件
-        # device_threads[f"host.docker.internal:{tcp_port}"].join()  # 等待线程停止
-        # del device_threads[f"host.docker.internal:{tcp_port}"]  # 删除线程记录
-        # del stop_events[f"host.docker.internal:{tcp_port}"]  # 删除停止事件记录
 
 
-        # 查找与设备相关的进程并杀死它们
-        # for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
-        #     try:
-        #         # 检查进程命令行中是否包含 TCP 端口
-        #         if str(tcp_port) in proc.info['cmdline']:
-        #             print(f"找到进程 {proc.info['cmdline']}，PID: {proc.info['pid']}，正在杀死它")
-        #             proc.terminate()  # 终止进程
-        #             proc.wait()  # 等待进程终止
-        #     except (psutil.NoSuchProcess, psutil.AccessDenied, psutil.ZombieProcess):
-        #         pass  # 处理进程不存在或访问被拒绝的异常
-        #
         print(f"设备 {device_id} 断开连接，端口: {tcp_port}")
 
 

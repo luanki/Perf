@@ -39,7 +39,7 @@ services:
     volumes:
       - ./mobileperf-master/mobileperf:/app/mobileperf  # 挂载后端服务目录
     ports:
-      - "5100:5100"
+      - "5500:5500"
     environment:
       - FLASK_ENV=development
       - POSTGRES_USER=postgres
@@ -71,6 +71,8 @@ services:
     volumes:
       - .:/app
     #restart: always
+    ports:
+      - "5100:5100"
     privileged: true  # 允许容器访问 USB 设备
     networks:
       - perf  # 使用 Docker 网络
