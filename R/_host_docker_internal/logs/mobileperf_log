@@ -3571,29 +3571,3 @@ b"adb: device '192.168.10.38:7777' not found\n"
 [2024-10-22 14:24:56,721]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
 [2024-10-22 14:24:56,721]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
 [2024-10-22 14:24:58,726]ERROR:mobileperf:startup:after 5 times check,device not found:192.168.10.38:7777
-[2024-10-22 07:00:17,117]DEBUG:mobileperf:startup:RuntimeData.top_dir:/app/R/_host_docker_internal
-[2024-10-22 07:00:17,117]DEBUG:mobileperf:startup:configpath:/app/R/_host_docker_internal/config.conf
-[2024-10-22 07:00:17,118]DEBUG:mobileperf:startup:{'package': ['com.yangcong345.android.phone'], 'pid_change_focus_package': '', 'frequency': 5, 'dumpheap_freq': 3600, 'timeout': 259200, 'serialnum': 'host.docker.internal', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': 'true', 'main_activity': '', 'activity_list': ''}
-[2024-10-22 07:00:17,127]DEBUG:mobileperf:androiddevice:b'List of devices attached\nhost.docker.internal:11147\tdevice\nhost.docker.internal:33215\tdevice\nhost.docker.internal:52344\tdevice\n\n'
-[2024-10-22 07:00:17,128]DEBUG:mobileperf:androiddevice:system have adb
-[2024-10-22 07:00:17,128]DEBUG:mobileperf:androiddevice:adb -s host.docker.internal shell ls -l /data/local/tmp
-[2024-10-22 07:00:17,137]DEBUG:mobileperf:androiddevice:adb error info:
-b'error: more than one device\n'
-[2024-10-22 07:00:17,137]ERROR:mobileperf:androiddevice:more than one device,please input device serialnum!
-[2024-10-22 07:00:17,137]INFO:mobileperf:androiddevice:adb -s host.docker.internal shell ls -l /data/local/tmp time consume: 0.004281759262084961
-[2024-10-22 07:00:17,145]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 07:00:17,145]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:11147\tdevice', 'host.docker.internal:33215\tdevice', 'host.docker.internal:52344\tdevice', '']
-[2024-10-22 07:00:17,146]ERROR:mobileperf:startup:device not found:host.docker.internal
-[2024-10-22 07:00:19,191]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 07:00:19,192]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:11147\tdevice', 'host.docker.internal:33215\tdevice', 'host.docker.internal:52344\tdevice', '']
-[2024-10-22 07:00:19,193]ERROR:mobileperf:startup:device not found:host.docker.internal
-[2024-10-22 07:00:21,222]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 07:00:21,223]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:11147\tdevice', 'host.docker.internal:33215\tdevice', 'host.docker.internal:52344\tdevice', '']
-[2024-10-22 07:00:21,224]ERROR:mobileperf:startup:device not found:host.docker.internal
-[2024-10-22 07:00:23,249]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 07:00:23,250]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:11147\tdevice', 'host.docker.internal:33215\tdevice', 'host.docker.internal:52344\tdevice', '']
-[2024-10-22 07:00:23,251]ERROR:mobileperf:startup:device not found:host.docker.internal
-[2024-10-22 07:00:25,271]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 07:00:25,272]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:11147\tdevice', 'host.docker.internal:33215\tdevice', 'host.docker.internal:52344\tdevice', '']
-[2024-10-22 07:00:25,273]ERROR:mobileperf:startup:device not found:host.docker.internal
-[2024-10-22 07:00:27,279]ERROR:mobileperf:startup:after 5 times check,device not found:host.docker.internal

@@ -20,7 +20,7 @@ class FpsListenserImpl(IFpsListener):
                 return dir_name  # 识别第一个目录名称并返回
         return None
 
-    def report_fps_info(self, fps_info, devices):
+    def report_fps_info(self, fps_info, devices, pagename):
         print('\n')
         print("当前设备是：" + devices)
         print("当前进程是：" + str(fps_info.pkg_name))
@@ -41,7 +41,7 @@ class FpsListenserImpl(IFpsListener):
 
         target_device_id = devices.replace(':', '_').replace('.', '_')
         # 构建self.package目录路径
-        package_dir = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", self.package)
+        package_dir = os.path.join(source_mobileperf_folder, "R", f"_{target_device_id}", "results", pagename)
         identified_dir_name = self.identify_directory_name(package_dir)  # 识别子目录名称
 
         if identified_dir_name:

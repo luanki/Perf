@@ -5,31 +5,29 @@ import pandas as pd
 import datetime
 
 class DatabaseOperations:
-    # def __init__(self):
-    #     self.db_config = {
-    #         'db': os.getenv('DB_NAME'),
-    #         'name': os.getenv('DB_USER'),
-    #         'password': os.getenv('DB_PASSWORD'),
-    #         'ip': os.getenv('DB_HOST'),
-    #         'port': os.getenv('DB_PORT')
-    #     }
     def __init__(self):
-        self.db_config = self.read_config()
-
-    def read_config(self):
-        # 获取项目根目录路径
-        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        config_path = os.path.join(project_root, 'config.ini')
-        # print(config_path)
-        config = configparser.ConfigParser()
-        config.read(config_path)
-        return {
-            'db': config['database']['db_name'],
-            'user': config['database']['db_user'],
-            'password': config['database']['db_password'],
-            'host': config['database']['db_host'],
-            'port': config['database']['db_port']
+        self.db_config = {
+            'db': os.getenv('POSTGRES_DB', 'postgres'),
+            'user': os.getenv('POSTGRES_USER', 'postgres'),
+            'password': os.getenv('POSTGRES_PASSWORD', '123456'),
+            'host': os.getenv('POSTGRES_HOST', 'postgresql'),
+            'port': os.getenv('DB_PORT', '5432')  # 也可以设置环境变量
         }
+
+    # def config(self):
+    #     # 获取项目根目录路径
+    #     project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    #     config_path = os.path.join(project_root, 'config.ini')
+    #     # print(config_path)
+    #     config = configparser.ConfigParser()
+    #     config.read(config_path)
+    #     return {
+    #         'db': config['database']['db_name'],
+    #         'user': config['database']['db_user'],
+    #         'password': config['database']['db_password'],
+    #         'host': config['database']['db_host'],
+    #         'port': config['database']['db_port']
+    #     }
 
     def connect(self):
         try:

@@ -3571,28 +3571,28 @@ b"adb: device '192.168.10.38:7777' not found\n"
 [2024-10-22 14:24:56,721]DEBUG:mobileperf:androiddevice:['List of devices attached', '']
 [2024-10-22 14:24:56,721]ERROR:mobileperf:startup:device not found:192.168.10.38:7777
 [2024-10-22 14:24:58,726]ERROR:mobileperf:startup:after 5 times check,device not found:192.168.10.38:7777
-[2024-10-22 06:56:36,582]DEBUG:mobileperf:startup:RuntimeData.top_dir:/app/R/_S302YJTEST000011
-[2024-10-22 06:56:36,582]DEBUG:mobileperf:startup:configpath:/app/R/_S302YJTEST000011/config.conf
-[2024-10-22 06:56:36,583]DEBUG:mobileperf:startup:{'package': ['com.yangcong345.android.phone'], 'pid_change_focus_package': '', 'frequency': 5, 'dumpheap_freq': 3600, 'timeout': 259200, 'serialnum': 'S302YJTEST000011', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': 'true', 'main_activity': '', 'activity_list': ''}
-[2024-10-22 06:56:36,622]DEBUG:mobileperf:androiddevice:b'List of devices attached\nhost.docker.internal:22036\tdevice\nhost.docker.internal:31369\tdevice\nhost.docker.internal:36687\tdevice\nhost.docker.internal:3941\tdevice\nhost.docker.internal:56246\tdevice\nhost.docker.internal:59277\tdevice\n\n'
-[2024-10-22 06:56:36,622]DEBUG:mobileperf:androiddevice:system have adb
-[2024-10-22 06:56:36,623]DEBUG:mobileperf:androiddevice:adb -s S302YJTEST000011 shell ls -l /data/local/tmp
-[2024-10-22 06:56:36,640]DEBUG:mobileperf:androiddevice:adb error info:
-b"error: device 'S302YJTEST000011' not found\n"
-[2024-10-22 06:56:36,640]INFO:mobileperf:androiddevice:adb -s S302YJTEST000011 shell ls -l /data/local/tmp time consume: 0.014486074447631836
-[2024-10-22 06:56:36,645]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 06:56:36,646]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:22036\tdevice', 'host.docker.internal:31369\tdevice', 'host.docker.internal:36687\tdevice', 'host.docker.internal:3941\tdevice', 'host.docker.internal:56246\tdevice', 'host.docker.internal:59277\tdevice', '']
-[2024-10-22 06:56:36,646]ERROR:mobileperf:startup:device not found:S302YJTEST000011
-[2024-10-22 06:56:38,716]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 06:56:38,717]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:22036\tdevice', 'host.docker.internal:31369\tdevice', 'host.docker.internal:36687\tdevice', 'host.docker.internal:3941\tdevice', 'host.docker.internal:56246\tdevice', 'host.docker.internal:59277\tdevice', '']
-[2024-10-22 06:56:38,717]ERROR:mobileperf:startup:device not found:S302YJTEST000011
-[2024-10-22 06:56:40,780]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 06:56:40,780]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:22036\tdevice', 'host.docker.internal:31369\tdevice', 'host.docker.internal:36687\tdevice', 'host.docker.internal:3941\tdevice', 'host.docker.internal:56246\tdevice', 'host.docker.internal:59277\tdevice', '']
-[2024-10-22 06:56:40,781]ERROR:mobileperf:startup:device not found:S302YJTEST000011
-[2024-10-22 06:56:42,834]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 06:56:42,839]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:22036\tdevice', 'host.docker.internal:31369\tdevice', 'host.docker.internal:36687\tdevice', 'host.docker.internal:3941\tdevice', 'host.docker.internal:56246\tdevice', 'host.docker.internal:59277\tdevice', '']
-[2024-10-22 06:56:42,840]ERROR:mobileperf:startup:device not found:S302YJTEST000011
-[2024-10-22 06:56:44,889]DEBUG:mobileperf:androiddevice:adb devices:
-[2024-10-22 06:56:44,890]DEBUG:mobileperf:androiddevice:['List of devices attached', 'host.docker.internal:22036\tdevice', 'host.docker.internal:31369\tdevice', 'host.docker.internal:36687\tdevice', 'host.docker.internal:3941\tdevice', 'host.docker.internal:56246\tdevice', 'host.docker.internal:59277\tdevice', '']
-[2024-10-22 06:56:44,891]ERROR:mobileperf:startup:device not found:S302YJTEST000011
-[2024-10-22 06:56:46,899]ERROR:mobileperf:startup:after 5 times check,device not found:S302YJTEST000011
+[2024-10-22 15:02:45,382]DEBUG:mobileperf:startup:RuntimeData.top_dir:/Users/yangcong/性能/Perf/R/_host_docker_internal
+[2024-10-22 15:02:45,382]DEBUG:mobileperf:startup:configpath:/Users/yangcong/性能/Perf/R/_host_docker_internal/config.conf
+[2024-10-22 15:02:45,383]DEBUG:mobileperf:startup:{'package': ['com.yangcong345.android.phone'], 'pid_change_focus_package': '', 'frequency': 5, 'dumpheap_freq': 3600, 'timeout': 259200, 'serialnum': 'host.docker.internal', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': 'true', 'main_activity': '', 'activity_list': ''}
+[2024-10-22 15:02:45,398]DEBUG:mobileperf:androiddevice:b'List of devices attached\nS302YJTEST000011\tdevice\n\n'
+[2024-10-22 15:02:45,398]DEBUG:mobileperf:androiddevice:system have adb
+[2024-10-22 15:02:45,399]DEBUG:mobileperf:androiddevice:adb -s host.docker.internal shell ls -l /data/local/tmp
+[2024-10-22 15:02:45,412]DEBUG:mobileperf:androiddevice:adb error info:
+b"adb: device 'host.docker.internal' not found\n"
+[2024-10-22 15:02:45,412]INFO:mobileperf:androiddevice:adb -s host.docker.internal shell ls -l /data/local/tmp time consume: 0.011578083038330078
+[2024-10-22 15:02:45,424]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 15:02:45,424]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S302YJTEST000011\tdevice', '']
+[2024-10-22 15:02:45,424]ERROR:mobileperf:startup:device not found:host.docker.internal
+[2024-10-22 15:02:47,464]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 15:02:47,464]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S302YJTEST000011\tdevice', '']
+[2024-10-22 15:02:47,464]ERROR:mobileperf:startup:device not found:host.docker.internal
+[2024-10-22 15:02:49,483]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 15:02:49,483]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S302YJTEST000011\tdevice', '']
+[2024-10-22 15:02:49,483]ERROR:mobileperf:startup:device not found:host.docker.internal
+[2024-10-22 15:02:51,502]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 15:02:51,502]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S302YJTEST000011\tdevice', '']
+[2024-10-22 15:02:51,503]ERROR:mobileperf:startup:device not found:host.docker.internal
+[2024-10-22 15:02:53,543]DEBUG:mobileperf:androiddevice:adb devices:
+[2024-10-22 15:02:53,544]DEBUG:mobileperf:androiddevice:['List of devices attached', 'S302YJTEST000011\tdevice', '']
+[2024-10-22 15:02:53,544]ERROR:mobileperf:startup:device not found:host.docker.internal
+[2024-10-22 15:02:55,549]ERROR:mobileperf:startup:after 5 times check,device not found:host.docker.internal

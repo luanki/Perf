@@ -1,0 +1,2 @@
+datetime,device_cpu_rate%,user%,system%,idle%,package,pid,pid_cpu%
+2024-10-22 15-07-26,260,183,77,540,com.yangcong345.android.phone,6515,53.3
