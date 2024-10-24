@@ -71,12 +71,14 @@ async function main() {
     const tracker = await client.trackDevices();
     tracker.on('add', handleNewDevice);
     tracker.on('remove', handleDisconnectedDevice);
+    tracker.on('error', (err) => {
+      console.error('追踪设备时发生错误:', err);
+    });
     tracker.on('end', () => {
       console.log('设备追踪结束');
     });
   } catch (err) {
     console.error('发生错误:', err);
-
   }
 }
 
