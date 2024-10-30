@@ -64,33 +64,34 @@ stop_events = {}  # 存储设备线程的停止事件
 
 def run_command_in_directory(command, directory):
     """在指定目录运行命令，并实时打印输出"""
-    process = subprocess.Popen(command, cwd=directory, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-                               text=True)
+    subprocess.Popen(command, cwd=directory, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     # 持续读取输出
-    for stdout_line in iter(process.stdout.readline, ""):
-        print(stdout_line, end="")  # 输出到控制台或日志
-    process.stdout.close()
-
-    # 检查是否有错误输出
-    stderr_output = process.stderr.read()
-    if stderr_output:
-        print(stderr_output)
-    process.stderr.close()
-
-    process.wait()  # 等待进程结束
+    # for stdout_line in iter(process.stdout.readline, ""):
+    #     print(stdout_line, end="")  # 输出到控制台或日志
+    # process.stdout.close()
+    #
+    # # 检查是否有错误输出
+    # stderr_output = process.stderr.read()
+    # if stderr_output:
+    #     print(stderr_output)
+    # process.stderr.close()
+    #
+    # process.wait()  # 等待进程结束
 
 
 def handle_device_setup(device_id, tcp_port):
     #print(f"Setting up device: {device_id} on port: {tcp_port}")
     """连接成功后执行设备的设置和性能测试"""
     target_device_id = f'host.docker.internal:{tcp_port}'
-
+    connect_command = f'adb connect {target_device_id}'
+    # disconnect_command = f'adb disconnect {device_id}'
+    subprocess.run(connect_command, shell=True, capture_output=True, text=True)
     # 如果设备线程已存在且在运行，先停止旧线程
-    if target_device_id in device_threads and device_threads[target_device_id].is_alive():
-        print(f"正在停止设备 {target_device_id} 的旧线程")
-        stop_events[target_device_id].set()  # 设置停止事件
-        device_threads[target_device_id].join()  # 等待线程停止
+    # if target_device_id in device_threads and device_threads[target_device_id].is_alive():
+    #     print(f"正在停止设备 {target_device_id} 的旧线程")
+    #     stop_events[target_device_id].set()  # 设置停止事件
+    #     device_threads[target_device_id].join()  # 等待线程停止
 
     base_path = os.path.dirname(os.path.abspath(__file__))
     source_mobileperf_folder = os.path.join(base_path, "mobileperf-master")
@@ -116,7 +117,7 @@ def handle_device_setup(device_id, tcp_port):
                 file.write(line)
 
     sh_directory = os.path.join(base_path, "R", f"_{sanitize_device_id(target_device_id)}")
-    command = f"python3 mobileperf/android/startup.py"
+    command = f"python3 mobileperf/android/startup.py {tcp_port}"  # Include tcp_port in the command
     print(command)
 
     # 创建并启动一个新的线程来执行命令并捕获输出
@@ -144,6 +145,48 @@ def handle_device_setup(device_id, tcp_port):
     thread_py = threading.Thread(target=run_command_in_directory, args=(f"python {py_file} {target_device_id}", sh_directory))
     threads.append(thread_py)
     thread_py.start()
+
+
+# Flask 路由处理
+@app.route('/api/devices_action', methods=['POST'])
+def devices_action():
+    """接收从axios发送的设备信息并处理"""
+    data = request.get_json()
+    device_id = data.get('deviceId')
+    tcp_port = data.get('tcpPort')
+    action = data.get('action')  # 新增 action 字段
+    print(device_id, tcp_port, action)
+
+    # if not device_id or not tcp_port:
+    #     return jsonify({'error': '缺少 deviceId 或 tcpPort'}), 400
+
+    if action == 'disconnect':
+        # 在这里可以添加逻辑来处理设备断开，例如清除设备信息
+        disconnect_command = f'adb disconnect host.docker.internal:{tcp_port}'
+        subprocess.run(disconnect_command, shell=True, capture_output=True, text=True)
+
+        # 强制杀死所有与断开的 tcp_port 相关的进程
+        for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
+            try:
+                # 检查进程的命令行参数
+                if str(tcp_port) in ' '.join(proc.info['cmdline']):
+                    print(f"Killing process {proc.info['pid']} for tcp_port {tcp_port}: {proc.info['cmdline']}")
+                    proc.kill()  # 强制杀死进程
+                    proc.wait() # 等待进程结束并清理
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                # 处理进程已经不存在或权限不足的异常
+                continue
+
+        if device_id in connected_devices:
+            del connected_devices[device_id]
+            print(f"设备 {device_id} 已从连接设备中删除")
+        else:
+            print(f"设备 {device_id} 不在连接设备列表中")
+        return jsonify({'message': f'设备 {device_id} 已成功断开'}), 200
+
+    # 处理设备设置和性能测试
+    handle_device_setup(device_id, tcp_port)
+    return jsonify({'message': f'设备 {device_id} 已成功设置并开始性能测试', 'tcpPort': tcp_port}), 200
 
 
 if __name__ == '__main__':

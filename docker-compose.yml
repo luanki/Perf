@@ -81,18 +81,19 @@ services:
     #network_mode: "host"  # 使用主机网络模式
     command: [ "python3", "adb_services.py" ]
 
-  devices_action:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: devices_action
-    volumes:
-      - .:/app
-    #restart: always
-    ports:
-      - "5200:5200"
-    privileged: true  # 允许容器访问 USB 设备
-    networks:
-      - perf  # 使用 Docker 网络
-    #network_mode: "host"  # 使用主机网络模式
-    command: [ "python3", "devices_action.py" ]
+#  devices_action:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    container_name: devices_action
+#    volumes:
+#      - .:/app
+#    #restart: always
+#    ports:
+#      - "5200:5200"
+#    privileged: true  # 允许容器访问 USB 设备
+#    networks:
+#      - perf  # 使用 Docker 网络
+#    depends_on:
+#      - adb_services  # 确保 devices_action 在 adb_services 之后启动
+#    command: [ "python3", "devices_action.py" ]
