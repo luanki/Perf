@@ -13,7 +13,7 @@ async function handleNewDevice(device) {
     return;
   }
 
-  console.log(`😍设备: ${device.id} 连接中...`);
+  console.log(`😍😍设备: ${device.id} 连接中...`);
 
   try {
     const tcpPort = Math.floor(Math.random() * (65535 - 1024 + 1)) + 1024;
